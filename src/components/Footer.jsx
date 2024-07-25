@@ -23,14 +23,14 @@ function Footer() {
                 fill="white"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M0 32H10.1108L23.9393 6.23758L29.8417 16.9712L35.1116 7.64141L30.8072 0L17.0784 0L0 32Z"
                 fill="#0D85DE"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M54.3066 0H44.1959L30.3673 25.7624L24.4649 15.0288L19.195 24.3586L23.4995 32H37.2282L54.3066 0Z"
                 fill="white"
               />
@@ -59,7 +59,7 @@ function Footer() {
                 viewBox="0 0 16 16"
                 fill="none"
               >
-                <g clip-path="url(#clip0_359_2930)">
+                <g clipPath="url(#clip0_359_2930)">
                   <path
                     d="M12.6007 0.768677H15.054L9.694 6.89534L16 15.2307H11.0627L7.196 10.1747L2.77067 15.2307H0.316L6.04933 8.67734L0 0.769343H5.06267L8.558 5.39068L12.6007 0.768677ZM11.74 13.7627H13.0993L4.324 2.16001H2.86533L11.74 13.7627Z"
                     fill="white"
@@ -120,7 +120,10 @@ function Footer() {
       <div className="footerCopyrights">
         <p>2024 All rights reserved</p>
         <p>
-          Crafted by <a href="https://koiosengg.com/" target="_blank">The Koios Studio</a>
+          Crafted by{" "}
+          <a href="https://koiosengg.com/" target="_blank">
+            The Koios Studio
+          </a>
         </p>
       </div>
     </div>
