@@ -297,6 +297,7 @@ input:is(:focus, :valid)+.placeholder {
 
 .p-submit button:hover {
   background: var(--Dark-Blue-Primary-hover, #0D85DE);
+  border: none;
 }
 
 .p-brochure-main {
@@ -304,11 +305,12 @@ input:is(:focus, :valid)+.placeholder {
   flex-direction: row;
   width: 100%;
   padding: 0px 160px 80px;
+  gap: 40px;
 }
 
 .p-our-brochure-container {
   display: flex;
-  width: 40%;
+  width: 50%;
   flex-direction: column;
   gap: 16px;
 }
@@ -349,6 +351,7 @@ input:is(:focus, :valid)+.placeholder {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 508px;
 }
 
 @keyframes slides-vertical {
@@ -374,7 +377,6 @@ input:is(:focus, :valid)+.placeholder {
 .p-gallery-slider {
   display: flex;
   gap: 20px;
-  padding: 0 160px;
   background: linear-gradient(90deg, #FFF 73.7%, rgba(255, 255, 255, 0.00) 100%);
 }
 
