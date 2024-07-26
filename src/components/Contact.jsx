@@ -3,6 +3,17 @@ import Brochure from "./Brochure";
 import SubmitButton from "./SubmitButton";
 
 function Contact() {
+  const openPhoneDialer = () => {
+    window.location.href = "tel:+91125676789";
+  };
+  const openEmailClient = () => {
+    window.location.href = "mailto:info@nestructures.com";
+  };
+
+  const openMapLocation = () => {
+    window.location.href =
+      "https://www.google.com/maps/search/Plot+No.+28P,+KIADB+Industrial+Area,+Road+No.25,+Vemagal,+Kolar+563+102/@12.9543399,74.8264096,473m/data=!3m1!1e3?entry=ttu";
+  };
   return (
     <>
       <div className="p-contact-background">
@@ -35,7 +46,7 @@ function Contact() {
                       <h1>Call Us</h1>
                       <p>Call our team Mon-Fri 9AM-6PM</p>
                     </div>
-                    <div className="p-svg-text-div">
+                    <div className="p-svg-text-div" onClick={openPhoneDialer}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -56,7 +67,7 @@ function Contact() {
                       <h1>Mail Us</h1>
                       <p>We are here to help, reach out to us</p>
                     </div>
-                    <div className="p-svg-text-div">
+                    <div className="p-svg-text-div" onClick={openEmailClient}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -77,7 +88,7 @@ function Contact() {
                       <h1>Visit Us</h1>
                       <p>Experience our expertise in person</p>
                     </div>
-                    <div className="p-svg-text-div">
+                    <div className="p-svg-text-div" onClick={openMapLocation}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
