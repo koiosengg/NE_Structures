@@ -273,14 +273,7 @@ function About() {
             arcu.
           </span>
         </div>
-        <div
-          className="homeInfoDetails"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3,1fr)",
-            gap: "24px",
-          }}
-        >
+        <div className="homeInfoDetails aisc">
           <div className="homeInfoDetailSet">
             <sub>AISC</sub>
             <p>American Welding Society for Welding standards and Process.</p>
