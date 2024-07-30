@@ -195,6 +195,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
   padding-top: 138px;
   background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='0.5' stroke='hsla(206, 76%, 83%, 0.5019607843137255)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
 }
@@ -373,6 +374,8 @@
   width: 100%;
   height: 324px;
   object-fit: cover;
+   border-radius: 4px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 .s-banner-marquee-set sub {
@@ -555,12 +558,17 @@
   background-image: radial-gradient(
     ellipse at center,
     rgba(255, 255, 255) 50%,
-    rgba(255, 255, 255, 0) 80%
+    rgba(255, 255, 255, 0) 100%
   );
 }
 
 .homeBrochure .p-image-gallery-container{
   background: #fff;
+ opacity: 1;
+}
+
+.homeBrochure .logo_items-vertical img{
+  opacity: 0.5;
 }
 
 /* Footer */
