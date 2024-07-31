@@ -1,6 +1,6 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
-
+import HorizontalSlider from "./HorizontalSlider";
 const Brochure = () => {
   return (
     <>
@@ -26,6 +26,7 @@ const Brochure = () => {
         </div>
         <div className="p-image-gallery-container">
           <ImageSlider />
+          <HorizontalSlider />
         </div>
       </div>
     </>
