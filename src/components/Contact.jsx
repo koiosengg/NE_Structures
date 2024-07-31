@@ -19,21 +19,24 @@ function Contact() {
       <div className="p-contact-background">
         <div className="p-contact-main">
           <div className="p-contact-container">
-            <div className="p-contact-text-main">
-              <div className="p-contact-label">
-                <p>CONTACT US</p>
-              </div>
-              <div className="p-get-in-touch">
-                <h1>
-                  Let’s Get In <span> Touch </span>{" "}
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                  etiam porta sed. At volutpat scelerisque pulvinar tincidunt id
-                  interdum viverra odio
-                </p>
+            <div>
+              <div className="p-contact-text-main">
+                <div className="p-contact-label">
+                  <p>CONTACT US</p>
+                </div>
+                <div className="p-get-in-touch">
+                  <h1>
+                    Let’s Get In <span> Touch </span>{" "}
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio
+                  </p>
+                </div>
               </div>
             </div>
+
             <div className="p-contact-form-main">
               <div className="p-connect-with-us">
                 <div className="p-connect-label">

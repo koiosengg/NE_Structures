@@ -64,14 +64,16 @@
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-  padding-top: 80px;
 }
 
 .p-contact-text-main {
+  background-size: 1px 1px;
+  background-image: radial-gradient(ellipse at center, rgba(255, 255, 255) 50%, rgba(255, 255, 255, 0) 80%);
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 80px;
 }
 
 .p-contact-form-main {
@@ -318,7 +320,6 @@ input:is(:focus, :valid)+.placeholder {
   display: flex;
   width: 60%;
   flex-direction: row;
-  gap: 40px;
   opacity: 0.5;
   background: linear-gradient(90deg, #FFF 73.7%, rgba(255, 255, 255, 0.00) 100%);
 }
@@ -332,6 +333,8 @@ input:is(:focus, :valid)+.placeholder {
   font-weight: 700;
   line-height: normal;
   letter-spacing: -1.2px;
+  background-size: 1px 1px;
+  background-image: radial-gradient(ellipse at center, rgba(255, 255, 255) 50%, rgba(255, 255, 255, 0) 80%);
 }
 
 .p-subtext-div {
@@ -340,6 +343,8 @@ input:is(:focus, :valid)+.placeholder {
   align-items: flex-start;
   gap: 24px;
   align-self: stretch;
+  background-size: 1px 1px;
+  background-image: radial-gradient(ellipse at center, rgba(255, 255, 255) 50%, rgba(255, 255, 255, 0) 80%);
 }
 
 .p-subtext-div p {
@@ -464,7 +469,7 @@ input:is(:focus, :valid)+.placeholder {
 
   .p-get-in-touch {
     gap: 16px;
-    width: 335px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -479,7 +484,7 @@ input:is(:focus, :valid)+.placeholder {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -1.2px;
-    width: 306px;
+    width: 100%;
   }
 
   .p-get-in-touch span {
@@ -501,7 +506,7 @@ input:is(:focus, :valid)+.placeholder {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    width: auto;
+    width: 100%;
   }
 
   .p-contact-container {
