@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: normal;
 }
 
 .Navbar {
@@ -196,7 +197,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  padding-top: 138px;
   background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='0.5' stroke='hsla(206, 76%, 83%, 0.5019607843137255)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
 }
 
@@ -211,6 +211,7 @@
     rgba(255, 255, 255) 50%,
     rgba(255, 255, 255, 0) 80%
   );
+  transform: translateY(160px);
 }
 
 .homeBannerContent sub {
@@ -241,7 +242,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -1.92px;
 }
 
 .homeBannerContent .heading p span {
@@ -252,7 +252,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -1.92px;
 }
 
 .homeBannerContent .heading sub {
@@ -412,7 +411,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -1.2px;
 }
 
 .homeInfoContainer .heading span {
@@ -505,10 +503,10 @@
   color: var(--Black-Text-black-text-300, #606060);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .homeInfoDetails .s-right {
@@ -738,7 +736,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: 64px;
-  letter-spacing: -1.44px;
 }
 
 .homeLeading .navbarContact a {
@@ -854,6 +851,170 @@
 
 .optionsInfoContainer .s-right img {
   width: 100%;
+  object-fit: cover;
+}
+
+.homeGalleryContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  position: relative;
+  height: 714px;
+  overflow: hidden;
+}
+
+.homeGalleryControl {
+  position: absolute;
+  bottom: 60px;
+  right: 33px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  z-index: 10;
+}
+
+.galleryIndicatorDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s;
+}
+
+.galleryIndicatorDot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #d4d4d4;
+  transition: all 0.5s;
+}
+
+.galleryIndicatorDiv .active {
+  background: #0d85de;
+}
+
+.galleryDown,
+.galleryUp {
+  cursor: pointer;
+}
+
+.galleryDown {
+  transform: rotate(-180deg);
+}
+
+.homeGallerySetContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.homeGallerySet {
+  width: 100%;
+  height: 714px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.homeGallerySet .heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 340px;
+  padding: 40px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.homeGallerySet .heading sub {
+  color: var(--Blue-Primary, #0d85de);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.homeGallerySet .heading p {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+.position1,
+.position2,
+.position3,
+.position4 {
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.position1 {
+  top: 0;
+  right: 0;
+  width: 252px;
+  height: 365px;
+}
+
+.position1 img {
+  width: 100%;
+  height: 365px;
+  object-fit: cover;
+}
+
+.position2 {
+  top: 80px;
+  right: 264px;
+  width: 446px;
+  height: 285px;
+}
+
+.position2 img {
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+}
+
+.position3 {
+  top: 381px;
+  right: 120px;
+  width: 401px;
+  height: 333px;
+}
+
+.position3 img {
+  width: 100%;
+  height: 333px;
+  object-fit: cover;
+}
+
+.position4 {
+  top: 381px;
+  right: 537px;
+  width: 247px;
+  height: 274px;
+}
+
+.position4 img {
+  width: 100%;
+  height: 274px;
   object-fit: cover;
 }
 

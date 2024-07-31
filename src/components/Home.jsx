@@ -19,6 +19,7 @@ import TripleBayImage from "../assets/HomeBanner/TripleBayImage.png";
 import FourBaysImage from "../assets/HomeBanner/FourBaysImage.png";
 import MultiGableImage from "../assets/HomeBanner/MultiGableImage.png";
 import SingleSlopeImage from "../assets/HomeBanner/SingleSlopeImage.png";
+import HomeGallery from "./HomeGallery";
 import Brochure from "./Brochure";
 
 function Home() {
@@ -114,7 +115,10 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="s-banner-wrapper">
+        <div
+          className="s-banner-wrapper"
+          style={{ transform: "translateY(135px)" }}
+        >
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -135,7 +139,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer">
+      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
         <div className="heading">
           <p>
             Get To Know <br />
@@ -641,7 +645,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      <HomeGallery />
       <div className="homeBrochure">
         <Brochure />
       </div>

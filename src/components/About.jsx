@@ -31,7 +31,7 @@ function About() {
             </sub>
           </div>
         </div>
-        <div className="s-banner-wrapper">
+        <div className="s-banner-wrapper" style={{transform:"translateY(135px)"}}>
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -52,7 +52,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer">
+      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
         <div className="heading">
           <p>
             Our Journey and <br /> Values
