@@ -1018,6 +1018,251 @@
   object-fit: cover;
 }
 
+/* product pages */
+
+.ourServices {
+  display: flex;
+  width: 100%;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.ourServicesHeading {
+  width: 100%;
+  color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+.ourServicesContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.ourServicesSet {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.ourServicesInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.ourServicesInfo .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.ourServicesInfo .heading sub {
+  color: var(--Blue-Primary, #0d85de);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ourServicesInfo .heading p {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.ourServicesList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.ourServicesList .heading {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ourServicesListContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.ourServicesSetContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.ourServicesListSet {
+  width: 100%;
+  display: flex;
+  padding: 8px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: rgba(180, 217, 245, 0.12);
+}
+
+.ourServicesListSet sub {
+  color: var(--Dark-Blue-Primary, #0b2a41);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.ourServicesListSet .list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.ourServicesListSet .list svg {
+  width: 16px;
+  height: 16px;
+}
+
+.ourServicesListSet .list p {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.ourServicesImg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourServicesImg img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.exploreServices {
+  display: flex;
+  width: 100%;
+  height: 560px;
+  padding: 80px 160px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  background: linear-gradient(180deg, #081e2e 0%, #1a6194 122.49%);
+}
+
+.exploreServicesInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.exploreServicesInfo .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.exploreServicesInfo .heading sub {
+  color: var(--White-BG, #fff);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+.exploreServicesInfo .heading p {
+  color: var(--Black-Text-black-text-50, #e7e7e7);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.exploreServicesInfo .homeInfoContainer .navbarContact a p {
+  color: var(--White-BG, #fff);
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+
+.exploreServicesInfo .homeInfoContainer .navbarContact a svg path {
+  fill: #fff;
+}
+
+.exploreServicesInfo .homeInfoContainer .navbarContact:hover a p {
+  color: #0d85de;
+}
+
+.exploreServicesInfo .homeInfoContainer .navbarContact:hover a svg path {
+  fill: #0d85de;
+}
+
+.exploreServices img{
+  width: 50%;
+  height: 378px;
+  object-fit: cover;
+  border-radius: 4px;
+box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
 /* Footer */
 
 .Footer {

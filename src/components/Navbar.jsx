@@ -87,7 +87,9 @@ function Navbar() {
             </svg>
           </div>
           <div className="navbarTabSetDropdown">
-            <Link to="/">Structural Engineering Services</Link>
+            <Link to="/StructuralEngineeringServices">
+              Structural Engineering Services
+            </Link>
             <Link to="/">Building Information Modelling</Link>
           </div>
         </div>
