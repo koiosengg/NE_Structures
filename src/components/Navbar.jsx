@@ -90,7 +90,9 @@ function Navbar() {
             <Link to="/StructuralEngineeringServices">
               Structural Engineering Services
             </Link>
-            <Link to="/">Building Information Modelling</Link>
+            <Link to="/BuildingInformationModelling">
+              Building Information Modelling
+            </Link>
           </div>
         </div>
         <div className="navbarTabSet">

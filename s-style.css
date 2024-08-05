@@ -197,7 +197,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='0.5' stroke='hsla(206, 76%, 83%, 0.5019607843137255)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  background-image: url("./src/assets/BannerBackground.svg");
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image */
 }
 
 .homeBannerContent {
@@ -480,6 +483,12 @@
   gap: 24px;
 }
 
+.bim {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
 .homeInfoDetails .s-left {
   width: 50%;
   display: flex;
@@ -519,6 +528,100 @@
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
+.helpQuestions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.helpQuestions .heading {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.helpQuestionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.helpQuestionsSet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.homeInfoDetails .s-left .helpQuestionsSet sub {
+  color: var(--Blue-blue-400, #3d9de5);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.helpQuestionsSet p {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.bimServices {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.bimServicesSet {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  padding-top: 16px;
+  border-left: 1px solid transparent; /* Make the default border transparent */
+  border-image: linear-gradient(to bottom, #B3BDC4 50%, #0B2A41 50%);
+  border-image-slice: 1; /* Use the whole image for the border */
+}
+
+
+.homeInfoDetails .s-left .bimServicesSet sub {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.bimServicesSet p {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 .homeInfoDetails .s-right img {
   width: 100%;
   object-fit: cover;
@@ -532,11 +635,10 @@
 
 .homeInfoDetailSet {
   display: flex;
-  height: 180px;
+  min-height: 180px;
   padding: 16px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 8px;
   flex: 1 0 0;
   border-radius: 4px;
@@ -1255,12 +1357,12 @@
   fill: #0d85de;
 }
 
-.exploreServices img{
+.exploreServices img {
   width: 50%;
   height: 378px;
   object-fit: cover;
   border-radius: 4px;
-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
