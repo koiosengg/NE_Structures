@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
@@ -24,7 +24,12 @@ import Brochure from "./Brochure";
 
 function Home() {
   const [activeOption, setActiveOption] = useState("Clear Span");
-
+   const galleryRef = useRef(null);
+ const handleScroll = () => {
+    if (galleryRef.current) {
+      galleryRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   const options = [
     {
       name: "Clear Span",
@@ -117,7 +122,8 @@ function Home() {
         </div>
         <div
           className="s-banner-wrapper"
-          style={{ transform: "translateY(135px)" }}
+          style={{ transform: "translateY(135px)", cursor:"pointer" }}
+          onClick={handleScroll}
         >
           <div className="s-banner-marquee">
             <img src={IMG1} />
@@ -645,7 +651,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <HomeGallery />
+      <HomeGallery ref={galleryRef} />
       <div className="homeBrochure">
         <Brochure />
       </div>

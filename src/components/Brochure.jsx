@@ -17,10 +17,10 @@ const Brochure = () => {
               felis tempor tellus. Aenean enim aliquet massa feugiat erat
               rhoncus commodo vulputate morbi. Maecenas volutpat non{" "}
             </p>
-            <div className="p-submit" style={{ width: "fit-content" }}>
-              <button type="submit" name="submit">
+            <div className="p-submit">
+              <a>
                 Download Now
-              </button>
+              </a>
             </div>
           </div>
         </div>

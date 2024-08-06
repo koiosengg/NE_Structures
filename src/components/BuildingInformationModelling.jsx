@@ -177,7 +177,7 @@ function BuildingInformationModelling() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
+      <div className="homeInfoContainer">
         <div className="heading">
           <p>BIM Services for India </p>
         </div>

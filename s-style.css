@@ -195,12 +195,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 40px;
   background-image: url("./src/assets/BannerBackground.svg");
-  background-size: cover; /* Ensures the image covers the whole div */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the background image */
+  background-size: 150%; /* Zoom in by increasing the size */
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 .homeBannerContent {
@@ -214,7 +215,10 @@
     rgba(255, 255, 255) 50%,
     rgba(255, 255, 255, 0) 80%
   );
-  transform: translateY(160px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .homeBannerContent sub {
@@ -389,6 +393,58 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.productFeatures {
+  display: flex;
+  width: 100%;
+  padding: 80px 160px;
+  align-items: center;
+  gap: 16px;
+}
+
+.productFeatureSet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px 0px 16px;
+  align-items: flex-start;
+  gap: 16px;
+  border-left: 1px solid transparent;
+  border-image: linear-gradient(rgb(179, 189, 196) 50%, rgb(11, 42, 65) 50%) 1 /
+    1 / 0 stretch;
+}
+
+.productFeatureSet .heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.productFeatureSet .heading svg {
+  width: 24px;
+  height: 24px;
+}
+
+.productFeatureSet .heading sub {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.productFeatureSet p {
+  max-width: 345px;
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .homeInfoContainer {
@@ -591,16 +647,19 @@
   gap: 24px;
 }
 
+.product .bimServices{
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .bimServicesSet {
   display: flex;
   flex-direction: column;
   padding-left: 8px;
   padding-top: 16px;
   border-left: 1px solid transparent; /* Make the default border transparent */
-  border-image: linear-gradient(to bottom, #B3BDC4 50%, #0B2A41 50%);
+  border-image: linear-gradient(to bottom, #b3bdc4 50%, #0b2a41 50%);
   border-image-slice: 1; /* Use the whole image for the border */
 }
-
 
 .homeInfoDetails .s-left .bimServicesSet sub {
   color: var(--Black-Text-Primary, #111);
@@ -1047,6 +1106,16 @@
   line-height: normal;
 }
 
+.product .homeGallerySet .heading sub{
+  color: var(--Black-Text-Primary, #111);
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+
 .homeGallerySet .heading p {
   color: var(--Black-Text-black-text-300, #606060);
   font-variant-numeric: lining-nums proportional-nums;
@@ -1056,6 +1125,17 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: normal;
+}
+
+.homeGallerySet img {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.homeGallerySet .position1,
+.homeGallerySet .position2,
+.homeGallerySet .position3,
+.homeGallerySet .position4 {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .position1,
