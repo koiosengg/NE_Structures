@@ -1,4 +1,4 @@
-import React, { useState, useEffect, forwardRef } from "react";
+import React, { useState, forwardRef } from "react";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -13,36 +13,33 @@ const gap = 20;
 
 const gallerySets = [
   {
-    heading: "Airport Project",
+    heading: "Advanced Modular Solutions for Your Building Needs",
     description:
       "Lorem ipsum dolor sit amet consectetur. Mi elementum pretium tortor nulla. Ut at fermentum.",
-    images: [IMG4, IMG8, IMG6, IMG2, IMG3, IMG5],
+    images: [IMG4, IMG8, IMG5, IMG2],
   },
   {
     heading: "Lorem Ipsum 456",
     description:
       "Lorem ipsum dolor sit amet consectetur. Mi elementum pretium tortor nulla. Ut at fermentum.",
-    images: [IMG7, IMG3, IMG8, IMG1, IMG4],
+    images: [IMG7, IMG3, IMG8, IMG1],
   },
   {
     heading: "Lorem Ipsum 123",
     description:
       "Lorem ipsum dolor sit amet consectetur. Mi elementum pretium tortor nulla. Ut at fermentum.",
-    images: [IMG6, IMG1, IMG5, IMG2, IMG6, IMG7, IMG8],
+    images: [IMG6, IMG1, IMG5, IMG2],
   },
   {
     heading: "Lorem Ipsum 789",
     description:
       "Lorem ipsum dolor sit amet consectetur. Mi elementum pretium tortor nulla. Ut at fermentum.",
-    images: [IMG1, IMG2, IMG3, IMG4, IMG5, IMG6, IMG7, IMG8],
+    images: [IMG8, IMG5, IMG2, IMG7],
   },
 ];
 
-const HomeGallery = forwardRef((props, ref) => {
+const ProductGalleryPEB = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [currentImageIndexes, setCurrentImageIndexes] = useState(
-    gallerySets.map(() => 0)
-  );
 
   const handleUpClick = () => {
     setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
@@ -54,34 +51,8 @@ const HomeGallery = forwardRef((props, ref) => {
     );
   };
 
-  useEffect(() => {
-    const intervals = gallerySets.map((set, setIndex) =>
-      setInterval(() => {
-        setCurrentImageIndexes((prevIndexes) => {
-          const newIndexes = [...prevIndexes];
-          newIndexes[setIndex] = (newIndexes[setIndex] + 1) % set.images.length;
-          return newIndexes;
-        });
-      }, 5000)
-    );
-
-    return () => {
-      intervals.forEach(clearInterval);
-    };
-  }, []);
-
   return (
     <div className="homeInfoContainer" ref={ref} id="home-gallery">
-      <div className="heading">
-        <p>
-          Get To Know <br />
-          Us Better
-        </p>
-        <span>
-          Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque eget
-          adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam arcu.
-        </span>
-      </div>
       <div className="homeGalleryContainer">
         <div className="homeGalleryControl">
           <svg
@@ -177,16 +148,9 @@ const HomeGallery = forwardRef((props, ref) => {
                 <sub>{set.heading}</sub>
                 <p>{set.description}</p>
               </div>
-              {set.images.slice(0, 4).map((image, idx) => (
+              {set.images.map((image, idx) => (
                 <div key={idx} className={`position${idx + 1}`}>
-                  <img
-                    src={
-                      set.images[
-                        (currentImageIndexes[index] + idx) % set.images.length
-                      ]
-                    }
-                    alt={set.heading}
-                  ></img>
+                  <img src={image} alt={set.heading}></img>
                 </div>
               ))}
             </div>
@@ -197,4 +161,4 @@ const HomeGallery = forwardRef((props, ref) => {
   );
 });
 
-export default HomeGallery;
+export default ProductGalleryPEB;

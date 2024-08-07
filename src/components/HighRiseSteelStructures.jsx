@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
@@ -9,21 +9,83 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import Leading from "../assets/HomeBanner/Leading.png";
-import Advantages from "../assets/HomeBanner/Advantages.png";
-import ProductGalleryPEB from "./ProductGalleryPEB";
+import ProductGalleryHRSS from "./ProductGalleryHRSS";
 import Brochure from "./Brochure";
 
-function PreEngineeredBuildings() {
+function HighRiseSteelStructures() {
+  const [activeOption, setActiveOption] = useState("Braced Frame");
+  const options = [
+    {
+      name: "Braced Frame",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG1,
+    },
+    {
+      name: "Ridged Frame",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG2,
+    },
+    {
+      name: "Concrete Dual",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG3,
+    },
+    {
+      name: "Shear Wall",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG4,
+    },
+    {
+      name: "Out Rigger",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG5,
+    },
+    {
+      name: "Tube",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG6,
+    },
+    {
+      name: "Flat Plate and Flat Slab",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG7,
+    },
+    {
+      name: "Coupled Wall",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG8,
+    },
+    {
+      name: "Hybrid",
+      content:
+        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      image: IMG9,
+    },
+  ];
+
+  const handleOptionClick = (option) => {
+    setActiveOption(option);
+  };
+
+  const activeContent = options.find((option) => option.name === activeOption);
+
   return (
     <div className="product">
       <div className="homeBanner">
         <div className="homeBannerContent" style={{ width: "825px" }}>
-          <sub>PRE ENGINEERED BUILDINGS</sub>
+          <sub>HIGH RAISE STEEL STRUCTURES</sub>
           <div className="heading">
             <p>
-              <span> Expertly Crafted Structures</span> <br /> Tailored to Your
-              Needs
+              Architectural Marvels <br /> Reaching
+              <span> New Heights</span>
             </p>
             <sub>
               Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
@@ -157,22 +219,12 @@ function PreEngineeredBuildings() {
           </div>
         </div>
       </div>
-      <div className="homeLeading">
-        <img src={Leading}></img>
-        <div className="heading">
-          <sub>
-            Leading Provider of
-            <br />
-            Pre-Engineered Building
-            <br /> Steel Structures
-          </sub>
-        </div>
-      </div>
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Adhering to
-            <br /> Premier Industry Standards
+            Different Types of <br />
+            Structural Systems in <br />
+            High-Rise buildings
           </p>
           <span>
             Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
@@ -180,15 +232,34 @@ function PreEngineeredBuildings() {
             arcu.
           </span>
         </div>
-        <div className="homeInfoDetails">
-          <img className="advantagesImg" src={Advantages}></img>
+        <div className="optionsContainer">
+          <div className="options">
+            {options.map((option) => (
+              <p
+                key={option.name}
+                className={option.name === activeOption ? "active" : ""}
+                onClick={() => handleOptionClick(option.name)}
+              >
+                {option.name}
+              </p>
+            ))}
+          </div>
+          <div className="optionsInfoContainer">
+            <div className="s-left">
+              <sub>{activeContent.name}</sub>
+              <p>{activeContent.content}</p>
+            </div>
+            <div className="s-right">
+              <img src={activeContent.image} alt={activeContent.name} />
+            </div>
+          </div>
         </div>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Pre Engineered <br />
-            Products
+            The High Rise Construction
+            <br /> Promise
           </p>
         </div>
         <div
@@ -202,9 +273,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>
-                    Prefabricated Multi Storey Building <br></br> Manufacturer
-                  </sub>
+                  <sub>Engaged Communities & Customers</sub>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
                     etiam porta sed. At volutpat scelerisque pulvinar tincidunt
@@ -219,9 +288,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>
-                    Cold Storage<br></br> Manufacturer{" "}
-                  </sub>
+                  <sub>Quality Built Environments</sub>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
                     etiam porta sed. At volutpat scelerisque pulvinar tincidunt
@@ -238,7 +305,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Warehouse</sub>
+                  <sub>Sustainable Projects</sub>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
                     etiam porta sed. At volutpat scelerisque pulvinar tincidunt
@@ -253,39 +320,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Industrial Shed</sub>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="homeInfoSetContainer">
-            <div className="homeInfoSet">
-              <div className="homeInfoSetImg">
-                <img src={IMG3}></img>
-              </div>
-              <div className="homeInfoSetDetails">
-                <div className="heading">
-                  <sub>Factory Building</sub>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="homeInfoSet">
-              <div className="homeInfoSetImg">
-                <img src={IMG8}></img>
-              </div>
-              <div className="homeInfoSetDetails">
-                <div className="heading">
-                  <sub>Industrial Enclosures</sub>
+                  <sub>Collaborative Partnerships</sub>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
                     etiam porta sed. At volutpat scelerisque pulvinar tincidunt
@@ -297,82 +332,12 @@ function PreEngineeredBuildings() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer">
-        <div className="heading">
-          <p>
-            Benefits of
-            <br /> Pre Engineered Buildings
-          </p>
-          <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
-          </span>
-        </div>
-        <div className="homeInfoDetails">
-          <div className="s-left" style={{ width: "100%" }}>
-            <div className="bimServices">
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ProductGalleryPEB />
+      <ProductGalleryHRSS/>
       <div className="exploreServices">
         <div className="exploreServicesInfo">
           <div className="heading">
             <sub>
-              Explore Our <br />
-              High Rise
-              <br /> Steel Buildings Products
+              Explore Our <br /> Pre Engineered Building <br /> Products
             </sub>
             <p>
               Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
@@ -385,7 +350,7 @@ function PreEngineeredBuildings() {
           <div className="homeInfoContainer" style={{ padding: "0" }}>
             <div className="navbarContact">
               <Link
-                to="/HighRiseSteelStructures"
+                to="/PreEngineeredBuildings"
                 style={{ background: "transparent" }}
               >
                 <p>Explore Now</p>
@@ -453,4 +418,4 @@ function PreEngineeredBuildings() {
   );
 }
 
-export default PreEngineeredBuildings;
+export default HighRiseSteelStructures;

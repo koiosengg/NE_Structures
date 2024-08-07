@@ -13,7 +13,7 @@ const gap = 20;
 
 const gallerySets = [
   {
-    heading: "Advanced Modular Solutions for Your Building Needs",
+    heading: "Explore Our Structural Innovations",
     description:
       "Lorem ipsum dolor sit amet consectetur. Mi elementum pretium tortor nulla. Ut at fermentum.",
     images: [IMG4, IMG8, IMG5, IMG2],
@@ -38,7 +38,7 @@ const gallerySets = [
   },
 ];
 
-const ProductGallery = forwardRef((props, ref) => {
+const ProductGalleryHRSS = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleUpClick = () => {
@@ -161,4 +161,4 @@ const ProductGallery = forwardRef((props, ref) => {
   );
 });
 
-export default ProductGallery;
+export default ProductGalleryHRSS;

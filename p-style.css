@@ -280,6 +280,33 @@ input:is(:focus, :valid) + .placeholder {
   top: 12px;
 }
 
+.p-submit button{
+   width: 194px;
+  border-radius: 4px;
+  background: var(--Dark-Blue-Primary, #0b2a41);
+  display: flex;
+  height: 56px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  color: var(--White-BG, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.p-submit button:hover{
+  background: var(--Dark-Blue-Primary-hover, #0d85de);
+  border: none;
+}
+
 .p-submit a {
   width: 194px;
   border-radius: 4px;

@@ -64,6 +64,13 @@
 
 .navbarTabSetHeading a {
   text-decoration: none;
+    color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .navbarTabSetHeading svg {
@@ -198,7 +205,7 @@
   justify-content: flex-end;
   gap: 40px;
   background-image: url("./src/assets/BannerBackground.svg");
-  background-size: 150%; /* Zoom in by increasing the size */
+  background-size: 200%; /* Zoom in by increasing the size */
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -280,6 +287,7 @@
 }
 
 .bannerButton a {
+  height: 38px;
   text-decoration: none;
   display: flex;
   padding: 8px 16px;
@@ -647,7 +655,7 @@
   gap: 24px;
 }
 
-.product .bimServices{
+.product .bimServices {
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -934,6 +942,7 @@
   width: 100%;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .options p {
@@ -1013,6 +1022,12 @@
 .optionsInfoContainer .s-right img {
   width: 100%;
   object-fit: cover;
+}
+
+.product .optionsInfoContainer .s-right img {
+  height: 440px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 .homeGalleryContainer {
@@ -1106,14 +1121,14 @@
   line-height: normal;
 }
 
-.product .homeGallerySet .heading sub{
+.product .homeGallerySet .heading sub {
   color: var(--Black-Text-Primary, #111);
-font-family: Raleway;
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: -1.2px;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
 }
 
 .homeGallerySet .heading p {

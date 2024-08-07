@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import PreEngineeredBuildings from "./components/PreEngineeredBuildings";
+import HighRiseSteelStructures from "./components/HighRiseSteelStructures";
 import StructuralEngineeringServices from "./components/StructuralEngineeringServices";
 import BuildingInformationModelling from "./components/BuildingInformationModelling";
 import About from "./components/About";
@@ -19,6 +20,10 @@ function App() {
           <Route
             path="PreEngineeredBuildings"
             element={<PreEngineeredBuildings />}
+          />
+          <Route
+            path="HighRaiseSteelStructures"
+            element={<HighRiseSteelStructures />}
           />
           <Route
             path="StructuralEngineeringServices"

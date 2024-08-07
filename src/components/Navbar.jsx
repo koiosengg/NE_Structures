@@ -48,7 +48,9 @@ function Navbar() {
           </div>
           <div className="navbarTabSetDropdown">
             <Link to="/PreEngineeredBuildings">Pre Engineered Buildings</Link>
-            <Link to="/">High Rise Steel Structures</Link>
+            <Link to="/HighRiseSteelStructures">
+              High Rise Steel Structures
+            </Link>
           </div>
         </div>
         <div className="navbarTabSet">

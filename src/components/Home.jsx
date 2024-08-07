@@ -24,12 +24,12 @@ import Brochure from "./Brochure";
 
 function Home() {
   const [activeOption, setActiveOption] = useState("Clear Span");
-   const galleryRef = useRef(null);
- const handleScroll = () => {
+  const galleryRef = useRef(null);
+  const handleScroll = () => {
     if (galleryRef.current) {
-      galleryRef.current.scrollIntoView({ behavior: 'smooth' });
+      galleryRef.current.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
   const options = [
     {
       name: "Clear Span",
@@ -122,7 +122,7 @@ function Home() {
         </div>
         <div
           className="s-banner-wrapper"
-          style={{ transform: "translateY(135px)", cursor:"pointer" }}
+          style={{ transform: "translateY(135px)", cursor: "pointer" }}
           onClick={handleScroll}
         >
           <div className="s-banner-marquee">
@@ -278,7 +278,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/about">
+                  <Link to="/PreEngineeredBuildings">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -349,7 +349,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/about">
+                  <Link to="/HighRaiseSteelStructures">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -423,7 +423,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/about">
+                  <Link to="/StructuralEngineeringServices">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -494,7 +494,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/about">
+                  <Link to="/BuildingInformationModelling">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -564,7 +564,7 @@ function Home() {
             <br /> Steel Structures
           </sub>
           <div className="navbarContact">
-            <Link to="/contact">
+            <Link to="/PreEngineeredBuildings">
               <p>Explore Now</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
