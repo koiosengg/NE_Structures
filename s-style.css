@@ -64,7 +64,7 @@
 
 .navbarTabSetHeading a {
   text-decoration: none;
-    color: var(--Black-Text-black-text-300, #606060);
+  color: var(--Black-Text-black-text-300, #606060);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
   font-size: 16px;
@@ -538,7 +538,6 @@
   display: flex;
   align-items: center;
   gap: 32px;
-  align-self: stretch;
 }
 
 .aisc {
@@ -695,8 +694,110 @@
   height: 378px;
 }
 
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 892px;
+  height: 612px;
+}
+
+.dotPosition1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 400px;
+  left: 101px;
+  animation: advantagesDotsBlink 2s infinite;
+}
+.dotPosition2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 400px;
+  right: 105px;
+  animation: advantagesDotsBlink 2s infinite;
+}
+.dotPosition3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 0px;
+  right: 295px;
+  animation: advantagesDotsBlink 2s infinite;
+}
+.dotPosition4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 468px;
+  left: 393px;
+  animation: advantagesDotsBlink 2s infinite;
+}
+.dotPosition5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 195px;
+  right: 198px;
+  animation: advantagesDotsBlink 2s infinite;
+}
+.dotPosition6 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 165px;
+  left: 232px;
+  animation: advantagesDotsBlink 2s infinite;
+}
+
+.advantagesDots {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.advantagesDots .outerDiv {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #b4d9f5;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advantagesDots .innerDiv {
+  width: 8px;
+  height: 8px;
+  background: #0d85de;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes advantagesDotsBlink {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0px 2px 16px rgba(13, 133, 222, 0));
+  }
+  50% {
+    transform: scale(1.5);
+    filter: drop-shadow(0px 2px 16px rgba(13, 133, 222, 0.5));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0px 2px 16px rgba(13, 133, 222, 0));
+  }
+}
+
 .advantagesImg {
-  width: 100%;
+  width: 892px;
   object-fit: cover;
 }
 

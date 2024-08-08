@@ -226,7 +226,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer">
+      <div className="homeInfoContainer" style={{ alignItems: "center" }}>
         <div className="heading">
           <p>
             Adhering to
@@ -238,7 +238,43 @@ function Home() {
             arcu.
           </span>
         </div>
-        <div className="homeInfoDetails">
+        <div className="homeInfoDetails advantages">
+          <div className="dotPosition1">
+            <div className="advantagesDots">
+              <div className="outerDiv"></div>
+              <div className="innerDiv"></div>
+            </div>
+          </div>
+          <div className="dotPosition2">
+            <div className="advantagesDots">
+              <div className="outerDiv"></div>
+              <div className="innerDiv"></div>
+            </div>
+          </div>
+          <div className="dotPosition3">
+            <div className="advantagesDots">
+              <div className="outerDiv"></div>
+              <div className="innerDiv"></div>
+            </div>
+          </div>
+          <div className="dotPosition4">
+            <div className="advantagesDots">
+              <div className="outerDiv"></div>
+              <div className="innerDiv"></div>
+            </div>
+          </div>
+          <div className="dotPosition5">
+            <div className="advantagesDots">
+              <div className="outerDiv"></div>
+              <div className="innerDiv"></div>
+            </div>
+          </div>
+          <div className="dotPosition6">
+            <div className="advantagesDots">
+              <div className="outerDiv"></div>
+              <div className="innerDiv"></div>
+            </div>
+          </div>
           <img className="advantagesImg" src={Advantages}></img>
         </div>
       </div>
