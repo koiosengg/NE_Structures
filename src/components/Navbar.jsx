@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NELogo from "../assets/NELogo.png";
 
 function Navbar() {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [hasToggled, setHasToggled] = useState(false);
+
+  const toggleMobileNav = () => {
+    setIsMobileNavOpen(!isMobileNavOpen);
+    setHasToggled(true); // Mark that the user has toggled the menu
+  };
+
   return (
     <div className="Navbar">
       <div className="navbarLogo">
@@ -160,6 +168,100 @@ function Navbar() {
             </g>
           </svg>
         </Link>
+      </div>
+      <div className="mobileNavbarButton" onClick={toggleMobileNav}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          className="mobileNavbarOpen"
+          style={{ display: isMobileNavOpen ? "none" : "block" }}
+        >
+          <path
+            d="M8 8H24M8 16H24M8 24H24"
+            stroke="#111111"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        className={`mobileNavbar ${
+          isMobileNavOpen
+            ? "activeMobileNavbar"
+            : hasToggled
+            ? "nonactiveMobileNavbar"
+            : ""
+        }`}
+      >
+        <div className="mobileNavbarHeading">
+          <Link to="/" onClick={toggleMobileNav}>
+            <img src={NELogo} />
+          </Link>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            className="mobileNavbarClose"
+            onClick={toggleMobileNav}
+            style={{ display: isMobileNavOpen ? "block" : "none" }}
+          >
+            <path
+              d="M8.00006 24L16.0001 16L24.0001 24M24.0001 8L15.9985 16L8.00006 8"
+              stroke="#111111"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+        <div className="mobileNavbarContainer">
+          <div className="mobileNavbarTab">
+            <div className="heading">
+              <sub>Products</sub>
+              <div className="set">
+                <Link to="/PreEngineeredBuildings" onClick={toggleMobileNav}>
+                  Pre Engineered Buildings
+                </Link>
+                <Link to="/HighRiseSteelStructures" onClick={toggleMobileNav}>
+                  High Raise Steel Buildings
+                </Link>
+              </div>
+            </div>
+            <div className="heading">
+              <sub>Services</sub>
+              <div className="set">
+                <Link
+                  to="/StructuralEngineeringServices"
+                  onClick={toggleMobileNav}
+                >
+                  Structural Engineering Services
+                </Link>
+                <Link
+                  to="/BuildingInformationModelling"
+                  onClick={toggleMobileNav}
+                >
+                  Building Information Modelling
+                </Link>
+              </div>
+            </div>
+            <div className="heading">
+              <Link to="/about" onClick={toggleMobileNav}>
+                <sub> About Us</sub>
+              </Link>
+            </div>
+          </div>
+          <div className="mobileNavbarContact" style={{ width: "100%" }}>
+            <Link to="/contact" onClick={toggleMobileNav}>
+              Contact Us
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

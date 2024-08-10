@@ -9,10 +9,12 @@ import BuildingInformationModelling from "./components/BuildingInformationModell
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/">
@@ -22,7 +24,7 @@ function App() {
             element={<PreEngineeredBuildings />}
           />
           <Route
-            path="HighRaiseSteelStructures"
+            path="HighRiseSteelStructures"
             element={<HighRiseSteelStructures />}
           />
           <Route

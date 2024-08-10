@@ -10,7 +10,9 @@ import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
 import Leading from "../assets/HomeBanner/Leading.png";
+import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import Advantages from "../assets/HomeBanner/Advantages.png";
+import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import ProductGalleryPEB from "./ProductGalleryPEB";
 import Brochure from "./Brochure";
 
@@ -158,7 +160,10 @@ function PreEngineeredBuildings() {
         </div>
       </div>
       <div className="homeLeading">
-        <img src={Leading}></img>
+        <picture>
+          <source media="(max-width: 1200px)" srcSet={LeadingSmall} />
+          <img src={Leading} alt="Responsive" />
+        </picture>
         <div className="heading">
           <sub>
             Leading Provider of
@@ -217,7 +222,46 @@ function PreEngineeredBuildings() {
               <div className="innerDiv"></div>
             </div>
           </div>
-          <img className="advantagesImg" src={Advantages}></img>
+          <picture className="advantagesImg">
+            <source media="(max-width: 1200px)" srcSet={AdvantagesSmall} />
+            <img src={Advantages}></img>
+            <div className="mobileDot1">
+              <div className="advantagesDots">
+                <div className="outerDiv"></div>
+                <div className="innerDiv"></div>
+              </div>
+            </div>
+            <div className="mobileDot2">
+              <div className="advantagesDots">
+                <div className="outerDiv"></div>
+                <div className="innerDiv"></div>
+              </div>
+            </div>
+            <div className="mobileDot3">
+              <div className="advantagesDots">
+                <div className="outerDiv"></div>
+                <div className="innerDiv"></div>
+              </div>
+            </div>
+            <div className="mobileDot4">
+              <div className="advantagesDots">
+                <div className="outerDiv"></div>
+                <div className="innerDiv"></div>
+              </div>
+            </div>
+            <div className="mobileDot5">
+              <div className="advantagesDots">
+                <div className="outerDiv"></div>
+                <div className="innerDiv"></div>
+              </div>
+            </div>
+            <div className="mobileDot6">
+              <div className="advantagesDots">
+                <div className="outerDiv"></div>
+                <div className="innerDiv"></div>
+              </div>
+            </div>
+          </picture>
         </div>
       </div>
       <div className="homeInfoContainer">
