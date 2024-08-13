@@ -78,9 +78,9 @@ function HighRiseSteelStructures() {
   const activeContent = options.find((option) => option.name === activeOption);
 
   return (
-    <div className="product">
+    <div className="product HRSS">
       <div className="homeBanner">
-        <div className="homeBannerContent" style={{ width: "825px" }}>
+        <div className="homeBannerContent">
           <sub>HIGH RAISE STEEL STRUCTURES</sub>
           <div className="heading">
             <p>
@@ -94,10 +94,7 @@ function HighRiseSteelStructures() {
             </sub>
           </div>
         </div>
-        <div
-          className="s-banner-wrapper"
-          style={{ transform: "translateY(135px)" }}
-        >
+        <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -118,7 +115,7 @@ function HighRiseSteelStructures() {
           </div>
         </div>
       </div>
-      <div className="productFeatures" style={{ marginTop: "135px" }}>
+      <div className="productFeatures bannerDownDiv">
         <div className="productFeatureSet">
           <div className="heading">
             <svg
@@ -297,8 +294,38 @@ function HighRiseSteelStructures() {
                 </div>
               </div>
             </div>
+            <div className="homeInfoSet mobile">
+              <div className="homeInfoSetImg">
+                <img src={IMG6}></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Sustainable Projects</sub>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio tpat lacinia etiam porta sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="homeInfoSet mobile">
+              <div className="homeInfoSetImg">
+                <img src={IMG9}></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Collaborative Partnerships</sub>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio tpat lacinia etiam porta sed.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="homeInfoSetContainer">
+          <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img src={IMG6}></img>
@@ -332,13 +359,14 @@ function HighRiseSteelStructures() {
           </div>
         </div>
       </div>
-      <ProductGalleryHRSS/>
+      <ProductGalleryHRSS />
       <div className="exploreServices">
         <div className="exploreServicesInfo">
           <div className="heading">
             <sub>
               Explore Our <br /> Pre Engineered Building <br /> Products
             </sub>
+            <img src={IMG1} className="mobile"></img>
             <p>
               Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
               felis tempor tellus. Aenean enim aliquet massa feugiat erat
@@ -409,7 +437,7 @@ function HighRiseSteelStructures() {
             </div>
           </div>
         </div>
-        <img src={IMG1}></img>
+        <img src={IMG1} className="notMobile"></img>
       </div>
       <div className="homeBrochure">
         <Brochure />

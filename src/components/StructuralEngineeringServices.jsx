@@ -13,7 +13,7 @@ import Brochure from "./Brochure";
 
 function StructuralEngineeringServices() {
   return (
-    <div>
+    <div className="product">
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>STRUCTURAL ENGINEERING SERVICES</sub>
@@ -29,10 +29,7 @@ function StructuralEngineeringServices() {
             </sub>
           </div>
         </div>
-        <div
-          className="s-banner-wrapper"
-          style={{ transform: "translateY(135px)" }}
-        >
+        <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -53,7 +50,7 @@ function StructuralEngineeringServices() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
+      <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
             Our Journey and <br /> Values
@@ -87,6 +84,9 @@ function StructuralEngineeringServices() {
             <div className="ourServicesInfo">
               <div className="heading">
                 <sub>Structural Detailing</sub>
+                <div className="ourServicesImg mobile">
+                  <img src={IMG4}></img>
+                </div>
                 <p>
                   Pennar offers a quick, error – free complete line of detailing
                   services using the latest version of Tekla Software, XDS and
@@ -511,7 +511,7 @@ function StructuralEngineeringServices() {
                 </div>
               </div>
             </div>
-            <div className="ourServicesImg">
+            <div className="ourServicesImg notMobile">
               <img src={IMG4} style={{ height: "632px" }}></img>
             </div>
           </div>
@@ -519,6 +519,9 @@ function StructuralEngineeringServices() {
             <div className="ourServicesInfo">
               <div className="heading">
                 <sub>PEB Services</sub>
+                <div className="ourServicesImg mobile">
+                  <img src={IMG9}></img>
+                </div>
                 <p>
                   Pennar offers a quick, error – free complete line of detailing
                   services using the latest version of Tekla Software, XDS and
@@ -705,7 +708,7 @@ function StructuralEngineeringServices() {
                 </div>
               </div>
             </div>
-            <div className="ourServicesImg">
+            <div className="ourServicesImg notMobile">
               <img src={IMG9} style={{ height: "493px" }}></img>
             </div>
           </div>
@@ -713,6 +716,9 @@ function StructuralEngineeringServices() {
             <div className="ourServicesInfo">
               <div className="heading">
                 <sub>PEB Design</sub>
+                <div className="ourServicesImg mobile">
+                  <img src={IMG7}></img>
+                </div>
                 <p>
                   Pennar Offers Design of Pre Engineered steel Buildings with
                   AISC, MBMA, AISI, AWS, ASD and LRFD standards and practices.
@@ -721,7 +727,7 @@ function StructuralEngineeringServices() {
                 </p>
               </div>
             </div>
-            <div className="ourServicesImg">
+            <div className="ourServicesImg notMobile">
               <img src={IMG7}></img>
             </div>
           </div>
@@ -729,6 +735,9 @@ function StructuralEngineeringServices() {
             <div className="ourServicesInfo">
               <div className="heading">
                 <sub>PEB Design</sub>
+                <div className="ourServicesImg mobile">
+                  <img src={IMG9}></img>
+                </div>
                 <p>
                   Pennar Offers Design of Pre Engineered steel Buildings with
                   AISC, MBMA, AISI, AWS, ASD and LRFD standards and practices.
@@ -737,7 +746,7 @@ function StructuralEngineeringServices() {
                 </p>
               </div>
             </div>
-            <div className="ourServicesImg">
+            <div className="ourServicesImg notMobile">
               <img src={IMG9}></img>
             </div>
           </div>

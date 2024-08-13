@@ -338,7 +338,7 @@ input:is(:focus, :valid) + .placeholder {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 0px 160px 80px;
+  padding: 80px 160px;
   gap: 40px;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState, forwardRef } from "react";
+import React, { useState, useEffect, forwardRef } from "react";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -10,6 +10,7 @@ import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 
 const setHeight = 714;
 const gap = 20;
+const padding = 20; // Padding on both left and right
 
 const gallerySets = [
   {
@@ -39,126 +40,145 @@ const gallerySets = [
 ];
 
 const ProductGalleryHRSS = forwardRef((props, ref) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+ const [currentIndex, setCurrentIndex] = useState(0);
+ const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
 
-  const handleUpClick = () => {
-    setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
-  };
+ const handleResize = () => {
+   setIsMobile(window.innerWidth < 1200);
+ };
 
-  const handleDownClick = () => {
-    setCurrentIndex((prevIndex) =>
-      Math.min(prevIndex + 1, gallerySets.length - 1)
-    );
-  };
+ const handleUpClick = () => {
+   setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+ };
 
-  return (
-    <div className="homeInfoContainer" ref={ref} id="home-gallery">
-      <div className="homeGalleryContainer">
-        <div className="homeGalleryControl">
-          <svg
-            onClick={handleUpClick}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="galleryUp"
-            style={{ opacity: currentIndex === 0 ? 0.3 : 1 }}
-          >
-            <mask
-              id="mask0_989_13453"
-              style={{ maskType: "alpha" }}
-              maskUnits="userSpaceOnUse"
-              x="0"
-              y="0"
-              width="24"
-              height="24"
-            >
-              <rect
-                x="24"
-                width="24"
-                height="24"
-                transform="rotate(90 24 0)"
-                fill="#D9D9D9"
-              />
-            </mask>
-            <g mask="url(#mask0_989_13453)">
-              <path
-                d="M4 16L12 8L20 16L18.58 17.42L12 10.84L5.42 17.42L4 16Z"
-                fill="#111111"
-              />
-            </g>
-          </svg>
-          <div className="galleryIndicatorDiv">
-            {gallerySets.map((_, index) => (
-              <div
-                key={index}
-                className={`galleryIndicatorDot ${
-                  currentIndex === index ? "active" : ""
-                }`}
-              ></div>
-            ))}
-          </div>
-          <svg
-            onClick={handleDownClick}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="galleryDown"
-            style={{
-              opacity: currentIndex === gallerySets.length - 1 ? 0.3 : 1,
-            }}
-          >
-            <mask
-              id="mask0_989_13453"
-              style={{ maskType: "alpha" }}
-              maskUnits="userSpaceOnUse"
-              x="0"
-              y="0"
-              width="24"
-              height="24"
-            >
-              <rect
-                x="24"
-                width="24"
-                height="24"
-                transform="rotate(90 24 0)"
-                fill="#D9D9D9"
-              />
-            </mask>
-            <g mask="url(#mask0_989_13453)">
-              <path
-                d="M4 16L12 8L20 16L18.58 17.42L12 10.84L5.42 17.42L4 16Z"
-                fill="#111111"
-              />
-            </g>
-          </svg>
-        </div>
-        <div
-          className="homeGallerySetContainer"
-          style={{
-            transform: `translateY(-${currentIndex * (setHeight + gap)}px)`,
-          }}
-        >
-          {gallerySets.map((set, index) => (
-            <div className="homeGallerySet" key={index}>
-              <div className="heading">
-                <sub>{set.heading}</sub>
-                <p>{set.description}</p>
-              </div>
-              {set.images.map((image, idx) => (
-                <div key={idx} className={`position${idx + 1}`}>
-                  <img src={image} alt={set.heading}></img>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
+ const handleDownClick = () => {
+   setCurrentIndex((prevIndex) =>
+     Math.min(prevIndex + 1, gallerySets.length - 1)
+   );
+ };
+
+ useEffect(() => {
+   window.addEventListener("resize", handleResize);
+   return () => window.removeEventListener("resize", handleResize);
+ }, []);
+
+ const setWidth = isMobile ? window.innerWidth - 2 * padding - 1 : "100%";
+
+ return (
+   <div className="homeInfoContainer" ref={ref} id="home-gallery">
+     <div className="homeGalleryContainer">
+       <div className="homeGalleryControl">
+         <svg
+           onClick={handleUpClick}
+           xmlns="http://www.w3.org/2000/svg"
+           width="24"
+           height="24"
+           viewBox="0 0 24 24"
+           fill="none"
+           className="galleryUp"
+           style={{ opacity: currentIndex === 0 ? 0.3 : 1 }}
+         >
+           <mask
+             id="mask0_989_13453"
+             style={{ maskType: "alpha" }}
+             maskUnits="userSpaceOnUse"
+             x="0"
+             y="0"
+             width="24"
+             height="24"
+           >
+             <rect
+               x="24"
+               width="24"
+               height="24"
+               transform="rotate(90 24 0)"
+               fill="#D9D9D9"
+             />
+           </mask>
+           <g mask="url(#mask0_989_13453)">
+             <path
+               d="M4 16L12 8L20 16L18.58 17.42L12 10.84L5.42 17.42L4 16Z"
+               fill="#111111"
+             />
+           </g>
+         </svg>
+         <div className="galleryIndicatorDiv">
+           {gallerySets.map((_, index) => (
+             <div
+               key={index}
+               className={`galleryIndicatorDot ${
+                 currentIndex === index ? "active" : ""
+               }`}
+             ></div>
+           ))}
+         </div>
+         <svg
+           onClick={handleDownClick}
+           xmlns="http://www.w3.org/2000/svg"
+           width="24"
+           height="24"
+           viewBox="0 0 24 24"
+           fill="none"
+           className="galleryDown"
+           style={{
+             opacity: currentIndex === gallerySets.length - 1 ? 0.3 : 1,
+           }}
+         >
+           <mask
+             id="mask0_989_13453"
+             style={{ maskType: "alpha" }}
+             maskUnits="userSpaceOnUse"
+             x="0"
+             y="0"
+             width="24"
+             height="24"
+           >
+             <rect
+               x="24"
+               width="24"
+               height="24"
+               transform="rotate(90 24 0)"
+               fill="#D9D9D9"
+             />
+           </mask>
+           <g mask="url(#mask0_989_13453)">
+             <path
+               d="M4 16L12 8L20 16L18.58 17.42L12 10.84L5.42 17.42L4 16Z"
+               fill="#111111"
+             />
+           </g>
+         </svg>
+       </div>
+       <div
+         className="homeGallerySetContainer"
+         style={{
+           width: isMobile ? `${gallerySets.length * setWidth}px` : "100%",
+           transform: isMobile
+             ? `translateX(-${currentIndex * setWidth}px)`
+             : `translateY(-${currentIndex * (setHeight + gap)}px)`,
+         }}
+       >
+         {gallerySets.map((set, index) => (
+           <div
+             className="homeGallerySet"
+             key={index}
+             style={{ width: isMobile ? `${setWidth}px` : "100%" }}
+           >
+             <div className="heading">
+               <sub>{set.heading}</sub>
+               <p>{set.description}</p>
+             </div>
+             {set.images.map((image, idx) => (
+               <div key={idx} className={`position${idx + 1}`}>
+                 <img src={image} alt={set.heading}></img>
+               </div>
+             ))}
+           </div>
+         ))}
+       </div>
+     </div>
+   </div>
+ );
 });
 
 export default ProductGalleryHRSS;

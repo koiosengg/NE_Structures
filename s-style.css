@@ -616,6 +616,10 @@
   gap: 32px;
 }
 
+.helpQuestionsIMG img {
+  min-height: 537px;
+}
+
 .helpQuestions .heading {
   color: #000;
   font-variant-numeric: lining-nums proportional-nums;
@@ -674,6 +678,11 @@
 
 .product .bimServices {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.product .ServicesBIM {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
 .bimServicesSet {
@@ -886,7 +895,7 @@
 .homeInfoSetContainer {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
   align-self: stretch;
 }
@@ -1226,7 +1235,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -1.2px;
 }
 
 .homeGallerySet .heading p {
@@ -1704,6 +1712,38 @@
   display: none;
 }
 
+/* product Page */
+.PEB .homeBannerContent {
+  width: 825px;
+}
+
+.product .mobile {
+  display: none;
+}
+
+.HRSS .homeBannerContent {
+  width: 825px;
+}
+
+.BIM .homeBannerContent {
+  width: 923px;
+}
+
+/* about */
+
+.aboutMarquee {
+  padding: 80px 0px;
+}
+
+.aboutMarquee .heading {
+  padding: 0px 160px;
+}
+
+.aboutMarquee .homeInfoDetails {
+  flex-direction: column;
+  gap: 48px;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
@@ -1726,6 +1766,10 @@
     display: none;
   }
 
+  .mobileNavbar {
+    display: block;
+  }
+
   .mobileNavbarButton {
     transition: all 0.3s;
   }
@@ -1735,7 +1779,7 @@
   }
 
   .mobileNavbar {
-    width: 100%;
+    width: 80%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -1766,6 +1810,7 @@
   .activeMobileNavbar {
     transform: translateX(0);
     animation: slideIn 0.3s forwards;
+    box-shadow: -200px 0 200px 50px rgba(0, 0, 0, 0.7);
   }
 
   .nonactiveMobileNavbar {
@@ -2015,6 +2060,7 @@
     gap: 16px;
     overflow-x: auto; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Disable vertical scrolling */
+    scrollbar-width: none;
   }
 
   .homeInfoSet {
@@ -2257,6 +2303,7 @@
   .options {
     flex-wrap: nowrap;
     overflow-x: scroll;
+    scrollbar-width: none;
   }
 
   .optionsInfoContainer {
@@ -2474,5 +2521,412 @@
   .mobileFooterCopyrigths p a {
     text-decoration: none;
     color: #fff;
+  }
+
+  #home-gallery {
+    gap: 0;
+  }
+
+  .homeGallerySet {
+    height: 390px;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr; /* 60% width for the first column, 40% for the second */
+    grid-template-rows: auto auto; /* Default row heights, which will be overridden */
+    gap: 8px;
+  }
+  .position1,
+  .position2,
+  .position3,
+  .position4 {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+  .position2 {
+    height: 120%; /* Takes 60% of the height of the second column */
+    align-self: start; /* Align to the start of the grid cell */
+  }
+
+  .position4 {
+    height: 80%; /* Takes 40% of the height of the second column */
+    align-self: end; /* Align to the end of the grid cell */
+  }
+
+  .position1 img {
+    width: 100%;
+  }
+
+  .position2 img {
+    width: 100%;
+  }
+
+  .position3 {
+    width: 100%;
+  }
+
+  .position4 {
+    width: 100%;
+  }
+
+  .homeGallerySetContainer {
+    flex-direction: row;
+    height: 390px;
+  }
+
+  .homeGalleryContainer {
+    height: 630px;
+    justify-content: center;
+  }
+
+  .homeGalleryControl {
+    bottom: 0px;
+    left: 50%;
+    right: auto;
+    transform: rotate(-90deg) translateX(-50%);
+  }
+
+  .homeGallerySet .heading {
+    top: -110px;
+    width: auto;
+    padding: 20px 0;
+  }
+
+  .homeGallerySet .heading sub {
+    color: var(--Blue-Primary, #0d85de);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .homeGallerySet .heading p {
+    color: var(--Grey-Text-Primary, #757575);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* S/Medium */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+
+  /* Product Pages */
+
+  .product .mobile {
+    display: flex;
+  }
+
+  .product .notMobile {
+    display: none;
+  }
+
+  .PEB .homeBannerContent {
+    width: 100%;
+  }
+
+  .HRSS .homeBannerContent {
+    width: 100%;
+  }
+
+  .BIM .homeBannerContent {
+    width: 100%;
+  }
+
+  .productFeatures {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .productFeatureSet .heading sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    /* L/Semibold */
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+  }
+
+  .productFeatureSet p {
+    color: var(--Black-Text-black-text-300, #606060);
+    font-variant-numeric: lining-nums proportional-nums;
+    /* S/Regular */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .product .optionsInfoContainer .s-right img {
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .bimServicesSet {
+    padding-left: 16px;
+    padding-top: 4px;
+  }
+
+  .product .bimServices {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .product .homeGallerySet .heading sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .exploreServices {
+    height: auto;
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    background: linear-gradient(180deg, #081e2e 0%, #1a6194 122.49%),
+      var(--White-BG, #fff);
+  }
+
+  .exploreServicesInfo {
+    width: 100%;
+  }
+
+  .exploreServicesInfo .heading sub {
+    color: var(--White-BG, #fff);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .exploreServicesInfo .heading p {
+    color: var(--Black-Text-black-text-50, #e7e7e7);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .exploreServices img {
+    width: 100%;
+    height: 234.5px;
+  }
+
+  /* Services page */
+
+  .ourServices {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .ourServicesContainer {
+    gap: 40px;
+  }
+
+  .ourServicesInfo {
+    width: 100%;
+  }
+
+  .ourServicesHeading {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .ourServicesInfo .heading sub {
+    color: var(--Blue-Primary, #0d85de);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .ourServicesInfo .heading p {
+    color: var(--Black-Text-black-text-300, #606060);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .ourServicesImg {
+    width: 100%;
+  }
+
+  .ourServicesImg img {
+    height: 234.5px;
+    object-fit: cover;
+  }
+
+  .ourServicesList .heading {
+    color: var(--Black-Text-black-text-300, #606060);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .ourServicesListSet .list p {
+    color: var(--Black-Text-black-text-300, #606060);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .bim {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+
+  .bim .homeInfoDetailSet {
+    padding: 24px 8px;
+    min-height: auto;
+  }
+
+  .bim .homeInfoDetailSet sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .bim .homeInfoDetailSet p {
+    color: var(--Grey-Text-Primary, #757575);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .helpQuestions {
+    gap: 24px;
+  }
+
+  .helpQuestionsIMG img {
+    min-height: auto;
+    width: 100%;
+    height: 234.5px;
+    object-fit: cover;
+  }
+
+  .helpQuestions .heading {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .homeInfoDetails .s-left .helpQuestionsSet sub {
+    color: var(--Blue-Primary, #0d85de);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Bold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+  }
+
+  /* About */
+
+  .bannerDownDiv .heading {
+    gap: 32px;
+  }
+
+  .bannerDownDiv .heading img {
+    width: 93.686px;
+    height: 80px;
+  }
+
+  .aboutMarquee {
+    padding: 48px 0px;
+  }
+
+  .aboutMarquee .heading {
+    padding: 0px 20px;
+  }
+
+  .aboutMarquee .homeInfoDetails {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .aboutMarquee .s-banner-wrapper {
+    transform: translateY(0);
+  }
+
+  .aboutMarquee .s-banner-marquee img {
+    width: 310px;
+    height: 324px;
+  }
+
+  .aboutMarquee .s-banner-marquee-set {
+    width: auto;
+    padding-left: 16px;
+  }
+
+  .aboutMarquee .s-banner-marquee-set sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .aisc{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useState, forwardRef } from "react";
+import React, { useState, useEffect, forwardRef } from "react";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -10,6 +10,7 @@ import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 
 const setHeight = 714;
 const gap = 20;
+const padding = 20; // Padding on both left and right
 
 const gallerySets = [
   {
@@ -40,6 +41,11 @@ const gallerySets = [
 
 const ProductGalleryPEB = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 1200);
+  };
 
   const handleUpClick = () => {
     setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
@@ -50,6 +56,13 @@ const ProductGalleryPEB = forwardRef((props, ref) => {
       Math.min(prevIndex + 1, gallerySets.length - 1)
     );
   };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const setWidth = isMobile ? window.innerWidth - 2 * padding - 1 : "100%";
 
   return (
     <div className="homeInfoContainer" ref={ref} id="home-gallery">
@@ -139,11 +152,18 @@ const ProductGalleryPEB = forwardRef((props, ref) => {
         <div
           className="homeGallerySetContainer"
           style={{
-            transform: `translateY(-${currentIndex * (setHeight + gap)}px)`,
+            width: isMobile ? `${gallerySets.length * setWidth}px` : "100%",
+            transform: isMobile
+              ? `translateX(-${currentIndex * setWidth}px)`
+              : `translateY(-${currentIndex * (setHeight + gap)}px)`,
           }}
         >
           {gallerySets.map((set, index) => (
-            <div className="homeGallerySet" key={index}>
+            <div
+              className="homeGallerySet"
+              key={index}
+              style={{ width: isMobile ? `${setWidth}px` : "100%" }}
+            >
               <div className="heading">
                 <sub>{set.heading}</sub>
                 <p>{set.description}</p>

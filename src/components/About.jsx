@@ -15,7 +15,7 @@ import Brochure from "./Brochure";
 
 function About() {
   return (
-    <div>
+    <div className="product about">
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>ABOUT US</sub>
@@ -31,7 +31,7 @@ function About() {
             </sub>
           </div>
         </div>
-        <div className="s-banner-wrapper" style={{transform:"translateY(135px)"}}>
+        <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -52,7 +52,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
+      <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
             Our Journey and <br /> Values
@@ -105,11 +105,8 @@ function About() {
           </div>
         </div>
       </div>
-      <div
-        className="homeInfoContainer"
-        style={{ padding: "80px 0px 80px 0px" }}
-      >
-        <div className="heading" style={{ padding: "0px 160px" }}>
+      <div className="homeInfoContainer aboutMarquee">
+        <div className="heading">
           <p>
             Robust Infrastructure <br /> Solutions
           </p>
@@ -119,10 +116,7 @@ function About() {
             arcu.
           </span>
         </div>
-        <div
-          className="homeInfoDetails"
-          style={{ flexDirection: "column", gap: "48px" }}
-        >
+        <div className="homeInfoDetails">
           <div className="s-banner-wrapper">
             <div className="s-banner-marquee">
               <div className="s-banner-marquee-set">

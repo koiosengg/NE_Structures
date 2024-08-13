@@ -13,9 +13,9 @@ import Brochure from "./Brochure";
 
 function BuildingInformationModelling() {
   return (
-    <div>
+    <div className="product BIM">
       <div className="homeBanner">
-        <div className="homeBannerContent" style={{ width: "923px" }}>
+        <div className="homeBannerContent">
           <sub>BUILDING INFORMATION MODELLING</sub>
           <div className="heading">
             <p>
@@ -30,10 +30,7 @@ function BuildingInformationModelling() {
             </sub>
           </div>
         </div>
-        <div
-          className="s-banner-wrapper"
-          style={{ transform: "translateY(135px)" }}
-        >
+        <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -54,7 +51,7 @@ function BuildingInformationModelling() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
+      <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
             Switch to BIM the Right Way <br /> With Our BIM Services
@@ -133,7 +130,7 @@ function BuildingInformationModelling() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer" style={{ marginTop: "135px" }}>
+      <div className="homeInfoContainer">
         <div className="heading">
           <p>
             Every Construction Firm Faces <br /> Some Key Challenges
@@ -172,8 +169,8 @@ function BuildingInformationModelling() {
               </div>
             </div>
           </div>
-          <div className="s-right">
-            <img src={IMG3} style={{ minHeight: "537px" }}></img>
+          <div className="s-right helpQuestionsIMG">
+            <img src={IMG3}></img>
           </div>
         </div>
       </div>
@@ -191,7 +188,7 @@ function BuildingInformationModelling() {
               volutpat scelerisque pulvinar tincidunt id interdum viverra odio
               tpat lacinia etiam porta sed.
             </p>
-            <div className="bimServices">
+            <div className="bimServices ServicesBIM">
               <div className="bimServicesSet">
                 <sub>Pre engineered building</sub>
                 <p>
@@ -222,8 +219,8 @@ function BuildingInformationModelling() {
               </div>
             </div>
           </div>
-          <div className="s-right">
-            <img src={IMG3} style={{ minHeight: "537px" }}></img>
+          <div className="s-right helpQuestionsIMG">
+            <img src={IMG3}></img>
           </div>
         </div>
       </div>
@@ -235,6 +232,7 @@ function BuildingInformationModelling() {
               <br />
               Building information <br /> Modelling Services
             </sub>
+            <img src={IMG1} className="mobile"></img>
             <p>
               Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
               felis tempor tellus. Aenean enim aliquet massa feugiat erat
@@ -302,7 +300,7 @@ function BuildingInformationModelling() {
             </div>
           </div>
         </div>
-        <img src={IMG1}></img>
+        <img src={IMG1} className="notMobile"></img>
       </div>
       <div className="homeBrochure">
         <Brochure />

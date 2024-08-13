@@ -18,9 +18,9 @@ import Brochure from "./Brochure";
 
 function PreEngineeredBuildings() {
   return (
-    <div className="product">
+    <div className="product PEB">
       <div className="homeBanner">
-        <div className="homeBannerContent" style={{ width: "825px" }}>
+        <div className="homeBannerContent">
           <sub>PRE ENGINEERED BUILDINGS</sub>
           <div className="heading">
             <p>
@@ -34,10 +34,7 @@ function PreEngineeredBuildings() {
             </sub>
           </div>
         </div>
-        <div
-          className="s-banner-wrapper"
-          style={{ transform: "translateY(135px)" }}
-        >
+        <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -58,7 +55,7 @@ function PreEngineeredBuildings() {
           </div>
         </div>
       </div>
-      <div className="productFeatures" style={{ marginTop: "135px" }}>
+      <div className="productFeatures bannerDownDiv">
         <div className="productFeatureSet">
           <div className="heading">
             <svg
@@ -310,8 +307,68 @@ function PreEngineeredBuildings() {
                 </div>
               </div>
             </div>
+            <div className="homeInfoSet mobile">
+              <div className="homeInfoSetImg">
+                <img src={IMG6}></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Warehouse</sub>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio tpat lacinia etiam porta sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="homeInfoSet mobile">
+              <div className="homeInfoSetImg">
+                <img src={IMG9}></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Industrial Shed</sub>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio tpat lacinia etiam porta sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="homeInfoSet mobile">
+              <div className="homeInfoSetImg">
+                <img src={IMG3}></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Factory Building</sub>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio tpat lacinia etiam porta sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="homeInfoSet mobile">
+              <div className="homeInfoSetImg">
+                <img src={IMG8}></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Industrial Enclosures</sub>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
+                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
+                    id interdum viverra odio tpat lacinia etiam porta sed.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="homeInfoSetContainer">
+          <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img src={IMG6}></img>
@@ -343,7 +400,7 @@ function PreEngineeredBuildings() {
               </div>
             </div>
           </div>
-          <div className="homeInfoSetContainer">
+          <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img src={IMG3}></img>
@@ -454,6 +511,7 @@ function PreEngineeredBuildings() {
               High Rise
               <br /> Steel Buildings Products
             </sub>
+            <img src={IMG1} className="mobile"></img>
             <p>
               Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
               felis tempor tellus. Aenean enim aliquet massa feugiat erat
@@ -524,7 +582,7 @@ function PreEngineeredBuildings() {
             </div>
           </div>
         </div>
-        <img src={IMG1}></img>
+        <img src={IMG1} className="notMobile"></img>
       </div>
       <div className="homeBrochure">
         <Brochure />
