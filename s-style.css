@@ -1810,7 +1810,7 @@
   .activeMobileNavbar {
     transform: translateX(0);
     animation: slideIn 0.3s forwards;
-    box-shadow: -200px 0 200px 50px rgba(0, 0, 0, 0.7);
+    box-shadow: -200px 0 200px 50px rgba(0, 0, 0, 0.1);
   }
 
   .nonactiveMobileNavbar {
@@ -2879,11 +2879,15 @@
 
   .bannerDownDiv .heading {
     gap: 32px;
+    align-items: center;
+  }
+
+  .about .bannerDownDiv .heading p {
+    width: 100%;
   }
 
   .bannerDownDiv .heading img {
-    width: 93.686px;
-    height: 80px;
+    width: 80%;
   }
 
   .aboutMarquee {
@@ -2925,8 +2929,79 @@
     line-height: 20px; /* 125% */
   }
 
-  .aisc{
+  .aisc {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
+
+  /* Contact Page */
+
+  .brochure .homeInfoDetails {
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 48px;
+  }
+
+  .brochure .s-banner-wrapper {
+    position: relative; /* Ensure the wrapper is positioned for the pseudo-element to work properly */
+    transform: translateY(0);
+  }
+
+  .brochure .s-banner-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: linear-gradient(
+      93deg,
+      #fff 73.78%,
+      rgba(255, 255, 255, 0.6) 97.48%
+    );
+    z-index: 1; /* Ensure it sits on top of the wrapper content */
+    pointer-events: none; /* Allows clicking through the overlay */
+  }
+
+  .brochure .s-banner-marquee-set {
+    width: auto;
+    padding-left: 8px;
+  }
+
+  .brochure .s-banner-marquee img {
+    width: 130.207px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .brochure .p-our-brochure-container {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .brochure .p-download-label p {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* XXL/Semibold */
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .brochure .p-subtext-div p {
+    color: var(--Grey-Text-Primary, #757575);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* S/Regular */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
 }

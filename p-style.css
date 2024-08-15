@@ -280,8 +280,8 @@ input:is(:focus, :valid) + .placeholder {
   top: 12px;
 }
 
-.p-submit button{
-   width: 194px;
+.p-submit button {
+  width: 194px;
   border-radius: 4px;
   background: var(--Dark-Blue-Primary, #0b2a41);
   display: flex;
@@ -302,7 +302,7 @@ input:is(:focus, :valid) + .placeholder {
   text-decoration: none;
 }
 
-.p-submit button:hover{
+.p-submit button:hover {
   background: var(--Dark-Blue-Primary-hover, #0d85de);
   border: none;
 }
@@ -627,7 +627,7 @@ input:is(:focus, :valid) + .placeholder {
   }
 
   .p-brochure-main {
-    padding: 41px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     flex-direction: column;
     gap: 48px;
   }
@@ -715,5 +715,24 @@ input:is(:focus, :valid) + .placeholder {
     height: 80px;
     display: block;
     border-radius: 4px;
+  }
+
+  .p-submit a {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--White-BG, #FFF);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* M/Semibold */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
   }
 }
