@@ -35,7 +35,7 @@ const Brochure = () => {
           <ImageSlider />
           <HorizontalSlider />
         </div>
-        <div className="homeInfoDetails">
+        <div className="homeInfoDetails mobile">
           <div className="s-banner-wrapper">
             <div className="s-banner-marquee">
               <div className="s-banner-marquee-set">
