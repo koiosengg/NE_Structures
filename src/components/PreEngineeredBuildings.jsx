@@ -9,6 +9,12 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
+import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg"
+import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp"
+import ProductImg4 from "../assets/PEB/Industrial-Shed-Manufacturer NE Structures.webp"
+import ProductImg5 from "../assets/PEB/factory shed manufacturers ne structures.webp"
+import ProductImg6 from "../assets/PEB/industrial closure manufacturers NE Structures.webp"
 import Leading from "../assets/HomeBanner/Leading.png";
 import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import Advantages from "../assets/HomeBanner/Advantages.png";
@@ -275,7 +281,7 @@ function PreEngineeredBuildings() {
           <div className="homeInfoSetContainer">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG1}></img>
+                <img src={ProductImg1}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -292,7 +298,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG5}></img>
+                <img src={ProductImg2}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -309,7 +315,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
-                <img src={IMG6}></img>
+                <img src={ProductImg3}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -324,7 +330,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
-                <img src={IMG9}></img>
+                <img src={ProductImg4}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -339,7 +345,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
-                <img src={IMG3}></img>
+                <img src={ProductImg5}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -354,7 +360,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
-                <img src={IMG8}></img>
+                <img src={ProductImg6}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -371,7 +377,7 @@ function PreEngineeredBuildings() {
           <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG6}></img>
+                <img src={ProductImg3}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -386,7 +392,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG9}></img>
+                <img src={ProductImg4}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -403,7 +409,7 @@ function PreEngineeredBuildings() {
           <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG3}></img>
+                <img src={ProductImg5}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -418,7 +424,7 @@ function PreEngineeredBuildings() {
             </div>
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG8}></img>
+                <img src={ProductImg6}></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
