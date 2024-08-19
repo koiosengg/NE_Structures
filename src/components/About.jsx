@@ -11,7 +11,8 @@ import LogoVector from "../assets/AboutIMG/LogoVector.png";
 import Staad from "../assets/AboutIMG/Staad.png";
 import Tekla from "../assets/AboutIMG/Tekla.png";
 import VissionIMG from "../assets/AboutIMG/VissionIMG.jpg";
-import Brochure from "./Brochure";
+import ImageSlider from "./ImageSlider";
+import HorizontalSlider from "./HorizontalSlider";
 
 function About() {
   return (
@@ -21,13 +22,14 @@ function About() {
           <sub>ABOUT US</sub>
           <div className="heading">
             <p>
-              Leading the Future of <span>Technology</span> and{" "}
+              Leading the Future of <br></br> <span>Engineering</span> and
               <span>Innovation</span>
             </p>
             <sub>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio
+              NE Structures has become a trusted leader in steel construction.
+              Our unwavering commitment to quality, innovation, and client
+              satisfaction drives us to build stronger, smarter, and more
+              sustainable structures.
             </sub>
           </div>
         </div>
@@ -55,21 +57,21 @@ function About() {
       <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
-            Our Journey and <br /> Values
+            Our Journey and <br />
+            <span> Values</span>
           </p>
           <img src={LogoVector}></img>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>Our Commitment to Excellence</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              NE Structures is a pre-engineered steel buildings manufacturing
+              company. Company founded and headed by 30+ years of experience.
+              Our Structural design team having worked across the various types
+              of projects around the world building best of the pre-engineered
+              buildings. We design the steel structures considering various
+              impact loads, dead load, live load, collateral and seismic loads.
             </p>
           </div>
           <div className="s-right">
@@ -84,20 +86,18 @@ function About() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Visionary <br /> Future Ahead
+            Visionary <br /> <span>Future Ahead</span>
           </p>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>Shaping the Future of Steel Construction</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              NE Structures aims to revolutionize steel construction with
+              cutting-edge, sustainable solutions. We envision setting industry
+              benchmarks in quality and innovation, creating durable, efficient
+              structures that exceed client expectations and positively impact
+              the communities we serve.
             </p>
           </div>
           <div className="s-right">
@@ -108,15 +108,16 @@ function About() {
       <div className="homeInfoContainer aboutMarquee">
         <div className="heading">
           <p>
-            Robust Infrastructure <br /> Solutions
+            State-of-the-Art
+            <br /> <span>Facilities</span>
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            Explore our advanced infrastructure and cutting-edge machinery.
+            Discover where precision and quality come together to create
+            exceptional steel structures.
           </span>
         </div>
-        <div className="homeInfoDetails">
+        <div className="homeInfoDetails aboutGallery">
           <div className="s-banner-wrapper">
             <div className="s-banner-marquee">
               <div className="s-banner-marquee-set">
@@ -262,9 +263,10 @@ function About() {
             <br /> Premier Industry Standards
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            We adhere to industry-leading design standards, ensuring every
+            structure we build meets the highest levels of quality and
+            safety.Our commitment to excellence guarantees reliable, enduring
+            solutions for all your construction needs.
           </span>
         </div>
         <div className="homeInfoDetails aisc">
@@ -273,33 +275,166 @@ function About() {
             <p>American Welding Society for Welding standards and Process.</p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>AISC</sub>
+            <sub>AISI </sub>
+            <p>American Iron and Steel Institute.</p>
+          </div>
+          <div className="homeInfoDetailSet">
+            <sub>MBMA</sub>
+            <p>Metal Building Manufactures Association.</p>
+          </div>
+          <div className="homeInfoDetailSet">
+            <sub>AWS</sub>
             <p>American Welding Society for Welding standards and Process.</p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>AISC</sub>
-            <p>American Welding Society for Welding standards and Process.</p>
+            <sub>IS 875 Part 1~5</sub>
+            <p>
+              General Loads & Wind load calculations and Applications in India.
+            </p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>AISC</sub>
-            <p>American Welding Society for Welding standards and Process.</p>
+            <sub>IS 1893</sub>
+            <p>Indian Code of Practice for Seismic Loads & Design.</p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>AISC</sub>
-            <p>American Welding Society for Welding standards and Process.</p>
+            <sub>IS 816</sub>
+            <p> Indian Code for Welding Standards.</p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>AISC</sub>
-            <p>American Welding Society for Welding standards and Process.</p>
-          </div>
-          <div className="homeInfoDetailSet">
-            <sub>AISC</sub>
-            <p>American Welding Society for Welding standards and Process.</p>
+            <sub>IS 800-2007</sub>
+            <p> Indian Code of Practice for General Steel Construction.</p>
           </div>
         </div>
       </div>
       <div className="homeBrochure">
-        <Brochure />
+        <div className="product brochure">
+          <div className="p-brochure-main">
+            <div className="p-our-brochure-container">
+              <div className="p-download-label">
+                <p>Ready to Explore?</p>
+              </div>
+              <div className="p-subtext-div">
+                <p>
+                  Uncover the details of our projects and services. Download our
+                  brochure for a comprehensive guide to what we offer.
+                </p>
+                <div className="p-submit">
+                  <a>Download Brochure</a>
+                </div>
+              </div>
+            </div>
+            <div className="p-image-gallery-container notMobile">
+              <ImageSlider />
+              <HorizontalSlider />
+            </div>
+            <div className="homeInfoDetails mobile">
+              <div className="s-banner-wrapper">
+                <div className="s-banner-marquee">
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                </div>
+              </div>
+              <div className="s-banner-wrapper reverse-marquee">
+                <div className="s-banner-marquee">
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

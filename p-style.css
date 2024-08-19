@@ -353,7 +353,6 @@ input:is(:focus, :valid) + .placeholder {
   display: flex;
   width: 60%;
   flex-direction: row;
-  opacity: 0.5;
   background: linear-gradient(90deg, #fff 73.7%, rgba(255, 255, 255, 0) 100%);
 }
 
@@ -422,6 +421,7 @@ input:is(:focus, :valid) + .placeholder {
 .p-gallery-slider {
   display: flex;
   gap: 20px;
+  opacity: 0.5;
   background: linear-gradient(90deg, #fff 73.7%, rgba(255, 255, 255, 0) 100%);
 }
 
@@ -719,7 +719,6 @@ input:is(:focus, :valid) + .placeholder {
 
   .p-submit a {
     display: flex;
-    width: 180px;
     height: 40px;
     padding: 8px 16px;
     justify-content: center;

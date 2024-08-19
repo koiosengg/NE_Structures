@@ -498,6 +498,16 @@
   line-height: normal;
 }
 
+.homeInfoContainer .heading p span{
+color: var(--Black-Text-Primary, #111);
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+
 .homeInfoContainer .heading span {
   width: 574px;
   flex-shrink: 0;
@@ -1731,6 +1741,10 @@
 
 /* about */
 
+.about .homeBannerContent{
+  width: 850px;
+}
+
 .aboutMarquee {
   padding: 80px 0px;
 }
@@ -1742,6 +1756,11 @@
 .aboutMarquee .homeInfoDetails {
   flex-direction: column;
   gap: 48px;
+  width: 100%;
+}
+
+.about .aboutGallery .s-banner-wrapper{
+transform: translateY(0);
 }
 
 /* Responsive */

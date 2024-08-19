@@ -26,12 +26,12 @@ function Contact() {
                 </div>
                 <div className="p-get-in-touch">
                   <h1>
-                    Let’s Get In <span> Touch </span>{" "}
+                    Connect. <span> Build. </span> Excel
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio
+                    Reach out to us with your project details, and our team will
+                    respond within 24 hours to help you achieve excellence in
+                    every structure.
                   </p>
                 </div>
               </div>

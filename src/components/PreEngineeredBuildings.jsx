@@ -8,7 +8,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.jpg";
 import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
 import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
 import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg"
 import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp"
@@ -20,7 +19,9 @@ import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import ProductGalleryPEB from "./ProductGalleryPEB";
-import Brochure from "./Brochure";
+
+import ImageSlider from "./ImageSlider";
+import HorizontalSlider from "./HorizontalSlider";
 
 function PreEngineeredBuildings() {
   return (
@@ -591,7 +592,135 @@ function PreEngineeredBuildings() {
         <img src={IMG1} className="notMobile"></img>
       </div>
       <div className="homeBrochure">
-        <Brochure />
+        <div className="product brochure">
+          <div className="p-brochure-main">
+            <div className="p-our-brochure-container">
+              <div className="p-download-label">
+                <p>In-Depth about PEB?</p>
+              </div>
+              <div className="p-subtext-div">
+                <p>
+                  Explore our advanced BIM and Pre-Engineered Building services.
+                  Download the brochure to see how we can streamline your
+                  project.
+                </p>
+                <div className="p-submit">
+                  <a>Download Brochure</a>
+                </div>
+              </div>
+            </div>
+            <div className="p-image-gallery-container notMobile">
+              <ImageSlider />
+              <HorizontalSlider />
+            </div>
+            <div className="homeInfoDetails mobile">
+              <div className="s-banner-wrapper">
+                <div className="s-banner-marquee">
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                </div>
+              </div>
+              <div className="s-banner-wrapper reverse-marquee">
+                <div className="s-banner-marquee">
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

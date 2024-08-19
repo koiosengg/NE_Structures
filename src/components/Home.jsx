@@ -22,7 +22,8 @@ import FourBaysImage from "../assets/HomeBanner/FourBaysImage.png";
 import MultiGableImage from "../assets/HomeBanner/MultiGableImage.png";
 import SingleSlopeImage from "../assets/HomeBanner/SingleSlopeImage.png";
 import HomeGallery from "./HomeGallery";
-import Brochure from "./Brochure";
+import ImageSlider from "./ImageSlider";
+import HorizontalSlider from "./HorizontalSlider";
 
 function Home() {
   const [activeOption, setActiveOption] = useState("Clear Span");
@@ -83,12 +84,14 @@ function Home() {
         <div className="homeBannerContent">
           <div className="heading">
             <p>
-              Tailored Aircraft Shelters for <span>Superior Protection</span>
+              Tailored Engineering for <br />
+              <span> Superior Structures </span>
             </p>
             <sub>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio
+              At NE Structures, we specialize in Pre-Engineered Buildings (PED),
+              Building Information Modeling (BIM), Steel Engineering Structures
+              (SES), and High-Rise Steel Structures. Partner with us for
+              innovative, reliable solutions that stand the test of time.
             </sub>
             <div className="bannerButton">
               <Link to="/about">
@@ -152,15 +155,17 @@ function Home() {
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>NE Structures</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              NE Structures is a premier provider of pre-engineered steel
+              building solutions, offering comprehensive services that span
+              design, manufacturing, logistics, supply, and project execution.
+              With our state-of-the-art manufacturing facility located in
+              Bangalore, we deliver custom solutions tailored to meet diverse
+              client needs and industry standards. Our expertise extends across
+              a wide range of applications, including warehouses, factories,
+              aircraft hangars, cold storage facilities, workshops, sports
+              halls....
             </p>
             <div className="navbarContact">
               <Link to="/about">
@@ -227,13 +232,13 @@ function Home() {
       <div className="homeInfoContainer" style={{ alignItems: "center" }}>
         <div className="heading">
           <p>
-            Adhering to
-            <br /> Premier Industry Standards
+            Advantages Of <br /> NE Structures as your Partner
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            When you partner with the best, you get tailored steel solutions,
+            designed for efficiency, durability, and cost-effectiveness. NE
+            Structures combines innovation with expertise to deliver superior
+            results for every project.
           </span>
         </div>
         <div className="homeInfoDetails advantages">
@@ -322,13 +327,13 @@ function Home() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Innovative <br />
-            Aircraft Shelters
+            Delivering
+            <br /> Innovative Structures
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            Explore our products and services, from design to execution, we
+            deliver comprehensive solutions that are expertly engineered to meet
+            your unique construction need.
           </span>
         </div>
         <div
@@ -345,9 +350,10 @@ function Home() {
                 <div className="heading">
                   <sub>Pre Engineered Building</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    NE Structures Pre-Engineered Buildings are designed,
+                    fabricated & commissioned matching exact customer’s
+                    requirement satisfying all the aspects involved, ensuring it
+                    serves to best of its design extent.
                   </p>
                 </div>
                 <div className="navbarContact">
@@ -416,9 +422,11 @@ function Home() {
                 <div className="heading">
                   <sub>High Raise Steel Structures </sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    NE Structures High-Rise Steel Structures offer unmatched
+                    strength and flexibility, designed to support the most
+                    ambitious architectural visions. Built for durability and
+                    safety, these structures are engineered to stand tall in any
+                    skyline.
                   </p>
                 </div>
                 <div className="navbarContact">
@@ -729,7 +737,135 @@ function Home() {
       </div>
       <HomeGallery ref={galleryRef} />
       <div className="homeBrochure">
-        <Brochure />
+        <div className="product brochure">
+          <div className="p-brochure-main">
+            <div className="p-our-brochure-container">
+              <div className="p-download-label">
+                <p>Want to Know More?</p>
+              </div>
+              <div className="p-subtext-div">
+                <p>
+                  Get the full story on our projects and services. Download our
+                  brochure for a detailed overview of how we can support your
+                  next build.
+                </p>
+                <div className="p-submit">
+                  <a>Download Brochure</a>
+                </div>
+              </div>
+            </div>
+            <div className="p-image-gallery-container notMobile">
+              <ImageSlider />
+              <HorizontalSlider />
+            </div>
+            <div className="homeInfoDetails mobile">
+              <div className="s-banner-wrapper">
+                <div className="s-banner-marquee">
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                </div>
+              </div>
+              <div className="s-banner-wrapper reverse-marquee">
+                <div className="s-banner-marquee">
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={IMG8} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -16,18 +16,16 @@ const Brochure = () => {
       <div className="p-brochure-main">
         <div className="p-our-brochure-container">
           <div className="p-download-label">
-            <p>
-              Download Our <br /> Brochures
-            </p>
+            <p>Curious About Us?</p>
           </div>
           <div className="p-subtext-div">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non{" "}
+              Want to dive deeper into our projects and services? Download our
+              brochure for an in-depth look at how we can bring your vision to
+              life.
             </p>
             <div className="p-submit">
-              <a>Download Now</a>
+              <a>Download Brochure</a>
             </div>
           </div>
         </div>
