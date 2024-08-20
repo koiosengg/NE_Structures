@@ -20,13 +20,13 @@ function StructuralEngineeringServices() {
           <sub>STRUCTURAL ENGINEERING SERVICES</sub>
           <div className="heading">
             <p>
-              Building the Future with <br></br>
-              <span>Precision and Excellence</span>
+              <span>Engineering Excellence </span> <br></br>In Every Steel
+              Structure
             </p>
             <sub>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio
+              Our SES combine precision, innovation, and expertise to create
+              robust, reliable solutions for your structural detailing, PEB, PEB
+              and conceptual design.
             </sub>
           </div>
         </div>

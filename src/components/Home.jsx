@@ -85,10 +85,10 @@ function Home() {
           <div className="heading">
             <p>
               Tailored Engineering for <br />
-              <span> Superior Structures </span>
+              <span>Superior Structures </span>
             </p>
             <sub>
-              At NE Structures, we specialize in Pre-Engineered Buildings (PED),
+              At NE Structures, we specialize in Pre-Engineered Buildings (PEB),
               Building Information Modeling (BIM), Steel Engineering Structures
               (SES), and High-Rise Steel Structures. Partner with us for
               innovative, reliable solutions that stand the test of time.
