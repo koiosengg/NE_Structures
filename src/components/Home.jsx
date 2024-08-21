@@ -232,7 +232,8 @@ function Home() {
       <div className="homeInfoContainer" style={{ alignItems: "center" }}>
         <div className="heading">
           <p>
-            Advantages Of <br /> NE Structures as your Partner
+            Advantages Of
+            <br /> NE Structures as Your Partner
           </p>
           <span>
             When you partner with the best, you get tailored steel solutions,
@@ -320,9 +321,17 @@ function Home() {
           </picture>
         </div>
       </div>
-      <div className="homeInfoLogoContainer">
-        <img src={Staad}></img>
-        <img src={Tekla}></img>
+      <div className="homeInfoContainer">
+        <div className="heading">
+          <p>
+            {" "}
+            <span>Softwares</span> That Empower Us
+          </p>
+        </div>
+        <div className="homeInfoLogoContainer">
+          <img src={Staad}></img>
+          <img src={Tekla}></img>
+        </div>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
@@ -569,9 +578,10 @@ function Home() {
                 <div className="heading">
                   <sub>Building Information Modelling</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    NE Structures' Building Information Modeling services
+                    streamline your project with accurate 3D models, enhancing
+                    design coordination and reducing errors. Experience smarter,
+                    more efficient construction from start to finish.
                   </p>
                 </div>
                 <div className="navbarContact">

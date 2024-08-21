@@ -505,7 +505,6 @@ font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-letter-spacing: -1.2px;
 }
 
 .homeInfoContainer .heading span {
@@ -976,11 +975,11 @@ letter-spacing: -1.2px;
 
 .homeInfoLogoContainer {
   width: 100%;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 140px;
-  padding: 80px 160px;
 }
 
 .homeInfoLogoContainer img{
@@ -2016,6 +2015,10 @@ transform: translateY(0);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+  .homeInfoContainer .heading p span{
+    font-size: 24px;
   }
 
   .homeInfoContainer .heading span {
