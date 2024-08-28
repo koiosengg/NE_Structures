@@ -94,7 +94,7 @@ function Footer() {
             <Link to="/">Home</Link>
             <Link to="/">About Us</Link>
             <Link to="/">Contact</Link>
-            <Link to="/">Customer Support</Link>
+            <Link to="/">Location</Link>
           </div>
           <div className="footerColumnSet">
             <p className="heading">Services</p>
@@ -174,7 +174,7 @@ function Footer() {
             <Link to="/">Home</Link>
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact</Link>
-            <Link to="/contact">Customer Support</Link>
+            <Link to="/contact">Location</Link>
             <Link to=""></Link>
           </div>
           <div className="mobileFooterLinkSet">

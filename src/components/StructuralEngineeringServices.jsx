@@ -54,20 +54,24 @@ function StructuralEngineeringServices() {
       <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
-            Our Journey and <br /> Values
+            Expert SES Design – <span>Precision Engineering </span> <br /> That
+            Makes Projects Shine.
           </p>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>What are Structural Engineering Services?</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              Structural Engineering services involve designing and analyzing
+              the structural framework of buildings and infrastructure to ensure
+              safety, stability, and functionality. <br />
+              <br /> This process includes detailed load analysis, material
+              selection, and connection design, using advanced software for
+              precise modeling and simulations. <br />
+              <br />
+              Examples include designing high-rise buildings, optimizing
+              industrial structures, and ensuring the integrity of bridges and
+              other critical infrastructure projects.
             </p>
           </div>
           <div className="s-right">
@@ -89,13 +93,14 @@ function StructuralEngineeringServices() {
                   <img src={IMG4}></img>
                 </div>
                 <p>
-                  Pennar offers a quick, error – free complete line of detailing
-                  services using the latest version of Tekla Software, XDS and
-                  AutoCAD. We understand and visualize the complexity of
-                  projects, specific real-time fabrication issues, and adopt in
-                  detailing of shop & GA drawings to enhance the efficacy of the
-                  project managers/fabricators to complete the projects
-                  successfully within the scheduled time.
+                  NE Structures provides a fast, accurate range of detailing
+                  services using the latest versions of Tekla Software, XDS, and
+                  AutoCAD. Our expertise allows us to fully understand and
+                  visualize the complexities of each project, including
+                  real-time fabrication challenges. We incorporate these
+                  insights into our detailing of shop and GA drawings, enhancing
+                  the efficiency of project managers and fabricators, ensuring
+                  that projects are completed successfully and on schedule.
                 </p>
               </div>
               <div className="ourServicesList">
@@ -524,13 +529,15 @@ function StructuralEngineeringServices() {
                   <img src={IMG9}></img>
                 </div>
                 <p>
-                  Pennar offers a quick, error – free complete line of detailing
-                  services using the latest version of Tekla Software, XDS and
-                  AutoCAD. We understand and visualize the complexity of
-                  projects, specific real-time fabrication issues, and adopt in
-                  detailing of shop & GA drawings to enhance the efficacy of the
-                  project managers/fabricators to complete the projects
-                  successfully within the scheduled time.
+                  NE Structures specializes in the Design and Detailing of
+                  Pre-Engineered Buildings, ensuring high-quality detailing
+                  drawings for all our clients. Our experienced team of
+                  detailers and checkers is adept at managing complex PEB
+                  projects, fully versed in international standards such as ASD,
+                  LRFD, AISI, and MBMA. <br /> <br /> Our engineering services
+                  also include comprehensive connection design and miscellaneous
+                  design projects, including stairs, handrails, ladders, and
+                  more, all tailored to meet the highest industry standards.
                 </p>
               </div>
               <div className="ourServicesList">
@@ -721,10 +728,15 @@ function StructuralEngineeringServices() {
                   <img src={IMG7}></img>
                 </div>
                 <p>
-                  Pennar Offers Design of Pre Engineered steel Buildings with
-                  AISC, MBMA, AISI, AWS, ASD and LRFD standards and practices.
-                  Pennar can design, detail, PEB of simple to complex buildings
-                  by using Software’s like Staad Pro, MBS and EDS etc.
+                  NE Structures offers expert design services for Pre-Engineered
+                  Steel Buildings, adhering to industry standards such as AISC,
+                  MBMA, AISI, AWS, ASD, and LRFD. <br /> <br /> We specialize in
+                  designing and detailing PEBs, from simple warehouses to
+                  complex industrial plants and commercial structures, utilizing
+                  advanced software like STAAD Pro, MBS, and EDS.
+                  <br /> <br /> Our commitment to precision and efficiency
+                  ensures that every project meets global standards and exceeds
+                  client expectations.
                 </p>
               </div>
             </div>
@@ -735,15 +747,19 @@ function StructuralEngineeringServices() {
           <div className="ourServicesSet">
             <div className="ourServicesInfo">
               <div className="heading">
-                <sub>PEB Design</sub>
+                <sub>Connection Design</sub>
                 <div className="ourServicesImg mobile">
                   <img src={IMG9}></img>
                 </div>
                 <p>
-                  Pennar Offers Design of Pre Engineered steel Buildings with
-                  AISC, MBMA, AISI, AWS, ASD and LRFD standards and practices.
-                  Pennar can design, detail, PEB of simple to complex buildings
-                  by using Software’s like Staad Pro, MBS and EDS etc.
+                  NE Structures provides comprehensive structural steel
+                  connection design and engineering support, delivering detailed
+                  drawings for a wide range of projects worldwide. <br />
+                  <br /> From high-rise commercial buildings to industrial
+                  facilities and large-scale infrastructure projects, our
+                  expertise ensures that every connection is designed for
+                  maximum strength and reliability, meeting global standards and
+                  client needs.
                 </p>
               </div>
             </div>
@@ -762,16 +778,19 @@ function StructuralEngineeringServices() {
               Building information <br /> Modelling Services
             </sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor Lorem ipsum dolor sit amet consectetur.
-              Dignissim lectus nulla felis tempor tellus.
+              Streamline your projects with NE Structures’ Building Information
+              Modeling services. From intricate structural designs to MEP
+              coordination, we deliver precision and efficiency in every phase.
+              Ensure seamless execution and superior outcomes with our
+              cutting-edge BIM expertise.
             </p>
           </div>
           <div className="homeInfoContainer" style={{ padding: "0" }}>
             <div className="navbarContact">
-              <Link to="/about" style={{ background: "transparent" }}>
+              <Link
+                to="/BuildingInformationModelling"
+                style={{ background: "transparent" }}
+              >
                 <p>Explore Now</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

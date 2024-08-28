@@ -140,11 +140,11 @@ function HighRiseSteelStructures() {
                 </clipPath>
               </defs>
             </svg>
-            <sub>Unmatched Quality</sub>
+            <sub>Customized Design</sub>
           </div>
           <p>
-            Our pre-engineered buildings use top-quality materials for unmatched
-            durability and performance in all conditions.
+            Get personalized solutions from our NE Structures team, perfectly
+            matching your needs and vision.
           </p>
         </div>
         <div className="productFeatureSet">
@@ -164,11 +164,11 @@ function HighRiseSteelStructures() {
                 strokeLinejoin="round"
               />
             </svg>
-            <sub>Customized Solutions</sub>
+            <sub>Superior Integrity</sub>
           </div>
           <p>
-            Our team of experts works closely with clients to design and develop
-            tailor-made building solutions.
+            Rely on NE Structures team of experts for strong, safe buildings
+            crafted with high-quality, durable materials.
           </p>
         </div>
         <div className="productFeatureSet">
@@ -185,32 +185,34 @@ function HighRiseSteelStructures() {
                 fill="#0D85DE"
               />
             </svg>
-            <sub>Customer Satisfaction</sub>
+            <sub>Efficient Delivery</sub>
           </div>
           <p>
-            Our commitment to excellence and customer satisfaction shines
-            through our extensive portfolio and positive client feedback.
+            Enjoy fast, cost-effective project completion with outstanding
+            results and dedicated service from our efficient and dedicated team.
           </p>
         </div>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Lorem Ipsum Dolor
-            <br /> Sitor
+            High-Rise Steel Solutions –<br />{" "}
+            <span>Strong, Innovative Designs</span> for Your Dream Building.
           </p>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>What are High-Rise structures?</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              High-Rise Steel Structures are engineered to support tall
+              buildings using steel frameworks that offer strength and
+              flexibility. <br />
+              <br /> The process involves designing robust frameworks, load
+              analysis, and precise detailing to ensure stability and safety.
+              <br />
+              <br /> Examples include skyscrapers, office towers, and
+              multi-story residential buildings, where steel structures provide
+              durability and efficient use of space.
             </p>
           </div>
           <div className="s-right">
@@ -370,11 +372,10 @@ function HighRiseSteelStructures() {
             </sub>
             <img src={IMG1} className="mobile"></img>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor Lorem ipsum dolor sit amet consectetur.
-              Dignissim lectus nulla felis tempor tellus.
+              Optimize your projects with our Pre-Engineered Buildings (PEB),
+              designed for efficiency and cost-effectiveness. From warehouses to
+              manufacturing facilities, our customizable steel structures offer
+              rapid construction and durable performance tailored to your needs.
             </p>
           </div>
           <div className="homeInfoContainer" style={{ padding: "0" }}>
@@ -450,8 +451,8 @@ function HighRiseSteelStructures() {
               </div>
               <div className="p-subtext-div">
                 <p>
-                  Learn how we excel in BIM and Pre-Engineered Buildings. Get our
-                  brochure for an in-depth look at our innovative solutions.
+                  Learn how we excel in BIM and Pre-Engineered Buildings. Get
+                  our brochure for an in-depth look at our innovative solutions.
                 </p>
                 <div className="p-submit">
                   <a>Download Brochure</a>

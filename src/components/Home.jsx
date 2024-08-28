@@ -24,6 +24,7 @@ import SingleSlopeImage from "../assets/HomeBanner/SingleSlopeImage.png";
 import HomeGallery from "./HomeGallery";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
+import FAQ from "./FAQ";
 
 function Home() {
   const [activeOption, setActiveOption] = useState("Clear Span");
@@ -33,41 +34,136 @@ function Home() {
       galleryRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+
   const options = [
     {
       name: "Clear Span",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Clear Span frames offer unobstructed space, making them ideal for
+          environments where open areas are crucial, such as airplane hangars.
+          <br />
+          <br />
+          <span>How It’s Made: </span>These frames are constructed with
+          precision-engineered steel, ensuring maximum durability and stability
+          without internal columns.
+          <br /> <br />
+          <span>Examples: </span>Commonly used in{" "}
+          <span className="bold">
+            airplane hangars,sports arenas, large warehouses,
+          </span>{" "}
+          and
+          <span className="bold"> industrial facilities</span> requiring
+          expansive, open layouts.
+        </>
+      ),
       image: ClearSpanImage,
     },
     {
       name: "Double Bay, Single Ridge",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Double Bay, Single Ridge frames are the most common frame type,
+          designed to accommodate greater widths with minimal interior columns.
+          <br />
+          <br />
+          <span>How It’s Made: </span>These frames utilize strategically placed
+          steel beams to maximize space while maintaining structural integrity,
+          reducing the need for multiple internal supports.
+          <br /> <br />
+          <span>Examples: </span>Commonly used in{" "}
+          <span className="bold">
+            large manufacturing plants, distribution centers,
+          </span>{" "}
+          and
+          <span className="bold"> commercial buildings </span>where expansive
+          floor space is essential.
+        </>
+      ),
       image: DoubleBayImage,
     },
     {
       name: "Triple Bay, Single Ridge",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Triple Bay, Single Ridge frames offer expansive widths with additional
+          bays, providing extensive open space for industrial operations.
+          <br />
+          <br />
+          <span>How It’s Made: </span> This frame type is designed with multiple
+          steel bays and a single ridge, allowing for the integration of cranes
+          to facilitate the movement of heavy objects.
+          <br /> <br />
+          <span>Examples: </span>Ideal for and
+          <span className="bold"> factories</span> and
+          <span className="bold"> warehouses</span> where cranes are used for
+          lifting and transporting heavy materials across large areas.
+        </>
+      ),
       image: TripleBayImage,
     },
     {
       name: "Four Bays, Single Ridge",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Four Bays, Single Ridge frames offer expansive space with additional
+          bays, enhancing the versatility of the structure.
+          <br />
+          <br />
+          <span>How It’s Made: </span> These frames are designed to support
+          mezzanine structures, which add extra space within the building for
+          various uses.
+          <br /> <br />
+          <span>Examples: </span> Commonly used in
+          <span className="bold"> warehouses, factories,</span> and
+          <span className="bold"> commercial buildings</span> where additional
+          space for storage, office areas, or workstations is required.
+        </>
+      ),
       image: FourBaysImage,
     },
     {
       name: "Multi Gable",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Multi-Gable structures are designed to provide wider spans across a
+          building without significantly increasing its height.
+          <br />
+          <br />
+          <span>How It’s Made: </span> This structure type uses multiple gable
+          roofs, allowing for broader coverage and efficient space utilization
+          without the need for taller frames.
+          <br /> <br />
+          <span>Examples: </span> Ideal for
+          <span className="bold"> large commercial buildings, warehouses,</span>
+          and
+          <span className="bold"> industrial facilities</span> where expansive
+          horizontal space is needed without a substantial increase in building
+          height.
+        </>
+      ),
       image: MultiGableImage,
     },
     {
       name: "Single Slope",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Single Slope structures, also known as Monoslope, are primarily used
+          for smaller spans, providing a slanted roof that efficiently manages
+          water runoff.
+          <br />
+          <br />
+          <span>How It’s Made: </span> These structures feature a single-sloped
+          roof, ideal for smaller spaces, offering simple yet effective coverage
+          with minimal materials.
+          <br /> <br />
+          <span>Examples: </span> Commonly used in
+          <span className="bold"> parking sheds, storage units, </span>
+          and
+          <span className="bold"> small industrial facilities</span> where
+          compact and efficient shelter is required.
+        </>
+      ),
       image: SingleSlopeImage,
     },
   ];
@@ -507,9 +603,10 @@ function Home() {
                 <div className="heading">
                   <sub>Structural Engineering Services</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    NE Structures’ Structural Engineering services provide
+                    robust, innovative solutions tailored to ensure safety,
+                    stability, and efficiency in every project. We turn complex
+                    challenges into enduring structures built to last.
                   </p>
                 </div>
                 <div className="navbarContact">
@@ -736,8 +833,8 @@ function Home() {
           </div>
           <div className="optionsInfoContainer">
             <div className="s-left">
-              <sub>{activeContent.name}</sub>
-              <p>{activeContent.content}</p>
+              <h3>{activeContent.name}</h3>
+              <div className="divInfo">{activeContent.content}</div>
             </div>
             <div className="s-right">
               <img src={activeContent.image} alt={activeContent.name} />
@@ -746,6 +843,7 @@ function Home() {
         </div>
       </div>
       <HomeGallery ref={galleryRef} />
+      <FAQ/>
       <div className="homeBrochure">
         <div className="product brochure">
           <div className="p-brochure-main">

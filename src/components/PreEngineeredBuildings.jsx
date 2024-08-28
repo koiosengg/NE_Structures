@@ -9,11 +9,11 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
-import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg"
-import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp"
-import ProductImg4 from "../assets/PEB/Industrial-Shed-Manufacturer NE Structures.webp"
-import ProductImg5 from "../assets/PEB/factory shed manufacturers ne structures.webp"
-import ProductImg6 from "../assets/PEB/industrial closure manufacturers NE Structures.webp"
+import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg";
+import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp";
+import ProductImg4 from "../assets/PEB/Industrial-Shed-Manufacturer NE Structures.webp";
+import ProductImg5 from "../assets/PEB/factory shed manufacturers ne structures.webp";
+import ProductImg6 from "../assets/PEB/industrial closure manufacturers NE Structures.webp";
 import Leading from "../assets/HomeBanner/Leading.png";
 import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import Advantages from "../assets/HomeBanner/Advantages.png";
@@ -141,21 +141,21 @@ function PreEngineeredBuildings() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Lorem Ipsum Dolor
-            <br /> Sitor
+            Efficient PEB Solutions – <br />
+            <span>Reliable, Custom-Built </span> for Your Success.
           </p>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>What are PEBs?</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              Pre-Engineered Buildings (PEBs) are custom-designed structures
+              created using factory-fabricated components, tailored for
+              efficiency and rapid assembly. <br /> <br /> The process involves
+              precise engineering and detailing to ensure optimal performance
+              and cost-effectiveness. <br /> <br /> Examples include warehouses,
+              industrial facilities, and commercial buildings, where PEBs offer
+              flexibility, durability, and reduced construction time.
             </p>
           </div>
           <div className="s-right">
@@ -180,13 +180,16 @@ function PreEngineeredBuildings() {
       <div className="homeInfoContainer" style={{ alignItems: "center" }}>
         <div className="heading">
           <p>
-            Adhering to
-            <br /> Premier Industry Standards
+            Advantages Of
+            <br /> <span> Pre Engineered Building</span> <br />
+            <span style={{ color: "#0C79CA", fontWeight: "600" }}>
+              by NE Structures
+            </span>{" "}
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            Trusted by 20+ . Now you can also partner with NE Structures for
+            unparalleled customization, efficiency, and quality in
+            pre-engineered building solutions.
           </span>
         </div>
         <div className="homeInfoDetails advantages">
@@ -271,8 +274,8 @@ function PreEngineeredBuildings() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Pre Engineered <br />
-            Products
+            Our Premium <br />{" "}
+            <span> Pre-Engineered Products for Every Need</span>{" "}
           </p>
         </div>
         <div
@@ -286,13 +289,12 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>
-                    Prefabricated Multi Storey Building <br></br> Manufacturer
-                  </sub>
+                  <sub>Prefabricated Multi Storey Building</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We manufacture prefabricated multi-storey buildings for
+                    fast, efficient assembly. For instance, our modules are used
+                    in quick construction of apartment complexes and office
+                    towers.
                   </p>
                 </div>
               </div>
@@ -303,13 +305,12 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>
-                    Cold Storage<br></br> Manufacturer{" "}
-                  </sub>
+                  <sub>Cold Storage</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We create prefabricated cold storage facilities for quick,
+                    efficient installation. Ideal for warehouses and food
+                    centers, our designs ensure reliable, high-performance
+                    temperature control.
                   </p>
                 </div>
               </div>
@@ -322,9 +323,10 @@ function PreEngineeredBuildings() {
                 <div className="heading">
                   <sub>Warehouse</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We build prefabricated warehouses for quick, efficient setup
+                    and seamless expansion. Perfect for logistics and storage,
+                    our designs offer durable, scalable solutions to meet your
+                    needs.
                   </p>
                 </div>
               </div>
@@ -337,9 +339,10 @@ function PreEngineeredBuildings() {
                 <div className="heading">
                   <sub>Industrial Shed</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We construct prefabricated industrial sheds for quick,
+                    efficient assembly. Ideal for manufacturing and storage, our
+                    sheds provide durable, customizable solutions for various
+                    industrial needs.
                   </p>
                 </div>
               </div>
@@ -367,9 +370,10 @@ function PreEngineeredBuildings() {
                 <div className="heading">
                   <sub>Industrial Enclosures</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We design prefabricated factory buildings for rapid,
+                    efficient construction. Ideal for manufacturing and
+                    production, our structures offer durable, flexible solutions
+                    tailored to your specific needs.
                   </p>
                 </div>
               </div>
@@ -384,9 +388,10 @@ function PreEngineeredBuildings() {
                 <div className="heading">
                   <sub>Warehouse</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We build prefabricated warehouses for quick, efficient setup
+                    and seamless expansion. Perfect for logistics and storage,
+                    our designs offer durable, scalable solutions to meet your
+                    needs.
                   </p>
                 </div>
               </div>
@@ -399,9 +404,10 @@ function PreEngineeredBuildings() {
                 <div className="heading">
                   <sub>Industrial Shed</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We construct prefabricated industrial sheds for quick,
+                    efficient assembly. Ideal for manufacturing and storage, our
+                    sheds provide durable, customizable solutions for various
+                    industrial needs.
                   </p>
                 </div>
               </div>
@@ -431,9 +437,10 @@ function PreEngineeredBuildings() {
                 <div className="heading">
                   <sub>Industrial Enclosures</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We design prefabricated factory buildings for rapid,
+                    efficient construction. Ideal for manufacturing and
+                    production, our structures offer durable, flexible solutions
+                    tailored to your specific needs.
                   </p>
                 </div>
               </div>
@@ -444,65 +451,65 @@ function PreEngineeredBuildings() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Benefits of
+            Why Choose
             <br /> Pre Engineered Buildings
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            Pre-Engineered Buildings (PEBs) offer unmatched efficiency,
+            durability, and cost-effectiveness. Discover seven key benefits that
+            make PEBs the smart choice for your next project.
           </span>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left" style={{ width: "100%" }}>
             <div className="bimServices">
               <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
+                <sub>Faster Construction Time</sub>
+                <p>
+                  PEBs are pre-designed and pre-fabricated, significantly
+                  reducing on-site construction time.
+                </p>
+              </div>
+              <div className="bimServicesSet">
+                <sub>Cost-Effective Solutions</sub>
+                <p>
+                  With optimized and reduced material and labor costs, PEBs are
+                  budget-friendly.
+                </p>
+              </div>
+              <div className="bimServicesSet">
+                <sub>Design Flexibility</sub>
+                <p>
+                  PEBs can be easily customized to meet specific design
+                  requirements and versatility.
+                </p>
+              </div>
+              <div className="bimServicesSet">
+                <sub>Superior Quality Control</sub>
+                <p>
+                  Fabricated in controlled environments, PEBs built to stringent
+                  standards.
+                </p>
+              </div>
+              <div className="bimServicesSet">
+                <sub>Energy Efficiency</sub>
+                <p>
+                  PEBs are designed with insulation and energy-efficient
+                  systems, reducing operational costs.
+                </p>
+              </div>
+              <div className="bimServicesSet">
+                <sub>Low Maintenance</sub>
                 <p>
                   structures offer quick installation and easy erection with
                   lightweight construction
                 </p>
               </div>
               <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
+                <sub>Sustainable Building Option</sub>
                 <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
-                </p>
-              </div>
-              <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
-                <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
+                  PEBs use recyclable materials making them an environmentally
+                  responsible choice.
                 </p>
               </div>
             </div>
@@ -520,11 +527,11 @@ function PreEngineeredBuildings() {
             </sub>
             <img src={IMG1} className="mobile"></img>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor Lorem ipsum dolor sit amet consectetur.
-              Dignissim lectus nulla felis tempor tellus.
+              Elevate your projects with our High-Rise Steel Buildings,
+              engineered for superior load-bearing and seismic resilience.
+              Whether it’s skyscrapers or towering office complexes, our
+              precision-designed steel structures guarantee unmatched strength
+              and flexibility.
             </p>
           </div>
           <div className="homeInfoContainer" style={{ padding: "0" }}>

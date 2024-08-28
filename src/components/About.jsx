@@ -57,8 +57,8 @@ function About() {
       <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
-            Our Journey and <br />
-            <span> Values</span>
+            <span> Our Materials</span> <br />
+            Make the Difference
           </p>
           <img src={LogoVector}></img>
         </div>

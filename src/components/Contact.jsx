@@ -117,7 +117,7 @@ function Contact() {
                 </div>
               </div>
               <div className="p-contactUs-form">
-                <form action="" method="post">
+                <form action="" method="POST">
                   <div className="p-first-last-name">
                     <div className="input-wrapper">
                       <input

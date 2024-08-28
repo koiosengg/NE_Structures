@@ -19,14 +19,14 @@ function BuildingInformationModelling() {
           <sub>BUILDING INFORMATION MODELLING</sub>
           <div className="heading">
             <p>
-              Transforming Construction with
+              Transforming Design with
               <br />
-              <span> Digital Precision </span>
+              <span> Advanced BIM Solutions </span>
             </p>
             <sub>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio
+              NE Structures deliver precise Building Information Modeling (BIM)
+              services, optimizing design, coordination, and project management
+              for architects, engineers, and construction professionals.
             </sub>
           </div>
         </div>
@@ -54,20 +54,24 @@ function BuildingInformationModelling() {
       <div className="homeInfoContainer bannerDownDiv">
         <div className="heading">
           <p>
-            Switch to BIM the Right Way <br /> With Our BIM Services
+            Switch to <span>BIM </span> the Right Way <br /> With Our BIM
+            Services
           </p>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Lorem Ipsum</sub>
+            <sub>What is BIM?</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              Building Information Modeling (BIM) is a digital process that
+              generates detailed 3D models integrating architectural,
+              structural, and MEP designs. <br />
+              <br /> The process involves creating, managing, and analyzing
+              these models to enhance coordination and decision-making.
+              <br />
+              <br /> Examples include managing complex skyscraper designs,
+              optimizing industrial facility layouts, and improving
+              infrastructure projects with real-time data and accurate
+              simulations.
             </p>
           </div>
           <div className="s-right">
@@ -83,49 +87,53 @@ function BuildingInformationModelling() {
           <div className="homeInfoDetailSet">
             <sub>CAD to BIM Services</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed.
+              Converting CAD to BIM involves transforming 2D drawings into
+              detailed 3D models, integrating comprehensive data for enhanced
+              visualization, accurate coordination, and overall project
+              efficiency.
             </p>
           </div>
           <div className="homeInfoDetailSet">
             <sub>BIM Co-ordination Services</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed.
+              BIM Coordination Services streamline project workflows by
+              synchronizing 3D models and data across all disciplines, ensuring
+              clash detection and effective, seamless collaboration throughout
+              the project lifecycle.
             </p>
           </div>
           <div className="homeInfoDetailSet">
             <sub>Clash Detection Services</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed.
+              Clash Detection Services identify and resolve conflicts between
+              building systems in 3D models, ensuring seamless integration,
+              preventing costly errors, rework, and project delays.
             </p>
           </div>
           <div className="homeInfoDetailSet">
             <sub>Revit Family Creation</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed.
+              Revit Family Creation involves designing and customizing 3D models
+              for building components, ensuring accurate representation and
+              integration into BIM projects for efficient construction and
+              planning.
             </p>
           </div>
           <div className="homeInfoDetailSet">
             <sub>Scan to BIM Services</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed.
+              Revit Family Creation involves designing and customizing 3D models
+              for building components, ensuring accurate representation,
+              integration into BIM projects, and enhanced project efficiency.
             </p>
           </div>
           <div className="homeInfoDetailSet">
             <sub>As Built Documentaion</sub>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed.
+              As-Built Documentation involves creating detailed records of a
+              building's completed state, capturing all changes and deviations
+              from the original plans, ensuring accurate project reference and
+              future maintenance.
             </p>
           </div>
         </div>
@@ -139,31 +147,32 @@ function BuildingInformationModelling() {
         <div className="homeInfoDetails">
           <div className="s-left" style={{ gap: "40px" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor vulputate bibendum ornare laoreet
-              scelerisque vulputate est vitae sociis. Nibh purus nunc tellus
-              iaculis non malesuada viverra. Bibendum vitae egestas mi iaculis
-              orci fermentum pellentesque.
+              Construction firms often encounter problems such as design
+              conflicts between different building systems, inaccurate project
+              documentation, and misalignment between planning and actual
+              construction. These issues can lead to costly delays, rework, and
+              increased project expenses. Additionally, poor communication among
+              stakeholders can result in misunderstandings and errors, further
+              impacting project timelines and budgets.
             </p>
             <div className="helpQuestions">
-              <div className="heading">How can we help?</div>
+              <div className="heading">How can NE Structures help?</div>
               <div className="helpQuestionsContainer">
                 <div className="helpQuestionsSet">
                   <sub>01.</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Dignissim lectus
-                    nulla felis tempor tellus. Aenean enim aliquet massa feugiat
-                    erat rhoncus commodo vulputate morbi. Maecenas volutpat{" "}
+                    Our advanced BIM services provide detailed 3D models and
+                    clash detection to identify and address conflicts before
+                    construction begins, ensuring smoother project execution.
                   </p>
                 </div>
                 <div className="helpQuestionsSet">
                   <sub>02.</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Dignissim lectus
-                    nulla felis tempor tellus. Aenean enim aliquet massa feugiat
-                    erat rhoncus commodo vulputate morbi. Maecenas volutpat{" "}
+                    BIM streamlines communication between architects, engineers,
+                    and contractors, improving coordination and reducing errors,
+                    which leads to more efficient project management and timely
+                    completion.
                   </p>
                 </div>
               </div>
@@ -181,40 +190,39 @@ function BuildingInformationModelling() {
         <div className="homeInfoDetails">
           <div className="s-left" style={{ gap: "32px" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio tpat lacinia etiam porta sed. Lorem ipsum dolor sit
-              amet consectetur. Nam volutpat lacinia etiam porta sed. At
-              volutpat scelerisque pulvinar tincidunt id interdum viverra odio
-              tpat lacinia etiam porta sed.
+              Our BIM services in India empower construction firms with
+              cutting-edge technology and precision. We streamline project
+              workflows, enhance collaboration, and reduce costly errors. Trust
+              us to deliver comprehensive BIM solutions that drive efficiency
+              and accuracy across all stages of your projects.
             </p>
             <div className="bimServices ServicesBIM">
               <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
+                <sub>Urban Development Projects</sub>
                 <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
+                  Offering BIM solutions for high-rise buildings and commercial
+                  complexes in major cities.
                 </p>
               </div>
               <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
+                <sub>Infrastructure Projects</sub>
                 <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
+                  Supporting roads, bridges, and transportation hubs with
+                  precise BIM modeling across.
                 </p>
               </div>
               <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
+                <sub>Industrial Zones</sub>
                 <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
+                  Providing BIM services for factories and manufacturing units
+                  in industrial regions.
                 </p>
               </div>
               <div className="bimServicesSet">
-                <sub>Pre engineered building</sub>
+                <sub>Educational and Healthcare</sub>
                 <p>
-                  structures offer quick installation and easy erection with
-                  lightweight construction
+                  Delivering BIM expertise for the construction of schools,
+                  universities, and hospitals.
                 </p>
               </div>
             </div>
@@ -229,21 +237,24 @@ function BuildingInformationModelling() {
           <div className="heading">
             <sub>
               Explore Our
-              <br />
-              Building information <br /> Modelling Services
+              <br /> Structural Engineering
+              <br /> Services
             </sub>
             <img src={IMG1} className="mobile"></img>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Dignissim lectus nulla
-              felis tempor tellus. Aenean enim aliquet massa feugiat erat
-              rhoncus commodo vulputate morbi. Maecenas volutpat non curabitur
-              varius facilisi. Tortor Lorem ipsum dolor sit amet consectetur.
-              Dignissim lectus nulla felis tempor tellus.
+              Enhance your projects with NE Structures’ Structural Engineering
+              services. We conduct detailed load analysis, precise material
+              selection, and advanced connection design, ensuring every
+              structure meets top standards of safety and performance. Trust us
+              for reliable, efficient engineering solutions.
             </p>
           </div>
           <div className="homeInfoContainer" style={{ padding: "0" }}>
             <div className="navbarContact">
-              <Link to="/about" style={{ background: "transparent" }}>
+              <Link
+                to="/StructuralEngineeringServices"
+                style={{ background: "transparent" }}
+              >
                 <p>Explore Now</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -498,13 +498,13 @@
   line-height: normal;
 }
 
-.homeInfoContainer .heading p span{
-color: var(--Black-Text-Primary, #111);
-font-family: Raleway;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.homeInfoContainer .heading p span {
+  color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .homeInfoContainer .heading span {
@@ -925,15 +925,15 @@ line-height: normal;
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
-.homeInfoSetImg:hover img{
+.homeInfoSetImg:hover img {
   scale: 1.1;
- 
 }
 
 .homeInfoSetImg img {
   width: 100%;
   height: 324px;
-  object-fit: cover; transition: all 0.3s;
+  object-fit: cover;
+  transition: all 0.3s;
 }
 
 .homeInfoSetDetails {
@@ -982,7 +982,7 @@ line-height: normal;
   gap: 140px;
 }
 
-.homeInfoLogoContainer img{
+.homeInfoLogoContainer img {
   scale: 0.75;
 }
 
@@ -1119,7 +1119,7 @@ line-height: normal;
   gap: 16px;
 }
 
-.optionsInfoContainer .s-left sub {
+.optionsInfoContainer .s-left h3 {
   color: var(--Black-Text-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
@@ -1129,13 +1129,33 @@ line-height: normal;
   line-height: normal;
 }
 
-.optionsInfoContainer .s-left p {
+.optionsInfoContainer .s-left .divInfo {
   color: var(--Black-Text-black-text-300, #606060);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  line-height: 24px;
+}
+
+.optionsInfoContainer .s-left .divInfo span {
+  color: var(--Blue-blue-600, #0c79ca);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.optionsInfoContainer .s-left .divInfo .bold {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
   line-height: 24px;
 }
 
@@ -1339,6 +1359,91 @@ line-height: normal;
   width: 100%;
   height: 274px;
   object-fit: cover;
+}
+
+.FAQ {
+  flex-direction: row;
+}
+
+.FAQ .heading {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 50%;
+}
+
+.FAQ .heading span {
+  width: auto;
+}
+
+.FAQdiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.FAQset {
+  width: 100%;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: rgba(180, 217, 245, 0.2);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.FAQheading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.FAQheading p {
+color: var(--Blue-blue-900, #05385D);
+font-variant-numeric: lining-nums proportional-nums;
+
+/* XXL/Semibold */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.FAQheading svg {
+  width: 16px;
+  height: 16px;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.FAQans {
+  color: var(--Grey-Text-Primary, #757575);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  display: none;
+  transition: all 0.3s;
+}
+
+.FAQ .activeFAQ .FAQans {
+  display: block;
+}
+
+.FAQ .activeFAQ svg {
+  transform: rotate(-180deg);
 }
 
 /* product pages */
@@ -1722,8 +1827,17 @@ line-height: normal;
 }
 
 .footerCopyrights a {
-  color: #d4d4d4;
-  text-decoration: underline;
+  text-decoration: none;
+  background: radial-gradient(55% 28.76% at 71.24% 50%, #fff 0%, #ffbf00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .mobileFooterHeading,
@@ -1751,7 +1865,7 @@ line-height: normal;
 
 /* about */
 
-.about .homeBannerContent{
+.about .homeBannerContent {
   width: 850px;
 }
 
@@ -1769,8 +1883,8 @@ line-height: normal;
   width: 100%;
 }
 
-.about .aboutGallery .s-banner-wrapper{
-transform: translateY(0);
+.about .aboutGallery .s-banner-wrapper {
+  transform: translateY(0);
 }
 
 /* Responsive */
@@ -2017,7 +2131,7 @@ transform: translateY(0);
     line-height: normal;
   }
 
-  .homeInfoContainer .heading p span{
+  .homeInfoContainer .heading p span {
     font-size: 24px;
   }
 
@@ -2351,7 +2465,7 @@ transform: translateY(0);
     width: 100%;
   }
 
-  .optionsInfoContainer .s-left sub {
+  .optionsInfoContainer .s-left h3 {
     color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
@@ -2361,10 +2475,24 @@ transform: translateY(0);
     line-height: 20px;
   }
 
-  .optionsInfoContainer .s-left p {
+  .optionsInfoContainer .s-left .divInfo {
     color: var(--Grey-Text-Primary, #757575);
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .optionsInfoContainer .s-left .divInfo span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .optionsInfoContainer .s-left .divInfo .bold {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -3036,5 +3164,4 @@ transform: translateY(0);
     font-weight: 400;
     line-height: 20px; /* 142.857% */
   }
-
 }
