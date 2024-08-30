@@ -60,8 +60,9 @@ function FAQ() {
           Questions
         </p>
         <span>
-          Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque eget
-          adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam arcu.
+          At NE Structures, we focus on delivering clear answers. Our FAQs help
+          you make informed decisions and choose the best solutions for your
+          projects.
         </span>
       </div>
       <div className="FAQdiv">

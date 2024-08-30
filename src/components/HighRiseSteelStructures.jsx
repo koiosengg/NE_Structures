@@ -19,57 +19,224 @@ function HighRiseSteelStructures() {
   const options = [
     {
       name: "Braced Frame",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A braced frame is a structural system used in high-rise steel
+          structures to resist lateral forces like wind or seismic loads.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by incorporating
+          diagonal steel braces into the frame, creating a rigid and stable
+          structure that enhances overall strength
+          <br /> <br />
+          <span>Examples: </span> <br /> Braced frames are commonly used in{" "}
+          <span className="bold">
+            tall office buildings, skyscrapers, and industrial towers
+          </span>
+          to ensure stability and safety.
+        </>
+      ),
       image: IMG1,
+      altText: "NE Structures Braced Frame",
     },
     {
       name: "Ridged Frame",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A rigid frame is a structural system in high-rise steel structures
+          where the connections between beams and columns are designed to be
+          moment-resistant.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by welding or
+          bolting beams to columns with strong, rigid connections that prevent
+          rotation, ensuring a stable and solid frame.
+          <br /> <br />
+          <span>Examples: </span> <br /> Rigid frames are used in{" "}
+          <span className="bold">
+            warehouses, factories, and high-rise buildings where open,
+            column-free spaces
+          </span>{" "}
+          are required.
+        </>
+      ),
       image: IMG2,
+      altText: "NE Structures Ridged Frame",
     },
     {
       name: "Concrete Dual",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A concrete dual system combines a moment-resisting frame with a shear
+          wall or braced frame to resist both lateral and vertical loads in
+          high-rise structures.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by integrating
+          reinforced concrete shear walls with steel or concrete
+          moment-resisting frames, providing enhanced stability and load
+          distribution.
+          <br /> <br />
+          <span>Examples: </span> <br />
+          Concrete dual systems are commonly used in{" "}
+          <span className="bold">
+            high-rise residential towers, mixed-use developments, and commercial
+            buildings
+          </span>{" "}
+          for increased strength and safety.
+        </>
+      ),
       image: IMG3,
+      altText: "NE Structures Concrete Dual",
     },
     {
       name: "Shear Wall",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A shear wall is a vertical structural element in high-rise buildings
+          designed to resist lateral forces such as wind and earthquakes.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed using reinforced
+          concrete or steel, spanning vertically throughout the building to
+          provide stiffness and stability by distributing lateral loads.
+          <br /> <br />
+          <span>Examples: </span> <br /> Shear walls are commonly used in{" "}
+          <span className="bold">
+            residential towers, commercial skyscrapers, and large industrial
+            structures
+          </span>{" "}
+          to ensure rigidity and prevent structural deformation.
+        </>
+      ),
       image: IMG4,
+      altText: "NE Structures Shear Wall",
     },
     {
       name: "Out Rigger",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          An outrigger is a structural system used in high-rise buildings to
+          enhance stability by connecting the core to outer columns.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by extending
+          horizontal steel or concrete beams (outriggers) from the central core
+          to the perimeter columns, reducing lateral movement and distributing
+          loads.
+          <br /> <br />
+          <span>Examples: </span> <br />
+          Outrigger systems are often used in{" "}
+          <span className="bold">
+            skyscrapers, tall office buildings, and towers
+          </span>{" "}
+          to minimize sway and increase overall rigidity.
+        </>
+      ),
       image: IMG5,
+      altText: "NE Structures Out Rigger",
     },
     {
       name: "Tube",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A tube is a structural system in high-rise buildings where the
+          exterior walls act as a hollow cylinder to resist lateral forces.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by closely
+          spacing steel or reinforced concrete columns along the building's
+          perimeter, creating a stiff, load-bearing shell that reduces the need
+          for internal supports.
+          <br /> <br />
+          <span>Examples: </span> <br />
+          Tube systems are commonly used in{" "}
+          <span className="bold">
+            tall skyscrapers and iconic towers, such as the Willis Tower,
+          </span>{" "}
+          to provide strength and flexibility while allowing for open interior
+          spaces.
+        </>
+      ),
       image: IMG6,
+      altText: "NE Structures Tube",
     },
     {
       name: "Flat Plate and Flat Slab",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          Flat plate and flat slab are structural systems in high-rise buildings
+          where the floor slabs are directly supported by columns, with flat
+          slabs offering additional reinforcement for heavier loads.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> Both systems are constructed using
+          reinforced concrete slabs. Flat plates are directly supported by
+          columns, while flat slabs include drop panels or column capitals for
+          added support around the columns.
+          <br /> <br />
+          <span>Examples: </span> <br />
+          These systems are often used in{" "}
+          <span className="bold">
+            residential apartments, hotels, parking garages, and commercial
+            buildings
+          </span>{" "}
+          where unobstructed ceilings and flexibility in layout are essential.
+        </>
+      ),
       image: IMG7,
+      altText: "NE Structures Flat Plate and Flat Slab",
     },
     {
       name: "Coupled Wall",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A coupled wall system in high-rise buildings consists of two or more
+          shear walls connected by horizontal elements, designed to resist
+          lateral forces.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by integrating
+          reinforced concrete shear walls with horizontal coupling beams or
+          slabs, which work together to enhance the building's stability and
+          distribute lateral loads effectively.
+          <br /> <br />
+          <span>Examples: </span> <br />
+          Coupled wall systems are commonly used in{" "}
+          <span className="bold">
+            high-rise residential towers, office buildings, and
+            seismic-resistant structures
+          </span>{" "}
+          to provide increased stiffness and load-bearing capacity.
+        </>
+      ),
       image: IMG8,
+      altText: "NE Structures Coupled Wall",
     },
     {
       name: "Hybrid",
-      content:
-        "Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet, lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis diam vitae. Lorem ipsum dolor sit amet consectetur. Vel magna curabitur tellus porta euismod sed. Blandit vitae duis tempor imperdiet lacus malesuada egestas ipsum. Imperdiet mattis elit ut donec eu etiam. Semper ut risus pulvinar nisl a odio turpis ",
+      content: (
+        <>
+          A hybrid structural system combines different types of structural
+          elements, such as concrete, steel, and composite materials, to
+          optimize performance in high-rise buildings.
+          <br />
+          <br />
+          <span>How It’s Made: </span> <br /> It’s constructed by integrating
+          various materials and structural systems, such as combining concrete
+          cores with steel frameworks or composite floors, to leverage the
+          strengths of each material for enhanced stability and efficiency.
+          <br /> <br />
+          <span>Examples: </span> <br />
+          Hybrid systems are commonly used in{" "}
+          <span className="bold">
+            skyscrapers, mixed-use towers, and high-rise office buildings
+          </span>{" "}
+          where versatility and superior load-bearing capacity are required.
+        </>
+      ),
       image: IMG9,
+      altText: "NE Structures Hybrid",
     },
   ];
 
@@ -86,13 +253,12 @@ function HighRiseSteelStructures() {
           <sub>HIGH RAISE STEEL STRUCTURES</sub>
           <div className="heading">
             <p>
-              Architectural Marvels <br /> Reaching
-              <span> New Heights</span>
+              <span>Elevated Steel Solutions </span> <br /> Built to Last
             </p>
             <sub>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio
+              NE Structures provides High-Rise Steel Structures with unmatched
+              strength and flexibility for skyscrapers and large-scale projects,
+              ensuring safety and performance at every level.
             </sub>
           </div>
         </div>
@@ -228,9 +394,9 @@ function HighRiseSteelStructures() {
             High-Rise buildings
           </p>
           <span>
-            Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque
-            eget adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam
-            arcu.
+            Discover the different structural systems for high-rise buildings we
+            offer. NE Structures can design and build each type to suit your
+            project perfectly.
           </span>
         </div>
         <div className="optionsContainer">
@@ -247,11 +413,11 @@ function HighRiseSteelStructures() {
           </div>
           <div className="optionsInfoContainer">
             <div className="s-left">
-              <sub>{activeContent.name}</sub>
-              <p>{activeContent.content}</p>
+              <h3>{activeContent.name}</h3>
+              <div className="divInfo">{activeContent.content}</div>
             </div>
             <div className="s-right">
-              <img src={activeContent.image} alt={activeContent.name} />
+              <img src={activeContent.image} alt={activeContent.altText} />
             </div>
           </div>
         </div>

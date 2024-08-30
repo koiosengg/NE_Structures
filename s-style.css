@@ -1159,6 +1159,10 @@
   line-height: 24px;
 }
 
+.product .optionsInfoContainer .s-left .divInfo .bold {
+  color: #111111;
+}
+
 .optionsInfoContainer .s-right {
   width: 50%;
   display: flex;

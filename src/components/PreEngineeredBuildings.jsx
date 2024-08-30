@@ -35,9 +35,10 @@ function PreEngineeredBuildings() {
               Needs
             </p>
             <sub>
-              Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia etiam
-              porta sed. At volutpat scelerisque pulvinar tincidunt id interdum
-              viverra odio
+              NE Structures offers Pre-Engineered Buildings (PEB) with
+              customizable, cost-effective solutions for warehouses, factories,
+              and more, designed for rapid construction and long-term
+              durability.
             </sub>
           </div>
         </div>
