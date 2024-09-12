@@ -389,7 +389,7 @@ function HighRiseSteelStructures() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            Different Types of <br />
+            <span>Different Types of</span> <br />
             Structural Systems in <br />
             High-Rise buildings
           </p>
@@ -425,8 +425,8 @@ function HighRiseSteelStructures() {
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
-            The High Rise Construction
-            <br /> Promise
+            <span>The High Rise </span>
+            <br /> Construction Promise
           </p>
         </div>
         <div
@@ -440,11 +440,11 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Engaged Communities & Customers</sub>
+                  <sub>Budget-Friendly Engineering</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    Achieve high-quality results within budget through our
+                    cost-efficient steel solutions. Discover how we balance cost
+                    and excellence in high-rise projects.
                   </p>
                 </div>
               </div>
@@ -455,11 +455,11 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Quality Built Environments</sub>
+                  <sub>Tailored Architectural Designs</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    We offer flexible design options to meet your specific
+                    needs, ensuring that every high-rise building is tailored to
+                    your vision and requirements.
                   </p>
                 </div>
               </div>
@@ -470,11 +470,11 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Sustainable Projects</sub>
+                  <sub>Exceptional Load-Bearing</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    Our high-rise steel structures provide superior load-bearing
+                    capacity, ensuring safety and stability. Visualize strength
+                    with robust steel frameworks.
                   </p>
                 </div>
               </div>
@@ -485,11 +485,11 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Collaborative Partnerships</sub>
+                  <sub>Strength and Stability</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    NE Structures uses high-quality steel to ensure exceptional
+                    strength and stability in your high-rise projects, making
+                    them more durable and resilient.
                   </p>
                 </div>
               </div>
@@ -529,7 +529,7 @@ function HighRiseSteelStructures() {
           </div>
         </div>
       </div>
-      <ProductGalleryHRSS />
+      {/* <ProductGalleryHRSS /> */}
       <div className="exploreServices">
         <div className="exploreServicesInfo">
           <div className="heading">

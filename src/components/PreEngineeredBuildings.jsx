@@ -517,7 +517,7 @@ function PreEngineeredBuildings() {
           </div>
         </div>
       </div>
-      <ProductGalleryPEB />
+      {/* <ProductGalleryPEB /> */}
       <div className="exploreServices">
         <div className="exploreServicesInfo">
           <div className="heading">

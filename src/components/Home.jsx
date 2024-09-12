@@ -9,6 +9,7 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import NewImg1 from "../assets/NewImgs/newImg1.jpeg"
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import Staad from "../assets/AboutIMG/Staad.png";
@@ -221,7 +222,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="s-banner-wrapper" onClick={handleScroll}>
+        <div className="s-banner-wrapper" style={{cursor:"pointer"}} onClick={handleScroll}>
           <div className="s-banner-marquee">
             <img src={IMG1} />
             <img src={IMG2} />
@@ -842,7 +843,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <HomeGallery ref={galleryRef} />
+      {/* <HomeGallery ref={galleryRef} /> */}
       <FAQ/>
       <div className="homeBrochure">
         <div className="product brochure">
