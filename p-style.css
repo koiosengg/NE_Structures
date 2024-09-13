@@ -620,6 +620,7 @@ input:is(:focus, :valid) + .placeholder {
 
   .p-contact-subtext-container {
     gap: 24px;
+    width: 100%;
   }
 
   .p-svg-text-div p {

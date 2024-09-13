@@ -10,6 +10,7 @@ import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
 import ProductGalleryHRSS from "./ProductGalleryHRSS";
+import Gallery from "./Gallery";
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
@@ -530,6 +531,7 @@ function HighRiseSteelStructures() {
         </div>
       </div>
       {/* <ProductGalleryHRSS /> */}
+      <Gallery />
       <div className="exploreServices">
         <div className="exploreServicesInfo">
           <div className="heading">

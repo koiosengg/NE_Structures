@@ -23,6 +23,7 @@ import FourBaysImage from "../assets/HomeBanner/FourBaysImage.png";
 import MultiGableImage from "../assets/HomeBanner/MultiGableImage.png";
 import SingleSlopeImage from "../assets/HomeBanner/SingleSlopeImage.png";
 import HomeGallery from "./HomeGallery";
+import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 import FAQ from "./FAQ";
@@ -844,6 +845,7 @@ function Home() {
         </div>
       </div>
       {/* <HomeGallery ref={galleryRef} /> */}
+      <Gallery/>
       <FAQ/>
       <div className="homeBrochure">
         <div className="product brochure">

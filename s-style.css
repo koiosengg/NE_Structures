@@ -563,7 +563,7 @@
 .homeInfoDetails {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 40px;
 }
 
 .aisc {
@@ -614,7 +614,6 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 4px;
-  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 .helpQuestions {
@@ -727,6 +726,7 @@
   width: 100%;
   object-fit: cover;
   height: 378px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 .advantages {
@@ -1364,6 +1364,86 @@
   object-fit: cover;
 }
 
+/* New Gallery */
+
+.newGalleryContainer .s-left {
+  gap: 40px;
+}
+
+.galleryNumberDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.galleryNumberDiv .subHeading {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.galleryNumberDiv .subHeading p {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.galleryNumberDiv .subHeading span {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.newGallery {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.newGallerySlide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.homeInfoDetails .newGallerySlide img {
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.newGalleryControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.newGalleryControls svg {
+  background-size: 32px 32px;
+  border-radius: 50px;
+  background: var(--Grey-Text-grey-text-50, #f1f1f1);
+}
+
+.prevImg {
+  transform: rotate(-180deg);
+}
+
+/* Faq */
+
 .FAQ {
   flex-direction: row;
 }
@@ -1411,15 +1491,15 @@
 }
 
 .FAQheading p {
-color: var(--Blue-blue-900, #05385D);
-font-variant-numeric: lining-nums proportional-nums;
+  color: var(--Blue-blue-900, #05385d);
+  font-variant-numeric: lining-nums proportional-nums;
 
-/* XXL/Semibold */
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  /* XXL/Semibold */
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .FAQheading svg {
@@ -2117,6 +2197,7 @@ line-height: normal;
   }
 
   .homeInfoContainer .heading {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2520,6 +2601,25 @@ line-height: normal;
     background-position: center;
   }
 
+  .FAQdiv {
+    width: 100%;
+  }
+
+  .FAQset{
+    padding: 16px;
+  }
+
+  .FAQheading p {
+    font-size: 14px;
+  }
+
+  .FAQans {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
   .Footer {
     display: flex;
     padding: 48px 20px;
@@ -2685,6 +2785,23 @@ line-height: normal;
   .mobileFooterCopyrigths p a {
     text-decoration: none;
     color: #fff;
+  }
+
+  .galleryNumberDiv .subHeading p {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .galleryNumberDiv .subHeading span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
   }
 
   #home-gallery {
@@ -3040,6 +3157,10 @@ line-height: normal;
   }
 
   /* About */
+
+  .about .homeBannerContent {
+    width: 100%;
+  }
 
   .bannerDownDiv .heading {
     gap: 32px;

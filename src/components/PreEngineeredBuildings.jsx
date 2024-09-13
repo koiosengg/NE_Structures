@@ -19,6 +19,7 @@ import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import ProductGalleryPEB from "./ProductGalleryPEB";
+import Gallery from "./Gallery"
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
@@ -518,6 +519,7 @@ function PreEngineeredBuildings() {
         </div>
       </div>
       {/* <ProductGalleryPEB /> */}
+      <Gallery/>
       <div className="exploreServices">
         <div className="exploreServicesInfo">
           <div className="heading">

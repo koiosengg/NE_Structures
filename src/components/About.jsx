@@ -22,7 +22,7 @@ function About() {
           <sub>ABOUT US</sub>
           <div className="heading">
             <p>
-              Leading the Future of <br></br> <span>Engineering</span> and
+              Leading the Future of <br className="notMobile"></br> <span>Engineering</span> and {' '}
               <span>Innovation</span>
             </p>
             <sub>
