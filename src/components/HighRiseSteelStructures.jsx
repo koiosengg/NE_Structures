@@ -265,22 +265,22 @@ function HighRiseSteelStructures() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} />
-            <img src={IMG2} />
-            <img src={IMG3} />
-            <img src={IMG4} />
-            <img src={IMG5} />
-            <img src={IMG6} />
-            <img src={IMG7} />
-            <img src={IMG8} />
-            <img src={IMG1} />
-            <img src={IMG2} />
-            <img src={IMG3} />
-            <img src={IMG4} />
-            <img src={IMG5} />
-            <img src={IMG6} />
-            <img src={IMG7} />
-            <img src={IMG8} />
+            <img src={IMG1} alt="NE Structures Marquee Img" />
+            <img src={IMG2} alt="NE Structures Marquee Img" />
+            <img src={IMG3} alt="NE Structures Marquee Img" />
+            <img src={IMG4} alt="NE Structures Marquee Img" />
+            <img src={IMG5} alt="NE Structures Marquee Img" />
+            <img src={IMG6} alt="NE Structures Marquee Img" />
+            <img src={IMG7} alt="NE Structures Marquee Img" />
+            <img src={IMG8} alt="NE Structures Marquee Img" />
+            <img src={IMG1} alt="NE Structures Marquee Img" />
+            <img src={IMG2} alt="NE Structures Marquee Img" />
+            <img src={IMG3} alt="NE Structures Marquee Img" />
+            <img src={IMG4} alt="NE Structures Marquee Img" />
+            <img src={IMG5} alt="NE Structures Marquee Img" />
+            <img src={IMG6} alt="NE Structures Marquee Img" />
+            <img src={IMG7} alt="NE Structures Marquee Img" />
+            <img src={IMG8} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -383,7 +383,7 @@ function HighRiseSteelStructures() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG3}></img>
+            <img src={IMG3} alt="NE Structures HRSS"></img>
           </div>
         </div>
       </div>
@@ -437,7 +437,10 @@ function HighRiseSteelStructures() {
           <div className="homeInfoSetContainer">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG1}></img>
+                <img
+                  src={IMG1}
+                  alt="NE Structures Budget-Friendly Engineering"
+                ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -452,7 +455,10 @@ function HighRiseSteelStructures() {
             </div>
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG5}></img>
+                <img
+                  src={IMG5}
+                  alt="NE Structures Tailored Architectural Designs"
+                ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -467,7 +473,10 @@ function HighRiseSteelStructures() {
             </div>
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
-                <img src={IMG6}></img>
+                <img
+                  src={IMG6}
+                  alt="NE Structures Exceptional Load-Bearing"
+                ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -482,7 +491,10 @@ function HighRiseSteelStructures() {
             </div>
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
-                <img src={IMG9}></img>
+                <img
+                  src={IMG9}
+                  alt="NE Structures Strength and Stability"
+                ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -499,7 +511,7 @@ function HighRiseSteelStructures() {
           <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG6}></img>
+                <img src={IMG6} alt="NE Structures Sustainable Projects"></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -514,7 +526,10 @@ function HighRiseSteelStructures() {
             </div>
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG9}></img>
+                <img
+                  src={IMG9}
+                  alt="NE Structures Collaborative Partnerships"
+                ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
@@ -538,7 +553,11 @@ function HighRiseSteelStructures() {
             <sub>
               Explore Our <br /> Pre Engineered Building <br /> Products
             </sub>
-            <img src={IMG1} className="mobile"></img>
+            <img
+              src={IMG1}
+              alt="NE Structures Explore Img"
+              className="mobile"
+            ></img>
             <p>
               Optimize your projects with our Pre-Engineered Buildings (PEB),
               designed for efficiency and cost-effectiveness. From warehouses to
@@ -608,7 +627,11 @@ function HighRiseSteelStructures() {
             </div>
           </div>
         </div>
-        <img src={IMG1} className="notMobile"></img>
+        <img
+          src={IMG1}
+          alt="NE Structures Explore Img"
+          className="notMobile"
+        ></img>
       </div>
       <div className="homeBrochure">
         <div className="product brochure">
@@ -635,104 +658,104 @@ function HighRiseSteelStructures() {
               <div className="s-banner-wrapper">
                 <div className="s-banner-marquee">
                   <div className="s-banner-marquee-set">
-                    <img src={IMG1} />
+                    <img src={IMG1} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG2} />
+                    <img src={IMG2} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG3} />
+                    <img src={IMG3} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG4} />
+                    <img src={IMG4} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG5} />
+                    <img src={IMG5} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG6} />
+                    <img src={IMG6} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG7} />
+                    <img src={IMG7} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG8} />
+                    <img src={IMG8} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG1} />
+                    <img src={IMG1} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG2} />
+                    <img src={IMG2} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG3} />
+                    <img src={IMG3} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG4} />
+                    <img src={IMG4} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG5} />
+                    <img src={IMG5} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG6} />
+                    <img src={IMG6} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG7} />
+                    <img src={IMG7} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG8} />
+                    <img src={IMG8} alt="NE Structures Marquee Img" />
                   </div>
                 </div>
               </div>
               <div className="s-banner-wrapper reverse-marquee">
                 <div className="s-banner-marquee">
                   <div className="s-banner-marquee-set">
-                    <img src={IMG1} />
+                    <img src={IMG1} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG2} />
+                    <img src={IMG2} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG3} />
+                    <img src={IMG3} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG4} />
+                    <img src={IMG4} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG5} />
+                    <img src={IMG5} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG6} />
+                    <img src={IMG6} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG7} />
+                    <img src={IMG7} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG8} />
+                    <img src={IMG8} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG1} />
+                    <img src={IMG1} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG2} />
+                    <img src={IMG2} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG3} />
+                    <img src={IMG3} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG4} />
+                    <img src={IMG4} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG5} />
+                    <img src={IMG5} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG6} />
+                    <img src={IMG6} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG7} />
+                    <img src={IMG7} alt="NE Structures Marquee Img" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={IMG8} />
+                    <img src={IMG8} alt="NE Structures Marquee Img" />
                   </div>
                 </div>
               </div>

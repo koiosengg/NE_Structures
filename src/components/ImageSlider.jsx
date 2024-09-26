@@ -10,7 +10,11 @@ const ImageSlider = ({ imageUrls, reverse }) => {
     <div className={`logos-vertical ${reverse ? "reverse" : ""}`}>
       <div className="logo_items-vertical">
         {imageUrls.map((url, index) => (
-          <img src={url} alt={`Logo ${index + 1}`} key={`logo-top-${index}`} />
+          <img
+            src={url}
+            alt="NE Structures Marquee Img"
+            key={`logo-top-${index}`}
+          />
         ))}
       </div>
       <div className="logo_items-vertical">

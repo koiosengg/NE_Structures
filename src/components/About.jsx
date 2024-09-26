@@ -101,7 +101,7 @@ function About() {
             </p>
           </div>
           <div className="s-right">
-            <img src={VissionIMG}></img>
+            <img src={VissionIMG} alt="NE Structures Vision Img"></img>
           </div>
         </div>
       </div>

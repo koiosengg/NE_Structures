@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, forwardRef } from "react";
 import NewImg3 from "../assets/NewImgs/newImg3.jpeg";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
@@ -10,7 +10,8 @@ import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
 
-function Gallery() {
+
+const Gallery= forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const newGalleryRef = useRef(null);
   const [galleryWidth, setGalleryWidth] = useState(0);
@@ -20,11 +21,8 @@ function Gallery() {
     IMG1,
     IMG2,
     IMG3,
-    IMG4,
-    IMG5,
     IMG6,
     IMG7,
-    IMG8,
     IMG9,
   ];
 
@@ -59,6 +57,8 @@ function Gallery() {
     <div
       className="homeInfoContainer newGalleryContainer"
       style={{ alignItems: "center" }}
+      ref={ref}
+      id="home-gallery"
     >
       <div className="heading">
         <p>
@@ -66,20 +66,18 @@ function Gallery() {
           <br /> Our stories
         </p>
         <span>
-          Lorem ipsum dolor sit amet consectetur. Egestas non pellentesque eget
-          adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam arcu.
+          At NE Structures, we prioritize clear communication and tailored
+          solutions to meet every client's specific needs.
         </span>
       </div>
       <div className="homeInfoDetails">
         <div className="s-left">
           <p>
-            Lorem ipsum dolor sit amet consectetur. Est interdum turpis
-            convallis curabitur netus id. Fusce faucibus dolor non congue risus
-            suscipit sed eu. Volutpat nec leo vitae sem pretium integer mauris
-            a. Facilisis et ante aenean elementum morbi egestas mattis quam.
-            Fusce faucibus dolor non congue risus suscipit sed eu. Fusce
-            faucibus dolor non congue risus suscipit sed eu. Volutpat nec leo
-            vitae sem pretium integer mauris a. Facilisis et ante aenean
+            NE Structures consistently delivers high-quality, on-time projects
+            tailored to our clients' unique requirements. Our expertise in
+            design, engineering, and execution ensures every structure meets the
+            highest standards of durability and precision. Discover the trusted
+            partnerships we've built through successful project delivery.
           </p>
           <div className="galleryNumberDiv">
             <div className="subHeading">
@@ -110,7 +108,7 @@ function Gallery() {
                 key={index}
                 src={image}
                 style={{ width: "100%", flexShrink: 0 }}
-                alt={`Slide ${index + 1}`}
+                alt={`NE Structures Gallery Img ${index + 1}`}
               />
             ))}
           </div>
@@ -194,6 +192,6 @@ function Gallery() {
       </div>
     </div>
   );
-}
+});
 
 export default Gallery;

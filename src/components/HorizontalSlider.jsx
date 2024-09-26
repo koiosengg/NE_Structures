@@ -15,7 +15,11 @@ const HorizontalSlider = ({ imageUrls, reverse }) => {
     <div className={`images-horizontal ${reverse ? "reverse" : ""}`}>
       <div className="image_items-horizontal">
         {extendedImageUrls.map((url, index) => (
-          <img src={url} alt={`Image ${index + 1}`} key={`image-${index}`} />
+          <img
+            src={url}
+            alt="NE Structures Marquee Img"
+            key={`image-${index}`}
+          />
         ))}
       </div>
     </div>
