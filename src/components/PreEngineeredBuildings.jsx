@@ -8,6 +8,17 @@ import IMG5 from "../assets/HomeBanner/IMG5.jpg";
 import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
+import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
+import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
+import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
+import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
+import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
+import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
+import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
+import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
+import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
+import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
 import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
 import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg";
 import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp";
@@ -47,20 +58,18 @@ function PreEngineeredBuildings() {
           <div className="s-banner-marquee">
             <img src={IMG1} alt="NE Structures Marquee Img" />
             <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={IMG3} alt="NE Structures Marquee Img" />
-            <img src={IMG4} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
             <img src={IMG5} alt="NE Structures Marquee Img" />
             <img src={IMG6} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
             <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG8} alt="NE Structures Marquee Img" />
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={IMG3} alt="NE Structures Marquee Img" />
-            <img src={IMG4} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG8} alt="NE Structures Marquee Img" />
+            <img src={IMG9} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>

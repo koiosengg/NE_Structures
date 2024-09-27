@@ -7,6 +7,17 @@ import IMG5 from "../assets/HomeBanner/IMG5.jpg";
 import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
+import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
+import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
+import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
+import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
+import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
+import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
+import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
+import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
+import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
+import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
 import LogoVector from "../assets/AboutIMG/LogoVector.png";
 import Staad from "../assets/AboutIMG/Staad.png";
 import Tekla from "../assets/AboutIMG/Tekla.png";
@@ -22,8 +33,8 @@ function About() {
           <sub>ABOUT US</sub>
           <div className="heading">
             <p>
-              Leading the Future of <br className="notMobile"></br> <span>Engineering</span> and {' '}
-              <span>Innovation</span>
+              Leading the Future of <br className="notMobile"></br>{" "}
+              <span>Engineering</span> and <span>Innovation</span>
             </p>
             <sub>
               NE Structures has become a trusted leader in steel construction.
@@ -35,22 +46,20 @@ function About() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} />
-            <img src={IMG2} />
-            <img src={IMG3} />
-            <img src={IMG4} />
-            <img src={IMG5} />
-            <img src={IMG6} />
-            <img src={IMG7} />
-            <img src={IMG8} />
-            <img src={IMG1} />
-            <img src={IMG2} />
-            <img src={IMG3} />
-            <img src={IMG4} />
-            <img src={IMG5} />
-            <img src={IMG6} />
-            <img src={IMG7} />
-            <img src={IMG8} />
+            <img src={IMG1} alt="NE Structures Marquee Img" />
+            <img src={IMG2} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={IMG5} alt="NE Structures Marquee Img" />
+            <img src={IMG6} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={IMG7} alt="NE Structures Marquee Img" />
+            <img src={IMG9} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
