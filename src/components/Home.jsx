@@ -19,11 +19,17 @@ import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).web
 import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
 import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
 import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
+import TalankeyMarqueeImg11 from "../assets/Marquee/Talankey Marquee Img  (11).jpg";
+import TalankeyMarqueeImg12 from "../assets/Marquee/Talankey Marquee Img  (12).png";
+import TalankeyMarqueeImg13 from "../assets/Marquee/Talankey Marquee Img  (13).webp";
+import TalankeyMarqueeImg14 from "../assets/Marquee/Talankey Marquee Img  (14).jpeg";
 import NewImg1 from "../assets/NewImgs/newImg1.jpeg";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import Staad from "../assets/AboutIMG/Staad.png";
 import Tekla from "../assets/AboutIMG/Tekla.png";
+import ProNest from "../assets/AboutIMG/ProNest.png";
+import Autodesk from "../assets/AboutIMG/Autodesk.png";
 import Leading from "../assets/HomeBanner/Leading.png";
 import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import ClearSpanImage from "../assets/HomeBanner/ClearSpanImage.png";
@@ -240,20 +246,20 @@ function Home() {
           onClick={handleScroll}
         >
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg9} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -441,7 +447,9 @@ function Home() {
         </div>
         <div className="homeInfoLogoContainer">
           <img src={Staad} alt="NE Structures Software Support STAAD.Pro"></img>
-          <img src={Tekla} alt="NE Structures Tekla Structures"></img>
+          <img src={ProNest} alt="NE Structures Software ProNest 2021"></img>
+          <img src={Tekla} alt="NE Structures Software Tekla Structures"></img>
+          <img src={Autodesk} alt="NE Structures Software Autodesk"></img>
         </div>
       </div>
       <div className="homeInfoContainer">

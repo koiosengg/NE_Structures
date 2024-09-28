@@ -978,7 +978,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 140px;
+  gap: 40px;
 }
 
 .homeInfoLogoContainer img {
@@ -2267,9 +2267,11 @@
   }
 
   .homeInfoLogoContainer {
-    padding: 48px 20px;
-    gap: 0;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
   }
 
   .homeInfoLogoContainer img {
@@ -2605,7 +2607,7 @@
     width: 100%;
   }
 
-  .FAQset{
+  .FAQset {
     padding: 16px;
   }
 

@@ -21,6 +21,8 @@ import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).w
 import LogoVector from "../assets/AboutIMG/LogoVector.png";
 import Staad from "../assets/AboutIMG/Staad.png";
 import Tekla from "../assets/AboutIMG/Tekla.png";
+import ProNest from "../assets/AboutIMG/ProNest.png";
+import Autodesk from "../assets/AboutIMG/Autodesk.png";
 import VissionIMG from "../assets/AboutIMG/VissionIMG.jpg";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
@@ -89,8 +91,10 @@ function About() {
         </div>
       </div>
       <div className="homeInfoLogoContainer">
-        <img src={Staad}></img>
-        <img src={Tekla}></img>
+        <img src={Staad} alt="NE Structures Software Support STAAD.Pro"></img>
+        <img src={ProNest} alt="NE Structures Software ProNest 2021"></img>
+        <img src={Tekla} alt="NE Structures Software Tekla Structures"></img>
+        <img src={Autodesk} alt="NE Structures Software Autodesk"></img>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
