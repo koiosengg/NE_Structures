@@ -258,6 +258,11 @@ function Navbar() {
               </div>
             </div>
             <div className="heading">
+              <Link to="/Infrastructure" onClick={toggleMobileNav}>
+                <sub> Infrastructure</sub>
+              </Link>
+            </div>
+            <div className="heading">
               <Link to="/about" onClick={toggleMobileNav}>
                 <sub> About Us</sub>
               </Link>
