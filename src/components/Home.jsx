@@ -549,12 +549,12 @@ function Home() {
               <div className="homeInfoSetImg">
                 <img
                   src={ProductImg1}
-                  alt="NE Structues High Raise Steel Structures"
+                  alt="NE Structues High Rise Steel Structures"
                 ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>High Raise Steel Structures </sub>
+                  <sub>High Rise Steel Structures </sub>
                   <p>
                     NE Structures High-Rise Steel Structures offer unmatched
                     strength and flexibility, designed to support the most
@@ -564,7 +564,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/HighRaiseSteelStructures">
+                  <Link to="/HighRiseSteelStructures">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

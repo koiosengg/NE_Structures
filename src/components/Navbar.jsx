@@ -108,6 +108,13 @@ function Navbar() {
         <div className="navbarTabSet">
           <div className="navbarTabSetHeading">
             <p>
+              <Link to="/Infrastructure">Infrastructure</Link>
+            </p>
+          </div>
+        </div>
+        <div className="navbarTabSet">
+          <div className="navbarTabSetHeading">
+            <p>
               <Link to="/about">About Us</Link>
             </p>
           </div>

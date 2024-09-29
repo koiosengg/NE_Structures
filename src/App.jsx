@@ -6,6 +6,7 @@ import PreEngineeredBuildings from "./components/PreEngineeredBuildings";
 import HighRiseSteelStructures from "./components/HighRiseSteelStructures";
 import StructuralEngineeringServices from "./components/StructuralEngineeringServices";
 import BuildingInformationModelling from "./components/BuildingInformationModelling";
+import Infrastructure from "./components/Infrastructure";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -36,6 +37,7 @@ function App() {
             element={<BuildingInformationModelling />}
           />
           <Route path="contact" element={<Contact />} />
+          <Route path="Infrastructure" element={<Infrastructure />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<Home />} />
         </Route>
