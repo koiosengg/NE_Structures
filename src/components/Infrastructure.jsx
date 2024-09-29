@@ -39,11 +39,11 @@ function Infrastructure() {
     <div className="Infrastructure">
       <div className="homeBanner">
         <div className="homeBannerContent">
-          <sub>ABOUT US</sub>
+          <sub>INFRASTRUCTURE</sub>
           <div className="heading">
             <p>
-              Leading the Future of <br className="notMobile"></br>{" "}
-              <span>Engineering</span> and <span>Innovation</span>
+              Building Structures with <br></br>{" "}
+              <span> Unmatched Precision</span> and <span>Strength</span>
             </p>
             <sub>
               NE Structures has become a trusted leader in steel construction.
