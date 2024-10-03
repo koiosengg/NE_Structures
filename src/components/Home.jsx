@@ -465,11 +465,11 @@ function Home() {
           </span>
         </div>
         <div
-          className="homeInfoDetails"
+          className="homeInfoDetails "
           style={{ gap: "24px", flexDirection: "column" }}
         >
           <div className="homeInfoheading">Our Products</div>
-          <div className="homeInfoSetContainer">
+          <div className="homeInfoSetContainer homeProductInfo">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
@@ -565,6 +565,156 @@ function Home() {
                 </div>
                 <div className="navbarContact">
                   <Link to="/HighRiseSteelStructures">
+                    <p>View More</p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <mask
+                        id="mask0_1040_1041"
+                        style={{ maskType: "alpha" }}
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <rect width="20" height="20" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_1040_1041)">
+                        <path
+                          d="M7.01732 16.6668L5.83398 15.4835L11.3173 10.0002L5.83398 4.51683L7.01732 3.3335L13.684 10.0002L7.01732 16.6668Z"
+                          fill="white"
+                        />
+                      </g>
+                    </svg>
+                    <svg
+                      className="navbarContactHoverSvg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <mask
+                        id="mask0_1044_5987"
+                        style={{ maskType: "alpha" }}
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <rect width="20" height="20" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_1044_5987)">
+                        <path
+                          d="M13.4791 10.8333H3.33331V9.16667H13.4791L8.81248 4.5L9.99998 3.33333L16.6666 10L9.99998 16.6667L8.81248 15.5L13.4791 10.8333Z"
+                          fill="white"
+                        />
+                      </g>
+                    </svg>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="homeInfoSet">
+              <div className="homeInfoSetImg">
+                <img
+                  src={IMG5}
+                  alt="NE Structues Pre Engineered Building"
+                ></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>Roofing Sheets</sub>
+                  <p>
+                    NE Structures Roofing Sheets are designed, fabricated, and
+                    installed to meet specific customer needs. Our premium
+                    roofing solutions ensure durability, weather resistance, and
+                    energy efficiency, providing optimal protection and look.
+                  </p>
+                </div>
+                <div className="navbarContact">
+                  <Link to="/RoofingSheets">
+                    <p>View More</p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <mask
+                        id="mask0_1040_1041"
+                        style={{ maskType: "alpha" }}
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <rect width="20" height="20" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_1040_1041)">
+                        <path
+                          d="M7.01732 16.6668L5.83398 15.4835L11.3173 10.0002L5.83398 4.51683L7.01732 3.3335L13.684 10.0002L7.01732 16.6668Z"
+                          fill="white"
+                        />
+                      </g>
+                    </svg>
+                    <svg
+                      className="navbarContactHoverSvg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <mask
+                        id="mask0_1044_5987"
+                        style={{ maskType: "alpha" }}
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <rect width="20" height="20" fill="#D9D9D9" />
+                      </mask>
+                      <g mask="url(#mask0_1044_5987)">
+                        <path
+                          d="M13.4791 10.8333H3.33331V9.16667H13.4791L8.81248 4.5L9.99998 3.33333L16.6666 10L9.99998 16.6667L8.81248 15.5L13.4791 10.8333Z"
+                          fill="white"
+                        />
+                      </g>
+                    </svg>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="homeInfoSet">
+              <div className="homeInfoSetImg">
+                <img
+                  src={ProductImg1}
+                  alt="NE Structues High Rise Steel Structures"
+                ></img>
+              </div>
+              <div className="homeInfoSetDetails">
+                <div className="heading">
+                  <sub>CZ Purlins </sub>
+                  <p>
+                    NE Structures CZ Purlins are engineered and manufactured to
+                    meet precise customer specifications. Our high-quality
+                    purlins provide robust support, ensuring structural
+                    integrity and reliability for various applications.
+                  </p>
+                </div>
+                <div className="navbarContact">
+                  <Link to="/CZPurlins">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

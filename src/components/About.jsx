@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -26,11 +27,18 @@ import Autodesk from "../assets/AboutIMG/Autodesk.png";
 import VissionIMG from "../assets/AboutIMG/VissionIMG.jpg";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
+import Gallery from "./Gallery";
+import FAQ from "./FAQ";
+
+import ProductImg1 from "../assets/AboutIMG/NE Structures CNC Plasma Cutting Machine.jfif";
+import ProductImg2 from "../assets/AboutIMG/NE Structures Roofing Machine.jfif";
+import ProductImg3 from "../assets/AboutIMG/NE Structures Anchor Bolt Threading.jfif";
+import ProductImg4 from "../assets/AboutIMG/NE Structures CNC Purlin Line.jfif";
 
 function About() {
   return (
     <div className="product about">
-      <div className="homeBanner">
+      <div className="homeBanner ">
         <div className="homeBannerContent">
           <sub>ABOUT US</sub>
           <div className="heading">
@@ -65,7 +73,21 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="homeInfoContainer bannerDownDiv">
+      <div className="bigNumbers bannerDownDiv">
+        <div className="bigNumberSet">
+          <h2>25+</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div className="bigNumberSet">
+          <h2>0.5 M Ton</h2>
+          <p>Tonnage Delivered</p>
+        </div>
+        <div className="bigNumberSet">
+          <h2>100+</h2>
+          <p>Projects</p>
+        </div>
+      </div>
+      <div className="homeInfoContainer " style={{ paddingTop: "0px" }}>
         <div className="heading">
           <p>
             <span> Our Materials</span> <br />
@@ -90,12 +112,6 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="homeInfoLogoContainer">
-        <img src={Staad} alt="NE Structures Software Support STAAD.Pro"></img>
-        <img src={ProNest} alt="NE Structures Software ProNest 2021"></img>
-        <img src={Tekla} alt="NE Structures Software Tekla Structures"></img>
-        <img src={Autodesk} alt="NE Structures Software Autodesk"></img>
-      </div>
       <div className="homeInfoContainer">
         <div className="heading">
           <p>
@@ -118,6 +134,12 @@ function About() {
           </div>
         </div>
       </div>
+      <div className="homeInfoLogoContainer">
+        <img src={Staad} alt="NE Structures Software Support STAAD.Pro"></img>
+        <img src={ProNest} alt="NE Structures Software ProNest 2021"></img>
+        <img src={Tekla} alt="NE Structures Software Tekla Structures"></img>
+        <img src={Autodesk} alt="NE Structures Software Autodesk"></img>
+      </div>
       <div className="homeInfoContainer aboutMarquee">
         <div className="heading">
           <p>
@@ -130,141 +152,53 @@ function About() {
             exceptional steel structures.
           </span>
         </div>
-        <div className="homeInfoDetails aboutGallery">
-          <div className="s-banner-wrapper">
-            <div className="s-banner-marquee">
-              <div className="s-banner-marquee-set">
-                <img src={IMG1} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG2} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG3} />
-                <sub>CNC Plasma Cutting Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG4} />
-                <sub>Roofing Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG5} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG6} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG7} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG8} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG1} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG2} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG3} />
-                <sub>CNC Plasma Cutting Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG4} />
-                <sub>Roofing Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG5} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG6} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG7} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG8} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
+        <div className="aboutNewSection">
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg1}></img>
+            <div className="heading">
+              <h3>CNC Plasma Cutting Machine</h3>
+              <p>
+                NE Structures Pre-Engineered Buildings are designed, fabricated
+                & commissioned matching exact customer’s requirement satisfying
+                all the aspects involved, ensuring it serves to best of its
+                design extent.
+              </p>
             </div>
           </div>
-          <div className="s-banner-wrapper reverse-marquee">
-            <div className="s-banner-marquee">
-              <div className="s-banner-marquee-set">
-                <img src={IMG1} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG2} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG3} />
-                <sub>CNC Plasma Cutting Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG4} />
-                <sub>Roofing Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG5} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG6} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG7} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG8} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG1} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG2} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG3} />
-                <sub>CNC Plasma Cutting Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG4} />
-                <sub>Roofing Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG5} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG6} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG7} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
-              <div className="s-banner-marquee-set">
-                <img src={IMG8} />
-                <sub>Automatic H-Welding Machine</sub>
-              </div>
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg2}></img>
+            <div className="heading">
+              <h3>Roofing Machine </h3>
+              <p>
+                NE Structures High-Rise Steel Structures offer unmatched
+                strength and flexibility, designed to support the most ambitious
+                architectural visions. Built for durability and safety, these
+                structures are engineered to stand tall in any skyline.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg3}></img>
+            <div className="heading">
+              <h3>Anchor Bolt Threading</h3>
+              <p>
+                NE Structures Roofing Sheets are designed, fabricated, and
+                installed to meet specific customer needs. Our premium roofing
+                solutions ensure durability, weather resistance, and energy
+                efficiency, providing optimal protection and look.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg4}></img>
+            <div className="heading">
+              <h3>CNC Purlin Line</h3>
+              <p>
+                NE Structures CZ Purlins are engineered and manufactured to meet
+                precise customer specifications. Our high-quality purlins
+                provide robust support, ensuring structural integrity and
+                reliability for various applications.
+              </p>
             </div>
           </div>
         </div>
@@ -319,6 +253,8 @@ function About() {
           </div>
         </div>
       </div>
+      <Gallery />
+      <FAQ />
       <div className="homeBrochure">
         <div className="product brochure">
           <div className="p-brochure-main">

@@ -850,6 +850,17 @@
   display: none;
 }
 
+.homeInfoDetails .homeProductInfo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.homeInfoDetails .homeProductInfo .homeInfoSet {
+  width: 100%;
+}
+
 .homeInfoDetailSet {
   display: flex;
   min-height: 180px;
@@ -1416,12 +1427,28 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
 }
 
 .homeInfoDetails .newGallerySlide img {
   flex-shrink: 0;
   border-radius: 4px;
   box-shadow: none;
+}
+
+.s-galleryImgText {
+  padding: 10px 16px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .newGalleryControls {
@@ -1991,11 +2018,7 @@
 }
 
 .aboutMarquee {
-  padding: 80px 0px;
-}
-
-.aboutMarquee .heading {
-  padding: 0px 160px;
+  padding: 80px 160px;
 }
 
 .aboutMarquee .homeInfoDetails {
@@ -2006,6 +2029,104 @@
 
 .about .aboutGallery .s-banner-wrapper {
   transform: translateY(0);
+}
+
+.aboutNewSection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.aboutNewSectionSet {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.aboutNewSectionSet img {
+  width: 100%;
+  height: 324px;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.aboutNewSectionSet .heading {
+  display: flex;
+  padding: 8px 16px 16px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.aboutNewSectionSet .heading h3 {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+
+  /* XXL/Semibold */
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.aboutNewSectionSet .heading p {
+  color: var(--Grey-Text-Primary, #757575);
+  font-variant-numeric: lining-nums proportional-nums;
+
+  /* L/Medium */
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
+.bigNumbers {
+  display: flex;
+  width: 100%;
+  padding: 80px 160px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.bigNumberSet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.bigNumberSet h2 {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+
+  /* H2/Bold */
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+
+.bigNumberSet p {
+  color: var(--Black-Text-black-text-300, #606060);
+  font-variant-numeric: lining-nums proportional-nums;
+
+  /* L/Medium */
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
 }
 
 /* Responsive */
@@ -2338,6 +2459,18 @@
     width: 90%;
     flex-shrink: 0;
     min-height: 200px;
+  }
+
+  .homeInfoDetails .homeProductInfo {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .homeInfoDetails .homeProductInfo .homeInfoSet {
+    width: 90%;
   }
 
   .homeInfoDetails {
@@ -2848,6 +2981,19 @@
     gap: 0;
   }
 
+  .s-galleryImgText {
+    padding: 10px 8px;
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* S/Semibold */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+  }
+
   .homeGallerySet {
     height: 390px;
     display: grid;
@@ -3215,11 +3361,64 @@
   }
 
   .aboutMarquee {
-    padding: 48px 0px;
+    padding: 48px 20px;
   }
 
-  .aboutMarquee .heading {
-    padding: 0px 20px;
+  .aboutNewSection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: scroll;
+    gap: 24px;
+  }
+
+  .aboutNewSectionSet {
+    display: flex;
+    width: 90%;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .aboutNewSectionSet img {
+    height: 234.5px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .aboutNewSectionSet .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    padding: 0;
+  }
+
+  .aboutNewSectionSet .heading h3 {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .aboutNewSectionSet .heading p {
+    color: var(--Black-Text-black-text-300, #606060);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* S/Regular */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
   }
 
   .aboutMarquee .homeInfoDetails {
@@ -3251,6 +3450,43 @@
     font-style: normal;
     font-weight: 600;
     line-height: 20px; /* 125% */
+  }
+
+  .bigNumbers {
+    padding: 48px 20px;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .bigNumberSet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .bigNumberSet h2 {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* XL/Bold */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .bigNumberSet p {
+    color: var(--Black-Text-black-text-300, #606060);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* S/Medium */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
   }
 
   .aisc {

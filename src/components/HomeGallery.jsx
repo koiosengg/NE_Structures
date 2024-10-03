@@ -1,4 +1,4 @@
-import React, { useState, useEffect, forwardRef } from "react";
+import React, { useState, useEffect, forwardRef, useRef } from "react";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -10,7 +10,7 @@ import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 
 const setHeight = 714;
 const gap = 20;
-const padding = 20; // Padding on both left and right
+const padding = 20;
 
 const gallerySets = [
   {
@@ -45,9 +45,14 @@ const HomeGallery = forwardRef((props, ref) => {
     gallerySets.map(() => 0)
   );
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+  const [galleryWidth, setGalleryWidth] = useState(0); // State to store the width of the container
+  const galleryContainerRef = useRef(null); // Ref to the gallery container
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 1200);
+    if (galleryContainerRef.current) {
+      setGalleryWidth(galleryContainerRef.current.offsetWidth);
+    }
   };
 
   const handleUpClick = () => {
@@ -62,6 +67,7 @@ const HomeGallery = forwardRef((props, ref) => {
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
+    handleResize(); // Call it on mount to get the initial size
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -81,7 +87,7 @@ const HomeGallery = forwardRef((props, ref) => {
     };
   }, []);
 
-  const setWidth = isMobile ? window.innerWidth - 2 * padding - 1 : "100%";
+  const setWidth = galleryWidth;
 
   return (
     <div className="homeInfoContainer" ref={ref} id="home-gallery">
@@ -95,7 +101,7 @@ const HomeGallery = forwardRef((props, ref) => {
           adipiscing euismod sed. Egestas lorem orci enim at. Vitae etiam arcu.
         </span>
       </div>
-      <div className="homeGalleryContainer">
+      <div className="homeGalleryContainer" ref={galleryContainerRef}>
         <div className="homeGalleryControl">
           <svg
             onClick={handleUpClick}
@@ -191,7 +197,7 @@ const HomeGallery = forwardRef((props, ref) => {
             <div
               className="homeGallerySet"
               key={index}
-              style={{ width: isMobile ? `${setWidth}px` : "100%" }}
+              style={{ width: `${setWidth}px` }}
             >
               <div className="heading">
                 <sub>{set.heading}</sub>

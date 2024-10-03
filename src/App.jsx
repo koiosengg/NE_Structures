@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import PreEngineeredBuildings from "./components/PreEngineeredBuildings";
 import HighRiseSteelStructures from "./components/HighRiseSteelStructures";
+import RoofingSheets from "./components/RoofingSheets";
+import CZPurlins from "./components/CZPurlins";
 import StructuralEngineeringServices from "./components/StructuralEngineeringServices";
 import BuildingInformationModelling from "./components/BuildingInformationModelling";
 import Infrastructure from "./components/Infrastructure";
@@ -28,6 +30,8 @@ function App() {
             path="HighRiseSteelStructures"
             element={<HighRiseSteelStructures />}
           />
+          <Route path="RoofingSheets" element={<RoofingSheets />} />
+          <Route path="CZPurlins" element={<CZPurlins />} />
           <Route
             path="StructuralEngineeringServices"
             element={<StructuralEngineeringServices />}

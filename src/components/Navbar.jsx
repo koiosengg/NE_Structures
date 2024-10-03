@@ -59,6 +59,8 @@ function Navbar() {
             <Link to="/HighRiseSteelStructures">
               High Rise Steel Structures
             </Link>
+            <Link to="/RoofingSheets">Roofing Sheets</Link>
+            <Link to="/CZPurlins">CZ Purlins</Link>
           </div>
         </div>
         <div className="navbarTabSet">
@@ -237,6 +239,12 @@ function Navbar() {
                 </Link>
                 <Link to="/HighRiseSteelStructures" onClick={toggleMobileNav}>
                   High Raise Steel Buildings
+                </Link>
+                <Link to="/RoofingSheets" onClick={toggleMobileNav}>
+                  Roofing Sheets
+                </Link>
+                <Link to="/CZPurlins" onClick={toggleMobileNav}>
+                  CZ Purlins
                 </Link>
               </div>
             </div>

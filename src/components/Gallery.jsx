@@ -10,20 +10,22 @@ import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
 
-
-const Gallery= forwardRef((props, ref) => {
+const Gallery = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const newGalleryRef = useRef(null);
   const [galleryWidth, setGalleryWidth] = useState(0);
 
-  const images = [
-    NewImg3,
-    IMG1,
-    IMG2,
-    IMG3,
-    IMG6,
-    IMG7,
-    IMG9,
+  const images = [NewImg3, IMG1, IMG2, IMG3, IMG6, IMG7, IMG9];
+
+  // Array of captions corresponding to each image
+  const captions = [
+    "Nexus Novus at Bangalore Airport",
+    "Project Overview: Residential Complex",
+    "Innovative Office Space Design",
+    "Durable Steel Structure Construction",
+    "Eco-Friendly Building Practices",
+    "Modern Industrial Facility",
+    "Sustainable Urban Development",
   ];
 
   useEffect(() => {
@@ -81,7 +83,7 @@ const Gallery= forwardRef((props, ref) => {
           </p>
           <div className="galleryNumberDiv">
             <div className="subHeading">
-              <p>3000+</p>
+              <p>25+</p>
               <span>Happy Clients</span>
             </div>
             <div className="subHeading">
@@ -89,7 +91,7 @@ const Gallery= forwardRef((props, ref) => {
               <span>Tonnage Delivered</span>
             </div>
             <div className="subHeading">
-              <p>3600+</p>
+              <p>100+</p>
               <span>Projects</span>
             </div>
           </div>
@@ -104,12 +106,14 @@ const Gallery= forwardRef((props, ref) => {
             }}
           >
             {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                style={{ width: "100%", flexShrink: 0 }}
-                alt={`NE Structures Gallery Img ${index + 1}`}
-              />
+              <div key={index} style={{ flexShrink: 0, width: "100%" }}>
+                <img
+                  src={image}
+                  style={{ width: "100%" }}
+                  alt={`NE Structures Gallery Img ${index + 1}`}
+                />
+                <p className="s-galleryImgText">{captions[index]}</p>
+              </div>
             ))}
           </div>
           <div className="newGalleryControls">
