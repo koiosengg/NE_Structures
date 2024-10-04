@@ -32,6 +32,15 @@ import ProductImg1 from "../assets/AboutIMG/NE Structures CNC Plasma Cutting Mac
 import ProductImg2 from "../assets/AboutIMG/NE Structures Roofing Machine.jfif";
 import ProductImg3 from "../assets/AboutIMG/NE Structures Anchor Bolt Threading.jfif";
 import ProductImg4 from "../assets/AboutIMG/NE Structures CNC Purlin Line.jfif";
+import Img1 from "../assets/AboutIMG/plasma.jpg";
+import Img2 from "../assets/AboutIMG/Roof Sheet machine-min.jpg";
+import Img3 from "../assets/AboutIMG/anchr bolt threading machine.webp";
+import Img9 from "../assets/AboutIMG/ptw.jpg"
+import Img5 from "../assets/AboutIMG/Ironworker NE Structures-min.jpg";
+import Img8 from "../assets/AboutIMG/Press Brake Machine-min.jpg";
+import Img7 from "../assets/AboutIMG/Shearing machine.jpg";
+import Img6 from "../assets/AboutIMG/Shot Blasting Machine.jpg";
+import Img4 from "../assets/AboutIMG/CZ purlin machine NE structures.jpg";
 import HomeGallery from "./HomeGallery";
 import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
@@ -113,45 +122,90 @@ function Infrastructure() {
         </div>
         <div className="aboutNewSection">
           <div className="aboutNewSectionSet">
-            <img src={ProductImg1}></img>
+            <img src={Img1}></img>
             <div className="heading">
-              <h3>CNC Plasma Cutting Machine</h3>
+              <h3> CNC Plasma Cutting Machine</h3>
               <p>
-                NE Structures Pre-Engineered Buildings are designed, fabricated
-                & commissioned matching exact customer’s requirement satisfying
-                all the aspects involved, ensuring it serves to best of its
-                design extent.
+              NE Structures uses advanced CNC Plasma Cutting Machines for precise, high-speed cutting of steel plates and sheets. This ensures accurate dimensions and smooth edges, enhancing the quality and efficiency of our fabrication process.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
-            <img src={ProductImg2}></img>
+            <img src={Img2}></img>
             <div className="heading">
-              <h3>Roofing Machine </h3>
+              <h3>Roofing Sheet Machine  </h3>
               <p>
-                NE Structures High-Rise Steel Structures offer unmatched
-                strength and flexibility, designed to support the most ambitious
-                architectural visions. Built for durability and safety, these
-                structures are engineered to stand tall in any skyline.
+              Our Roofing Sheet Machines are engineered to produce a variety of profiles with consistent thickness and shape, delivering top-quality roofing solutions for various construction needs.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
-            <img src={ProductImg3}></img>
+            <img src={Img3}></img>
             <div className="heading">
-              <h3>Anchor Bolt Threading</h3>
+              <h3>Anchor Bolt Threading Machine</h3>
               <p>
-                NE Structures Roofing Sheets are designed, fabricated, and
-                installed to meet specific customer needs. Our premium roofing
-                solutions ensure durability, weather resistance, and energy
-                efficiency, providing optimal protection and look.
+              We employ specialized Anchor Bolt Threading Machines to manufacture custom-length bolts with accurate threading, ensuring secure and reliable anchorage in steel structures.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={Img4}></img>
+            <div className="heading">
+              <h3>CZ Purlin Machine</h3>
+              <p>
+              The CZ Purlin Machine at NE Structures manufactures C and Z profiles with high precision, supporting the construction of lightweight and durable purlin systems for roofing and cladding applications.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={Img5}></img>
+            <div className="heading">
+              <h3>Iron Worker Machine</h3>
+              <p>
+              Our Iron Worker Machine is a versatile tool used for shearing, punching, and bending operations, reducing production time and ensuring uniformity in steel components.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={Img6}></img>
+            <div className="heading">
+              <h3>Shot Blasting Machine </h3>
+              <p>
+              We utilize Shot Blasting Machines to clean and polish steel surfaces, removing rust and contaminants, which improves paint adhesion and overall structural longevity.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={Img7}></img>
+            <div className="heading">
+              <h3>Shearing Machine</h3>
+              <p>
+              NE Structures’ Shearing Machine enables clean and precise cuts on metal sheets, allowing for faster fabrication while minimizing material wastage.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={Img8}></img>
+            <div className="heading">
+              <h3> Press Brake Machine </h3>
+              <p>
+              Our Press Brake Machine is capable of bending metal sheets into various shapes, meeting complex structural requirements with ease and precision.
+              </p>
+            </div>
+          </div>
+          <div className="aboutNewSectionSet">
+            <img src={Img9}></img>
+            <div className="heading">
+              <h3>PTW Welding Machine</h3>
+              <p>
+              We use PTW Welding Machines for consistent and high-quality welds on all steel joints, ensuring the strength and durability of our prefabricated steel structures.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={ProductImg4}></img>
             <div className="heading">
-              <h3>CNC Purlin Line</h3>
+              <h3>Iron Worker Machine</h3>
               <p>
                 NE Structures CZ Purlins are engineered and manufactured to meet
                 precise customer specifications. Our high-quality purlins
