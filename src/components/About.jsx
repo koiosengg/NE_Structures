@@ -202,6 +202,36 @@ function About() {
             </div>
           </div>
         </div>
+        <div className="viewButton">
+              <Link to="/Infrastructure">
+                <sup>View More</sup>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <mask
+                    id="mask0_1114_1803"
+                    style={{ maskType: "alpha" }}
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="20"
+                    height="20"
+                  >
+                    <rect width="20" height="20" fill="#D9D9D9" />
+                  </mask>
+                  <g mask="url(#mask0_1114_1803)">
+                    <path
+                      d="M7.01732 16.6668L5.83398 15.4835L11.3173 10.0002L5.83398 4.51683L7.01732 3.3335L13.684 10.0002L7.01732 16.6668Z"
+                      fill="white"
+                    />
+                  </g>
+                </svg>
+              </Link>
+            </div>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">

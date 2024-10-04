@@ -28,7 +28,10 @@ import CrimpingMachine from "../assets/Infrastructure/NE Structures Crimping Mac
 import RadialCNCDrillingMachine from "../assets/Infrastructure/NE Structures Radial CNC Drilling Machine.png";
 import RollFormingMachine from "../assets/Infrastructure/NE Structures Roll Forming Machine.png";
 import MagneticDrillingMachine from "../assets/Infrastructure/NE Structures Magnetic Drilling Machine.jfif";
-
+import ProductImg1 from "../assets/AboutIMG/NE Structures CNC Plasma Cutting Machine.jfif";
+import ProductImg2 from "../assets/AboutIMG/NE Structures Roofing Machine.jfif";
+import ProductImg3 from "../assets/AboutIMG/NE Structures Anchor Bolt Threading.jfif";
+import ProductImg4 from "../assets/AboutIMG/NE Structures CNC Purlin Line.jfif";
 import HomeGallery from "./HomeGallery";
 import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
@@ -108,105 +111,54 @@ function Infrastructure() {
             exceptional steel structures.
           </span>
         </div>
-        <div className="infraDiv">
-          <div className="infraDivSet">
-            <img
-              src={AutomaticHWeldingMachine2}
-              alt="NE Structures Automatic H-Welding Machine"
-            ></img>
-            <h4>Automatic H-Welding Machine</h4>
+        <div className="aboutNewSection">
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg1}></img>
+            <div className="heading">
+              <h3>CNC Plasma Cutting Machine</h3>
+              <p>
+                NE Structures Pre-Engineered Buildings are designed, fabricated
+                & commissioned matching exact customer’s requirement satisfying
+                all the aspects involved, ensuring it serves to best of its
+                design extent.
+              </p>
+            </div>
           </div>
-          <div className="infraDivSet">
-            <img
-              src={CNCPlasmaCuttingMachine}
-              alt="NE Structures CNC Plasma Cutting Machine"
-            ></img>
-            <h4>CNC Plasma Cutting Machine</h4>
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg2}></img>
+            <div className="heading">
+              <h3>Roofing Machine </h3>
+              <p>
+                NE Structures High-Rise Steel Structures offer unmatched
+                strength and flexibility, designed to support the most ambitious
+                architectural visions. Built for durability and safety, these
+                structures are engineered to stand tall in any skyline.
+              </p>
+            </div>
           </div>
-          <div className="infraDivSet">
-            <img src={RoofingMachine} alt="NE Structures Roofing Machine"></img>
-            <h4>Roofing Machine</h4>
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg3}></img>
+            <div className="heading">
+              <h3>Anchor Bolt Threading</h3>
+              <p>
+                NE Structures Roofing Sheets are designed, fabricated, and
+                installed to meet specific customer needs. Our premium roofing
+                solutions ensure durability, weather resistance, and energy
+                efficiency, providing optimal protection and look.
+              </p>
+            </div>
           </div>
-          <div className="infraDivSet">
-            <img
-              src={AutomaticHWeldingMachine1}
-              alt="NE Structures Automatic H-Welding Machine"
-            ></img>
-            <h4>Automatic H-Welding Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={AutomaticHWeldingMachine1}
-              alt="NE Structures CNC Purlin Line"
-            ></img>
-            <h4>CNC Purlin Line</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={CNCShearingMachine}
-              alt="NE Structures CNC Shearing Machine"
-            ></img>
-            <h4>CNC Shearing Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img src={PressBrake} alt="NE Structures Press Brake"></img>
-            <h4>Press Brake</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={CrimpingMachine}
-              alt="NE Structures Crimping Machine"
-            ></img>
-            <h4>Crimping Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={RoofingMachine}
-              alt="NE Structures Ulrtrasonic Thickness Detector"
-            ></img>
-            <h4>Ulrtrasonic Thickness Detector</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={RadialCNCDrillingMachine}
-              alt="NE Structures Radial CNC Drilling Machine"
-            ></img>
-            <h4>Radial CNC Drilling Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={RollFormingMachine}
-              alt="NE Structures Roll Forming Machine"
-            ></img>
-            <h4>Roll Forming Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={CNCShearingMachine}
-              alt="NE Structures Crimping Machine"
-            ></img>
-            <h4>Shot Blasting Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={RoofingMachine}
-              alt="NE Structures Multi Nozzle Gas - Cutting Machine"
-            ></img>
-            <h4>Multi Nozzle Gas - Cutting Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={CNCPlasmaCuttingMachine}
-              alt="NE Structures Airless Spray Painting Machine"
-            ></img>
-            <h4>Airless Spray Painting Machine</h4>
-          </div>
-          <div className="infraDivSet">
-            <img
-              src={MagneticDrillingMachine}
-              alt="NE Structures Magnetic Drilling Machine"
-            ></img>
-            <h4>Magnetic Drilling Machine</h4>
+          <div className="aboutNewSectionSet">
+            <img src={ProductImg4}></img>
+            <div className="heading">
+              <h3>CNC Purlin Line</h3>
+              <p>
+                NE Structures CZ Purlins are engineered and manufactured to meet
+                precise customer specifications. Our high-quality purlins
+                provide robust support, ensuring structural integrity and
+                reliability for various applications.
+              </p>
+            </div>
           </div>
         </div>
       </div>
