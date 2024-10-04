@@ -34,10 +34,10 @@ import HorizontalSlider from "./HorizontalSlider";
 import Gallery from "./Gallery";
 import FAQ from "./FAQ";
 
-import ProductImg1 from "../assets/AboutIMG/NE Structures CNC Plasma Cutting Machine.jfif";
-import ProductImg2 from "../assets/AboutIMG/NE Structures Roofing Machine.jfif";
-import ProductImg3 from "../assets/AboutIMG/NE Structures Anchor Bolt Threading.jfif";
-import ProductImg4 from "../assets/AboutIMG/NE Structures CNC Purlin Line.jfif";
+import Img1 from "../assets/AboutIMG/plasma.jpg";
+import Img2 from "../assets/AboutIMG/Roof Sheet machine-min.jpg";
+import Img3 from "../assets/AboutIMG/anchr bolt threading machine.webp";
+import Img4 from "../assets/AboutIMG/CZ purlin machine NE structures.jpg";
 
 function About() {
   return (
@@ -171,55 +171,73 @@ function About() {
           </span>
         </div>
         <div className="aboutNewSection">
-          <div className="aboutNewSectionSet">
-            <img src={ProductImg1}></img>
+        <div className="aboutNewSectionSet">
+            <img src={Img1}></img>
             <div className="heading">
-              <h3>CNC Plasma Cutting Machine</h3>
+              <h3> CNC Plasma Cutting Machine</h3>
               <p>
-                NE Structures Pre-Engineered Buildings are designed, fabricated
-                & commissioned matching exact customer’s requirement satisfying
-                all the aspects involved, ensuring it serves to best of its
-                design extent.
+              NE Structures uses advanced CNC Plasma Cutting Machines for precise, high-speed cutting of steel plates and sheets. This ensures accurate dimensions and smooth edges, enhancing the quality and efficiency of our fabrication process.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
-            <img src={ProductImg2}></img>
+            <img src={Img2}></img>
             <div className="heading">
-              <h3>Roofing Machine </h3>
+              <h3>Roofing Sheet Machine  </h3>
               <p>
-                NE Structures High-Rise Steel Structures offer unmatched
-                strength and flexibility, designed to support the most ambitious
-                architectural visions. Built for durability and safety, these
-                structures are engineered to stand tall in any skyline.
+              Our Roofing Sheet Machines are engineered to produce a variety of profiles with consistent thickness and shape, delivering top-quality roofing solutions for various construction needs.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
-            <img src={ProductImg3}></img>
+            <img src={Img3}></img>
             <div className="heading">
-              <h3>Anchor Bolt Threading</h3>
+              <h3>Anchor Bolt Threading Machine</h3>
               <p>
-                NE Structures Roofing Sheets are designed, fabricated, and
-                installed to meet specific customer needs. Our premium roofing
-                solutions ensure durability, weather resistance, and energy
-                efficiency, providing optimal protection and look.
+              We employ specialized Anchor Bolt Threading Machines to manufacture custom-length bolts with accurate threading, ensuring secure and reliable anchorage in steel structures.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
-            <img src={ProductImg4}></img>
+            <img src={Img4}></img>
             <div className="heading">
-              <h3>CNC Purlin Line</h3>
+              <h3>CZ Purlin Machine</h3>
               <p>
-                NE Structures CZ Purlins are engineered and manufactured to meet
-                precise customer specifications. Our high-quality purlins
-                provide robust support, ensuring structural integrity and
-                reliability for various applications.
+              The CZ Purlin Machine at NE Structures manufactures C and Z profiles with high precision, supporting the construction of lightweight and durable purlin systems for roofing and cladding applications.
               </p>
             </div>
           </div>
         </div>
+        <div className="viewButton">
+              <Link to="/Infrastructure">
+                <sup>View More</sup>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <mask
+                    id="mask0_1114_1803"
+                    style={{ maskType: "alpha" }}
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="20"
+                    height="20"
+                  >
+                    <rect width="20" height="20" fill="#D9D9D9" />
+                  </mask>
+                  <g mask="url(#mask0_1114_1803)">
+                    <path
+                      d="M7.01732 16.6668L5.83398 15.4835L11.3173 10.0002L5.83398 4.51683L7.01732 3.3335L13.684 10.0002L7.01732 16.6668Z"
+                      fill="white"
+                    />
+                  </g>
+                </svg>
+              </Link>
+            </div>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">

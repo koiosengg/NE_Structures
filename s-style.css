@@ -349,6 +349,69 @@
   fill: #0b2a41;
 }
 
+/* view more btn class start */
+
+.viewButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewButton a {
+  height: 38px;
+  text-decoration: none;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--Dark-Blue-Primary, #0b2a41);
+}
+
+.viewButton a sup {
+ 
+
+  color: var(--Dark-Blue-Primary, #0b2a41);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.viewButton a svg {
+  width: 20px;
+  height: 20px;
+}
+.viewButton a svg path{
+  fill: #0b2a41;
+}
+
+.viewButton a:hover {
+  border-radius: 4px;
+  background: var(--Dark-Blue-Primary, #0b2a41);
+}
+
+.viewButton a:hover sup {
+  color: var(--White-BG, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.viewButton a:hover svg path {
+  fill: #fff;
+}
+
+/* view more btn class end */
+
 .s-banner-wrapper {
   max-width: 100%;
   overflow: hidden;
@@ -3769,3 +3832,24 @@ font-weight: 500;
 line-height: 20px; /* 142.857% */
   }
 }
+
+
+/* new styles added */
+.viewMoreDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.viewMoreDiv button{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0B2A41;
+  background: transparent;
+  padding: 10px;
+}
+
+/* new styles end */

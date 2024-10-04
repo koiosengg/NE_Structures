@@ -9,23 +9,31 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import IMG10 from "../assets/Gail/gail1.jpg"
+import IMG16 from "../assets/Gail/gail2.jpg"
+import IMG12 from "../assets/Kia-Sahen/kia2.jpg"
+import IMG11 from "../assets/Kia-Sahen/kia1.jpg"
+import IMG13 from "../assets/Airport/airport1.jpg"
+import IMG14 from "../assets/Airport/airport2.jpg"
+import IMG15 from "../assets/Airport/airport3.jpg"
 
 const Gallery = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const newGalleryRef = useRef(null);
   const [galleryWidth, setGalleryWidth] = useState(0);
 
-  const images = [NewImg3, IMG1, IMG2, IMG5, IMG6, IMG7, IMG9];
+  const images = [IMG15,IMG10,IMG12,IMG13,IMG16,IMG11,IMG14];
 
   // Array of captions corresponding to each image
   const captions = [
-    "Nexus Novus at Bangalore Airport",
-    "Project Overview: Residential Complex",
-    "Innovative Office Space Design",
-    "Durable Steel Structure Construction",
-    "Eco-Friendly Building Practices",
-    "Modern Industrial Facility",
-    "Sustainable Urban Development",
+    "AIRPORT Project",
+    "GAIL Project",
+    "KIA-SAHEN Project",
+    "AIRPORT Project",
+   "GAIL Project",
+    "KIA-SAHEN Project",
+    "AIRPORT Project",
+   
   ];
 
   useEffect(() => {
