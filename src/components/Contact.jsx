@@ -62,7 +62,7 @@ function Contact() {
                           fill="#111111"
                         />
                       </svg>
-                      <p>+91 125676789</p>
+                      <p>+91 9880939000</p>
                     </div>
                   </div>
                   <div className="p-contact-subtext-div">
@@ -83,7 +83,7 @@ function Contact() {
                           fill="#111111"
                         />
                       </svg>
-                      <p>info@nestructures.com</p>
+                      <p>sales@nestructures.in</p>
                     </div>
                   </div>
                   <div className="p-contact-subtext-div">
