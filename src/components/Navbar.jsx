@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import NELogo from "../assets/NELogo.png";
+import NELogo from "../assets/NELogo.svg";
 
 function Navbar() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -8,7 +8,7 @@ function Navbar() {
 
   const toggleMobileNav = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
-    setHasToggled(true); // Mark that the user has toggled the menu
+    setHasToggled(true);
   };
 
   return (
