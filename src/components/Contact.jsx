@@ -4,10 +4,10 @@ import SubmitButton from "./SubmitButton";
 
 function Contact() {
   const openPhoneDialer = () => {
-    window.location.href = "tel:+91125676789";
+    window.location.href = "tel:+919880939000";
   };
   const openEmailClient = () => {
-    window.location.href = "mailto:info@nestructures.com";
+    window.location.href = "mailto:sales@nestructures.in";
   };
 
   const openMapLocation = () => {
@@ -62,7 +62,7 @@ function Contact() {
                           fill="#111111"
                         />
                       </svg>
-                      <p>+91 125676789</p>
+                      <p>+91 9880939000</p>
                     </div>
                   </div>
                   <div className="p-contact-subtext-div">
@@ -83,7 +83,7 @@ function Contact() {
                           fill="#111111"
                         />
                       </svg>
-                      <p>info@nestructures.com</p>
+                      <p>sales@nestructures.in</p>
                     </div>
                   </div>
                   <div className="p-contact-subtext-div">
