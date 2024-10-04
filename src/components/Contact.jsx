@@ -4,10 +4,10 @@ import SubmitButton from "./SubmitButton";
 
 function Contact() {
   const openPhoneDialer = () => {
-    window.location.href = "tel:+91125676789";
+    window.location.href = "tel:+919880939000";
   };
   const openEmailClient = () => {
-    window.location.href = "mailto:info@nestructures.com";
+    window.location.href = "mailto:sales@nestructures.in";
   };
 
   const openMapLocation = () => {
