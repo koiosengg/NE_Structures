@@ -260,6 +260,20 @@ function Home() {
             <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -342,7 +356,7 @@ function Home() {
             </div>
           </div>
           <div className="s-right">
-            <img src={IMG3} alt="NE Structures Get to Know Img"></img>
+            <img src={IMG5} alt="NE Structures Get to Know Img"></img>
           </div>
         </div>
       </div>
@@ -624,7 +638,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG5}
+                  src={TalankeyMarqueeImg5}
                   alt="NE Structues Pre Engineered Building"
                 ></img>
               </div>
@@ -699,7 +713,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={ProductImg1}
+                  src={IMG7}
                   alt="NE Structues High Rise Steel Structures"
                 ></img>
               </div>

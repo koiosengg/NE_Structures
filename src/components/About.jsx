@@ -19,6 +19,10 @@ import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).web
 import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
 import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
 import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
+import TalankeyMarqueeImg11 from "../assets/Marquee/Talankey Marquee Img  (11).jpg";
+import TalankeyMarqueeImg12 from "../assets/Marquee/Talankey Marquee Img  (12).png";
+import TalankeyMarqueeImg13 from "../assets/Marquee/Talankey Marquee Img  (13).webp";
+import TalankeyMarqueeImg14 from "../assets/Marquee/Talankey Marquee Img  (14).jpeg";
 import LogoVector from "../assets/AboutIMG/LogoVector.png";
 import Staad from "../assets/AboutIMG/Staad.png";
 import Tekla from "../assets/AboutIMG/Tekla.png";
@@ -56,20 +60,34 @@ function About() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg9} alt="NE Structures Marquee Img" />
             <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
+            <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -108,7 +126,7 @@ function About() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG3}></img>
+            <img src={IMG1}></img>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Gallery = forwardRef((props, ref) => {
   const newGalleryRef = useRef(null);
   const [galleryWidth, setGalleryWidth] = useState(0);
 
-  const images = [NewImg3, IMG1, IMG2, IMG3, IMG6, IMG7, IMG9];
+  const images = [NewImg3, IMG1, IMG2, IMG5, IMG6, IMG7, IMG9];
 
   // Array of captions corresponding to each image
   const captions = [

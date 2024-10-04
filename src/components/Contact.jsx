@@ -4,15 +4,14 @@ import SubmitButton from "./SubmitButton";
 
 function Contact() {
   const openPhoneDialer = () => {
-    window.location.href = "tel:+91125676789";
+    window.location.href = "tel:+919880939000";
   };
   const openEmailClient = () => {
     window.location.href = "mailto:info@nestructures.com";
   };
 
   const openMapLocation = () => {
-    window.location.href =
-      "https://www.google.com/maps/search/Plot+No.+28P,+KIADB+Industrial+Area,+Road+No.25,+Vemagal,+Kolar+563+102/@12.9543399,74.8264096,473m/data=!3m1!1e3?entry=ttu";
+    window.location.href = "https://maps.app.goo.gl/ru4Pg9hBiMVyvWqr5?g_st=iw";
   };
   return (
     <>
@@ -62,7 +61,7 @@ function Contact() {
                           fill="#111111"
                         />
                       </svg>
-                      <p>+91 125676789</p>
+                      <p>+91 9880939000</p>
                     </div>
                   </div>
                   <div className="p-contact-subtext-div">
@@ -91,6 +90,15 @@ function Contact() {
                       <h1>Visit Us</h1>
                       <p>Experience our expertise in person</p>
                     </div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.3837762632706!2d78.0051768!3d13.201205299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badff7676602955%3A0xd9f47f8c93ac7a0d!2sNE%20Structures!5e0!3m2!1sen!2sin!4v1728039016382!5m2!1sen!2sin"
+                      width="10000"
+                      height="10050"
+                      style={{ border: "0" }}
+                      allowFullScreen=""
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
                     <div className="p-svg-text-div" onClick={openMapLocation}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -83,7 +83,7 @@ function StructuralEngineeringServices() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG3}></img>
+            <img src={IMG6}></img>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@ function StructuralEngineeringServices() {
               <div className="heading">
                 <sub>Structural Detailing</sub>
                 <div className="ourServicesImg mobile">
-                  <img src={IMG4}></img>
+                  <img src={IMG7}></img>
                 </div>
                 <p>
                   NE Structures provides a fast, accurate range of detailing
@@ -526,7 +526,7 @@ function StructuralEngineeringServices() {
               </div>
             </div>
             <div className="ourServicesImg notMobile">
-              <img src={IMG4} style={{ height: "632px" }}></img>
+              <img src={IMG7} style={{ height: "632px" }}></img>
             </div>
           </div>
           <div className="ourServicesSet">

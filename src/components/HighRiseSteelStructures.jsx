@@ -97,7 +97,7 @@ function HighRiseSteelStructures() {
           for increased strength and safety.
         </>
       ),
-      image: IMG3,
+      image: IMG5,
       altText: "NE Structures Concrete Dual",
     },
     {
@@ -120,7 +120,7 @@ function HighRiseSteelStructures() {
           to ensure rigidity and prevent structural deformation.
         </>
       ),
-      image: IMG4,
+      image: IMG6,
       altText: "NE Structures Shear Wall",
     },
     {
@@ -221,7 +221,7 @@ function HighRiseSteelStructures() {
           to provide increased stiffness and load-bearing capacity.
         </>
       ),
-      image: IMG8,
+      image: IMG5,
       altText: "NE Structures Coupled Wall",
     },
     {
@@ -391,7 +391,7 @@ function HighRiseSteelStructures() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG3} alt="NE Structures HRSS"></img>
+            <img src={IMG7} alt="NE Structures HRSS"></img>
           </div>
         </div>
       </div>

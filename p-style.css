@@ -131,6 +131,12 @@
   align-self: stretch;
 }
 
+.p-contact-subtext-div iframe {
+  width: 100%;
+  height: 141px;
+  border-radius: 8px;
+}
+
 .p-call-details h1 {
   color: var(--Black-Text-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
@@ -725,14 +731,14 @@ input:is(:focus, :valid) + .placeholder {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: var(--White-BG, #FFF);
-font-variant-numeric: lining-nums proportional-nums;
+    color: var(--White-BG, #fff);
+    font-variant-numeric: lining-nums proportional-nums;
 
-/* M/Semibold */
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 20px; /* 125% */
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
   }
 }

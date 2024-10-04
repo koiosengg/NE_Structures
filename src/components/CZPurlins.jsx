@@ -171,7 +171,7 @@ function CZPurlins() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG3} alt="NE Structures Get to Know Img"></img>
+            <img src={IMG9} alt="NE Structures Get to Know Img"></img>
           </div>
         </div>
       </div>

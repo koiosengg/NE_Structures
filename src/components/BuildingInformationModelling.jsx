@@ -84,7 +84,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG3}></img>
+            <img src={IMG9}></img>
           </div>
         </div>
       </div>
@@ -188,7 +188,7 @@ function BuildingInformationModelling() {
             </div>
           </div>
           <div className="s-right helpQuestionsIMG">
-            <img src={IMG3}></img>
+            <img src={IMG7}></img>
           </div>
         </div>
       </div>
@@ -237,7 +237,7 @@ function BuildingInformationModelling() {
             </div>
           </div>
           <div className="s-right helpQuestionsIMG">
-            <img src={IMG3}></img>
+            <img src={IMG9}></img>
           </div>
         </div>
       </div>
