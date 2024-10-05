@@ -234,7 +234,7 @@ function Infrastructure() {
           </div>
         </div>
       </div>
-      <HomeGallery />
+      {/* <HomeGallery /> */}
       <Gallery />
       <div className="homeBrochure">
         <div className="product brochure">
