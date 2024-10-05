@@ -2397,6 +2397,19 @@
     font-weight: 600;
     line-height: 20px;
   }
+  .mobileNavbar .heading span {
+    color: var(--Blue-Primary, #0d85de);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .mobileNavbar .heading a{
+    text-decoration:none;
+  }
 
   .mobileNavbar .heading .set {
     display: flex;

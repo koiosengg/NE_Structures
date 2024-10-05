@@ -272,7 +272,7 @@ function Navbar() {
             </div>
             <div className="heading">
               <Link to="/about" onClick={toggleMobileNav}>
-                <sub> About Us</sub>
+                <span> About Us</span>
               </Link>
             </div>
           </div>
