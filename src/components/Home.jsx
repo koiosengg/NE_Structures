@@ -9,20 +9,21 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
-import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
-import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
-import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
+import HomeImg1 from "../assets/Marquee-New/home1.jpg";
+import HomeImg2 from "../assets/Marquee-New/home2.jpg";
+import HomeImg3 from "../assets/Marquee-New/home3.webp";
+import HomeImg4 from "../assets/Marquee-New/home4.webp";
+import HomeImg5 from "../assets/Marquee-New/home5.jpg";
+import HomeImg6 from "../assets/Marquee-New/home6.jpeg";
+import HomeImg7 from "../assets/Marquee-New/home7.webp";
+import HomeImg8 from "../assets/Marquee-New/home8.webp";
+import HomeImg9 from "../assets/Marquee-New/home9.jpeg";
+import HomeImg10 from "../assets/Marquee-New/home10.webp";
+import HomeImg11 from "../assets/Marquee-New/home11.webp";
+import HomeImg12 from "../assets/Marquee-New/home12.webp";
+import HomeImg13 from "../assets/Marquee-New/home13.webp";
+import HomeImg14 from "../assets/Marquee-New/home14.webp";
 import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
-import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
-import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
-import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
-import TalankeyMarqueeImg11 from "../assets/Marquee/Talankey Marquee Img  (11).jpg";
-import TalankeyMarqueeImg12 from "../assets/Marquee/Talankey Marquee Img  (12).png";
-import TalankeyMarqueeImg13 from "../assets/Marquee/Talankey Marquee Img  (13).webp";
-import TalankeyMarqueeImg14 from "../assets/Marquee/Talankey Marquee Img  (14).jpeg";
 import NewImg1 from "../assets/NewImgs/newImg1.jpeg";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
@@ -246,34 +247,34 @@ function Home() {
           onClick={handleScroll}
         >
           <div className="s-banner-marquee">
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg8} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg11} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg8} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg11} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg12} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg13} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg14} alt="NE Structures Marquee Img" />
+            <img src={HomeImg1} alt="NE Structures Marquee Img" />
+            <img src={HomeImg2} alt="NE Structures Marquee Img" />
+            <img src={HomeImg3} alt="NE Structures Marquee Img" />
+            <img src={HomeImg4} alt="NE Structures Marquee Img" />
+            <img src={HomeImg5} alt="NE Structures Marquee Img" />
+            <img src={HomeImg6} alt="NE Structures Marquee Img" />
+            <img src={HomeImg7} alt="NE Structures Marquee Img" />
+            <img src={HomeImg8} alt="NE Structures Marquee Img" />
+            <img src={HomeImg9} alt="NE Structures Marquee Img" />
+            <img src={HomeImg10} alt="NE Structures Marquee Img" />
+            <img src={HomeImg11} alt="NE Structures Marquee Img" />
+            <img src={HomeImg12} alt="NE Structures Marquee Img" />
+            <img src={HomeImg13} alt="NE Structures Marquee Img" />
+            <img src={HomeImg14} alt="NE Structures Marquee Img" />
+            <img src={HomeImg1} alt="NE Structures Marquee Img" />
+            <img src={HomeImg2} alt="NE Structures Marquee Img" />
+            <img src={HomeImg3} alt="NE Structures Marquee Img" />
+            <img src={HomeImg4} alt="NE Structures Marquee Img" />
+            <img src={HomeImg5} alt="NE Structures Marquee Img" />
+            <img src={HomeImg6} alt="NE Structures Marquee Img" />
+            <img src={HomeImg7} alt="NE Structures Marquee Img" />
+            <img src={HomeImg8} alt="NE Structures Marquee Img" />
+            <img src={HomeImg9} alt="NE Structures Marquee Img" />
+            <img src={HomeImg10} alt="NE Structures Marquee Img" />
+            <img src={HomeImg11} alt="NE Structures Marquee Img" />
+            <img src={HomeImg12} alt="NE Structures Marquee Img" />
+            <img src={HomeImg13} alt="NE Structures Marquee Img" />
+            <img src={HomeImg14} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
