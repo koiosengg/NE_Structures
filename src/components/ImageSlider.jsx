@@ -1,10 +1,17 @@
 import React from "react";
-import Rectangle from "../assets/Gallery/Image 1.png";
-import Rectangle2 from "../assets/Gallery/Image 2.png";
-import Rectangle3 from "../assets/Gallery/Image 3.png";
-import Rectangle4 from "../assets/Gallery/Image 4.png";
-import Rectangle5 from "../assets/Gallery/Image 5.jpeg";
-import Rectangle7 from "../assets/Gallery/Image 7.png";
+import Rectangle1 from "../assets/Download/download1.jpg";
+import Rectangle2 from "../assets/Download/download2.jpg";
+import Rectangle3 from "../assets/Download/download3.jpg";
+import Rectangle4 from "../assets/Download/download4.jpg";
+import Rectangle5 from "../assets/Download/download5.jpg";
+import Rectangle6 from "../assets/Download/download6.jpg";
+import Rectangle7 from "../assets/Download/download7.jpg";
+import Rectangle8 from "../assets/Download/download8.jpg";
+import Rectangle9 from "../assets/Download/download9.jpg";
+import Rectangle10 from "../assets/Download/download10.jpg";
+import Rectangle11 from "../assets/Download/download11.jpg";
+import Rectangle12 from "../assets/Download/download12.jpg";
+
 const ImageSlider = ({ imageUrls, reverse }) => {
   return (
     <div className={`logos-vertical ${reverse ? "reverse" : ""}`}>
@@ -32,21 +39,32 @@ const ImageSlider = ({ imageUrls, reverse }) => {
 
 const App = () => {
   const images1 = [
-    Rectangle,
+    Rectangle1,
     Rectangle2,
     Rectangle3,
     Rectangle4,
     Rectangle5,
     Rectangle7,
+    Rectangle8,
+    Rectangle9,
+    Rectangle10,
+    Rectangle11,
+    Rectangle12
   ];
 
   const images2 = [
-    Rectangle7,
-    Rectangle5,
-    Rectangle4,
-    Rectangle3,
-    Rectangle2,
-    Rectangle,
+    Rectangle12,
+Rectangle11,
+Rectangle10,
+Rectangle9,
+Rectangle8,
+Rectangle7,
+Rectangle5,
+Rectangle4,
+Rectangle3,
+Rectangle2,
+Rectangle1
+
   ];
 
   return (

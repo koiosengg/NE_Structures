@@ -9,6 +9,18 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import Rectangle1 from "../assets/Download/download1.jpg";
+import Rectangle2 from "../assets/Download/download2.jpg";
+import Rectangle3 from "../assets/Download/download3.jpg";
+import Rectangle4 from "../assets/Download/download4.jpg";
+import Rectangle5 from "../assets/Download/download5.jpg";
+import Rectangle6 from "../assets/Download/download6.jpg";
+import Rectangle7 from "../assets/Download/download7.jpg";
+import Rectangle8 from "../assets/Download/download8.jpg";
+import Rectangle9 from "../assets/Download/download9.jpg";
+import Rectangle10 from "../assets/Download/download10.jpg";
+import Rectangle11 from "../assets/Download/download11.jpg";
+import Rectangle12 from "../assets/Download/download12.jpg";
 import HomeImg1 from "../assets/Marquee-New/home1.jpg";
 import HomeImg2 from "../assets/Marquee-New/home2.jpg";
 import HomeImg3 from "../assets/Marquee-New/home3.webp";
@@ -1073,106 +1085,82 @@ function Home() {
             <div className="homeInfoDetails mobile">
               <div className="s-banner-wrapper">
                 <div className="s-banner-marquee">
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG1} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG2} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG3} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG4} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG5} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG6} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG7} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG8} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG1} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG2} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG3} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG4} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG5} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG6} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG7} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG8} alt="NE Structures Marquee Img" />
-                  </div>
+                <div className="s-banner-marquee-set">
+    <img src={Rectangle1} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle2} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle3} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle4} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle5} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle6} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle7} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle8} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle9} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle10} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle11} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle12} />
+  </div>
                 </div>
               </div>
               <div className="s-banner-wrapper reverse-marquee">
                 <div className="s-banner-marquee">
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG1} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG2} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG3} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG4} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG5} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG6} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG7} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG8} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG1} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG2} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG3} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG4} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG5} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG6} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG7} alt="NE Structures Marquee Img" />
-                  </div>
-                  <div className="s-banner-marquee-set">
-                    <img src={IMG8} alt="NE Structures Marquee Img" />
-                  </div>
+                <div className="s-banner-marquee-set">
+    <img src={Rectangle1} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle2} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle3} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle4} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle5} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle6} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle7} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle8} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle9} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle10} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle11} />
+  </div>
+  <div className="s-banner-marquee-set">
+    <img src={Rectangle12} />
+  </div>
                 </div>
               </div>
             </div>
