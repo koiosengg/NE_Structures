@@ -659,10 +659,7 @@ function Home() {
                 <div className="heading">
                   <sub>Roofing Sheets</sub>
                   <p>
-                    NE Structures Roofing Sheets are designed, fabricated, and
-                    installed to meet specific customer needs. Our premium
-                    roofing solutions ensure durability, weather resistance, and
-                    energy efficiency, providing optimal protection and look.
+                  Build your projects stronger with NE Structures’ Roofing Sheets, designed for optimal durability and weather protection. Perfect for industrial, commercial, and residential buildings, our premium sheets offer long-lasting performance and structural integrity in any environment.
                   </p>
                 </div>
                 <div className="navbarContact">
@@ -734,10 +731,7 @@ function Home() {
                 <div className="heading">
                   <sub>CZ Purlins </sub>
                   <p>
-                    NE Structures CZ Purlins are engineered and manufactured to
-                    meet precise customer specifications. Our high-quality
-                    purlins provide robust support, ensuring structural
-                    integrity and reliability for various applications.
+                  Strengthen your structures with NE Structures’ CZ Purlins, engineered for optimal support and durability. From commercial buildings to industrial facilities, our precision-manufactured purlins provide unmatched stability and adaptability for diverse construction needs.
                   </p>
                 </div>
                 <div className="navbarContact">
