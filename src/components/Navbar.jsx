@@ -238,7 +238,7 @@ function Navbar() {
                   Pre Engineered Buildings
                 </Link>
                 <Link to="/HighRiseSteelStructures" onClick={toggleMobileNav}>
-                  High Raise Steel Buildings
+                  High Rise Steel Buildings
                 </Link>
                 <Link to="/RoofingSheets" onClick={toggleMobileNav}>
                   Roofing Sheets

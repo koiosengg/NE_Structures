@@ -81,7 +81,7 @@ function Footer() {
             <p className="heading">Products</p>
             <Link to="/PreEngineeredBuildings">Pre Engineering Buildings</Link>
             <Link to="/HighRiseSteelStructures">
-              High Raise Steel Buildings
+              High Rise Steel Buildings
             </Link>
           </div>
           <div className="footerColumnSet">
@@ -134,7 +134,7 @@ function Footer() {
             <sub>Product</sub>
             <Link to="/PreEngineeredBuildings">Pre Engineering Buildings</Link>
             <Link to="/HighRiseSteelStructures">
-              High Raise Steel Buildings
+              High Rise Steel Buildings
             </Link>
             <Link to="/RoofingSheets">Roofing Sheets</Link>
             <Link to="/CZPurlins">CZ - Purlins</Link>

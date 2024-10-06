@@ -261,7 +261,7 @@ function HighRiseSteelStructures() {
     <div className="product HRSS">
       <div className="homeBanner">
         <div className="homeBannerContent">
-          <sub>HIGH RAISE STEEL STRUCTURES</sub>
+          <sub>HIGH RISE STEEL STRUCTURES</sub>
           <div className="heading">
             <p>
               <span>Elevated Steel Solutions </span> <br /> Built to Last
