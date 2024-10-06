@@ -66,17 +66,23 @@ function Footer() {
           <div className="footerColumnSet">
             <p className="heading">Useful Links</p>
             <Link to="/">Home</Link>
-            <Link to="/">About Us</Link>
-            <Link to="/">Contact</Link>
-            <Link to="/">Location</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Location</Link>
           </div>
           <div className="footerColumnSet">
             <p className="heading">Services</p>
-            <Link to="/">Structural Engineering Services</Link>
-            <Link to="/">Building Information Modelling</Link>
+            <Link to="/StructuralEngineeringServices">
+              Structural Engineering Services
+            </Link>
+            <Link to="/BuildingInformationModelling">
+              Building Information Modelling
+            </Link>
             <p className="heading">Products</p>
-            <Link to="/">Pre Engineering Buildings</Link>
-            <Link to="/">High Raise Steel Buildings</Link>
+            <Link to="/PreEngineeredBuildings">Pre Engineering Buildings</Link>
+            <Link to="/HighRiseSteelStructures">
+              High Raise Steel Buildings
+            </Link>
           </div>
           <div className="footerColumnSet">
             <p className="heading">Legal</p>
