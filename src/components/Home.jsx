@@ -57,6 +57,12 @@ import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 import FAQ from "./FAQ";
+import Product1 from "../assets/Product_Cover/product1.jpeg"
+import Product2 from "../assets/Product_Cover/product2.webp"
+import Product3 from "../assets/Product_Cover/product3.jpg"
+import Product4 from "../assets/Product_Cover/product4.jpeg"
+import Service1 from "../assets/Service/service1.webp"
+import Service2 from "../assets/Service/service2.webp"
 
 function Home() {
   const [activeOption, setActiveOption] = useState("Clear Span");
@@ -500,7 +506,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG5}
+                  src={Product2}
                   alt="NE Structues Pre Engineered Building"
                 ></img>
               </div>
@@ -575,7 +581,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={ProductImg1}
+                  src={Product1}
                   alt="NE Structues High Rise Steel Structures"
                 ></img>
               </div>
@@ -651,7 +657,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={TalankeyMarqueeImg5}
+                  src={Product4}
                   alt="NE Structues Pre Engineered Building"
                 ></img>
               </div>
@@ -723,7 +729,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG7}
+                  src={Product3}
                   alt="NE Structues High Rise Steel Structures"
                 ></img>
               </div>
@@ -798,7 +804,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG6}
+                  src={Service2}
                   alt="NE Structues Structural Engineering Services"
                 ></img>
               </div>
@@ -873,7 +879,7 @@ function Home() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG9}
+                  src={Service1}
                   alt="NE Structues Building Information Modelling"
                 ></img>
               </div>

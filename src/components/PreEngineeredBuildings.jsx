@@ -34,6 +34,22 @@ import Gallery from "./Gallery"
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
+import PEB1 from "../assets/PEB_Banner/peb1.jpg";
+import PEB2 from "../assets/PEB_Banner/peb2.webp";
+import PEB3 from "../assets/PEB_Banner/peb3.jpeg";
+import PEB4 from "../assets/PEB_Banner/peb4.jpg";
+import PEB5 from "../assets/PEB_Banner/peb5.jpg";
+import PEB6 from "../assets/PEB_Banner/peb6.webp";
+import PEB7 from "../assets/PEB_Banner/peb7.jpg";
+import PEB8 from "../assets/PEB_Banner/peb8.webp";
+import PEB9 from "../assets/PEB_Banner/peb9.jpg";
+import PEB10 from "../assets/PEB_Banner/peb10.jpg";
+import PEB11 from "../assets/PEB_Banner/peb11.jpg";
+import PEB12 from "../assets/PEB_Banner/peb12.jpg";
+import PEB13 from "../assets/PEB_Banner/peb13.jpg";
+import PEB14 from "../assets/PEB_Banner/peb14.jpg";
+import PEB15 from "../assets/PEB_Banner/peb15.jpg";
+import PEB16 from "../assets/PEB_Banner/peb16.jpg";
 
 function PreEngineeredBuildings() {
   return (
@@ -56,20 +72,22 @@ function PreEngineeredBuildings() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+          <img src={PEB1} alt="NE Structures Marquee Img" />
+      <img src={PEB2} alt="NE Structures Marquee Img" />
+      <img src={PEB3} alt="NE Structures Marquee Img" />
+      <img src={PEB4} alt="NE Structures Marquee Img" />
+      <img src={PEB5} alt="NE Structures Marquee Img" />
+      <img src={PEB6} alt="NE Structures Marquee Img" />
+      <img src={PEB7} alt="NE Structures Marquee Img" />
+      <img src={PEB8} alt="NE Structures Marquee Img" />
+      <img src={PEB9} alt="NE Structures Marquee Img" />
+      <img src={PEB10} alt="NE Structures Marquee Img" />
+      <img src={PEB11} alt="NE Structures Marquee Img" />
+      <img src={PEB12} alt="NE Structures Marquee Img" />
+      <img src={PEB13} alt="NE Structures Marquee Img" />
+      <img src={PEB14} alt="NE Structures Marquee Img" />
+      <img src={PEB15} alt="NE Structures Marquee Img" />
+      <img src={PEB16} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
