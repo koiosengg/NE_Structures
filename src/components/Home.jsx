@@ -60,7 +60,7 @@ import FAQ from "./FAQ";
 import Product1 from "../assets/Product_Cover/product1.jpeg"
 import Product2 from "../assets/Product_Cover/product2.webp"
 import Product3 from "../assets/Product_Cover/product3.jpg"
-import Product4 from "../assets/Product_Cover/product4.jpeg"
+import Product4 from "../assets/Product_Cover/product4.jpg"
 import Service1 from "../assets/Service/service1.webp"
 import Service2 from "../assets/Service/service2.webp"
 
