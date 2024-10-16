@@ -630,7 +630,7 @@ input:is(:focus, :valid) + .placeholder {
   }
 
   .p-svg-text-div p {
-    width: 268px;
+    width: 100%;
   }
 
   .p-brochure-main {

@@ -241,7 +241,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, calc(-60%));
 }
 
 .homeBannerContent sub {
@@ -372,8 +372,6 @@
 }
 
 .viewButton a sup {
- 
-
   color: var(--Dark-Blue-Primary, #0b2a41);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
@@ -387,7 +385,7 @@
   width: 20px;
   height: 20px;
 }
-.viewButton a svg path{
+.viewButton a svg path {
   fill: #0b2a41;
 }
 
@@ -2407,8 +2405,8 @@
     line-height: 20px;
   }
 
-  .mobileNavbar .heading a{
-    text-decoration:none;
+  .mobileNavbar .heading a {
+    text-decoration: none;
   }
 
   .mobileNavbar .heading .set {
@@ -3822,30 +3820,29 @@
   }
 
   .infraDivSet h4 {
- color: var(--Black-Text-Primary, #111);
-font-variant-numeric: lining-nums proportional-nums;
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
 
-/* M/Semibold */
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 20px; /* 125% */
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
   }
 
   .infraDivSet p {
-color: var(--Grey-Text-Primary, #757575);
-font-variant-numeric: lining-nums proportional-nums;
+    color: var(--Grey-Text-Primary, #757575);
+    font-variant-numeric: lining-nums proportional-nums;
 
-/* S/Medium */
-font-family: Raleway;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px; /* 142.857% */
+    /* S/Medium */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
   }
 }
-
 
 /* new styles added */
 .viewMoreDiv {
@@ -3855,12 +3852,12 @@ line-height: 20px; /* 142.857% */
   width: 100%;
 }
 
-.viewMoreDiv button{
+.viewMoreDiv button {
   font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  color: #0B2A41;
+  color: #0b2a41;
   background: transparent;
   padding: 10px;
 }

@@ -29,6 +29,8 @@ import Leading from "../assets/HomeBanner/Leading.png";
 import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
+import HighRise from "../assets/PEB/high rise interlinking banner ne structures.jpg";
+import PEBImg from "../assets/PEB/PRE-ENGINEERED-BUILDINGS-min.jpg";
 import ProductGalleryPEB from "./ProductGalleryPEB";
 import Gallery from "./Gallery"
 
@@ -188,7 +190,7 @@ function PreEngineeredBuildings() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG5} alt="NE Structures Get to Know Img"></img>
+            <img src={PEBImg} alt="NE Structures Get to Know Img"></img>
           </div>
         </div>
       </div>
@@ -577,7 +579,7 @@ function PreEngineeredBuildings() {
               <br /> Steel Buildings Products
             </sub>
             <img
-              src={IMG1}
+              src={HighRise}
               alt="NE Structures Explore Img"
               className="mobile"
             ></img>
@@ -652,7 +654,7 @@ function PreEngineeredBuildings() {
           </div>
         </div>
         <img
-          src={IMG1}
+          src={HighRise}
           alt="NE Structures Explore Img"
           className="notMobile"
         ></img>

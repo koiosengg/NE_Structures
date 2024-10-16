@@ -8,29 +8,33 @@ import IMG5 from "../assets/HomeBanner/IMG5.jpg";
 import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
-import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
-import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
-import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
-import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
-import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
-import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
-import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
-import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
-import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg";
-import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp";
-import ProductImg4 from "../assets/PEB/Industrial-Shed-Manufacturer NE Structures.webp";
-import ProductImg5 from "../assets/PEB/factory shed manufacturers ne structures.webp";
-import ProductImg6 from "../assets/PEB/industrial closure manufacturers NE Structures.webp";
-import Leading from "../assets/HomeBanner/Leading.png";
-import LeadingSmall from "../assets/HomeBanner/LeadingSmall.png";
-import Advantages from "../assets/HomeBanner/Advantages.png";
-import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
-import ProductGalleryPEB from "./ProductGalleryPEB";
+
+import MarqueeImg1 from "../assets/Roofing Sheets/roofing sheets banner images/roof-roofing-flat-roof-red-min.jpg";
+import MarqueeImg2 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets banner ne structures.webp";
+import MarqueeImg3 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 1-min.jpg";
+import MarqueeImg4 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 2-min.jpg";
+import MarqueeImg5 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 3-min.jpg";
+import MarqueeImg6 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 4-min.jpg";
+import MarqueeImg7 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 5-min.jpg";
+import MarqueeImg8 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 6-min.jpg";
+import MarqueeImg9 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 7-min.jpg";
+import MarqueeImg10 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets ne structures banner-min.jpg";
+import MarqueeImg11 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets ne structures metal-min.jpg";
+import MarqueeImg12 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets products ne structures 1-min.jpg";
+
+import RoofingSheetImg from "../assets/Roofing Sheets/grid-roofing-ibr-roof-sheeting whata re roofing sheets ne structures-min.jpg";
+
+import WallCladding from "../assets/Roofing Sheets/types of roofing sheets/Roof and Wall Cladding ne structures.png";
+import WallCladdingStructure from "../assets/Roofing Sheets/types of roofing sheets/Roof, Wall Cladding and Structural Solutions ne structures-min.jpg";
+import AlloyImg from "../assets/Roofing Sheets/types of roofing sheets/55percent AI-Zn Alloy Coated Steel Coils ne structures-min.jpg";
+import ColourCoated from "../assets/Roofing Sheets/types of roofing sheets/Color Coated Steel Coils ne structures-min.jpg";
+import SmartBuilding from "../assets/Roofing Sheets/types of roofing sheets/Smart Building Solutions ne structures-min.jpg";
+import PEBRoofing from "../assets/Roofing Sheets/types of roofing sheets/Pre Engineered Buildings roofing sheets ne structures-min.jpg";
+import Solar from "../assets/Roofing Sheets/types of roofing sheets/Solar Module Mounting Solutions ne structures-min.jpg";
+
 import Gallery from "./Gallery";
+
+import CZPurlineLinkImg from "../assets/Roofing Sheets/z-c-purlins-inerlinking banner.jpg";
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
@@ -56,20 +60,29 @@ function RoofingSheets() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg12} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg12} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -173,7 +186,10 @@ function RoofingSheets() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG7} alt="NE Structures Get to Know Img"></img>
+            <img
+              src={RoofingSheetImg}
+              alt="NE Structures What are Roofing Sheets Img"
+            ></img>
           </div>
         </div>
       </div>
@@ -192,7 +208,10 @@ function RoofingSheets() {
         </div>
         <div className="newProductSection">
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={WallCladding}
+              alt="NE Structures Roof and Wall Cladding"
+            ></img>
             <div className="setInfo">
               <h4>Roof and Wall Cladding</h4>
               <p>
@@ -203,7 +222,10 @@ function RoofingSheets() {
             </div>
           </div>
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={WallCladdingStructure}
+              alt="NE Structures Roof, Wall Cladding and Structural Solutions"
+            ></img>
             <div className="setInfo">
               <h4>Roof, Wall Cladding and Structural Solutions</h4>
               <p>
@@ -214,7 +236,10 @@ function RoofingSheets() {
             </div>
           </div>
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={AlloyImg}
+              alt="NE Structures 55% AI-Zn Alloy Coated Steel Coils"
+            ></img>
             <div className="setInfo">
               <h4>55% AI-Zn Alloy Coated Steel Coils</h4>
               <p>
@@ -225,7 +250,10 @@ function RoofingSheets() {
             </div>
           </div>
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={ColourCoated}
+              alt="NE Structures Color Coated Steel Coils"
+            ></img>
             <div className="setInfo">
               <h4>Color Coated Steel Coils</h4>
               <p>
@@ -236,7 +264,10 @@ function RoofingSheets() {
             </div>
           </div>
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={SmartBuilding}
+              alt="NE Structures Smart Building Solutions"
+            ></img>
             <div className="setInfo">
               <h4>Smart Building Solutions</h4>
               <p>
@@ -247,7 +278,10 @@ function RoofingSheets() {
             </div>
           </div>
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={PEBRoofing}
+              alt="NE Structures Pre Engineered Buildings"
+            ></img>
             <div className="setInfo">
               <h4>Pre Engineered Buildings</h4>
               <p>
@@ -258,7 +292,10 @@ function RoofingSheets() {
             </div>
           </div>
           <div className="newProductSet">
-            <img src={IMG2}></img>
+            <img
+              src={Solar}
+              alt="NE Structures Solar Module Mounting Solutions"
+            ></img>
             <div className="setInfo">
               <h4>Solar Module Mounting Solutions</h4>
               <p>
@@ -283,8 +320,8 @@ function RoofingSheets() {
               <br /> Products
             </sub>
             <img
-              src={IMG1}
-              alt="NE Structures Explore Img"
+              src={CZPurlineLinkImg}
+              alt="NE Structures Explore CZ Purlin Img"
               className="mobile"
             ></img>
             <p>
@@ -355,8 +392,8 @@ function RoofingSheets() {
           </div>
         </div>
         <img
-          src={IMG1}
-          alt="NE Structures Explore Img"
+          src={CZPurlineLinkImg}
+          alt="NE Structures Explore  CZ Purlin Img"
           className="notMobile"
         ></img>
       </div>

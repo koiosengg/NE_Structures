@@ -9,16 +9,39 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
-import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
-import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
-import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
-import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
-import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
-import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
-import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
+
+import HighRiseMarqueeImg1 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 1.jpeg";
+import HighRiseMarqueeImg2 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 2.jpg";
+import HighRiseMarqueeImg3 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 3.jpg";
+import HighRiseMarqueeImg4 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 4.jpg";
+import HighRiseMarqueeImg5 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 5.jpg";
+import HighRiseMarqueeImg6 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 6.jpg";
+import HighRiseMarqueeImg7 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 7.jpg";
+import HighRiseMarqueeImg8 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 8.jpg";
+import HighRiseMarqueeImg9 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 9.jpg";
+import HighRiseMarqueeImg10 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 10.jpg";
+import HighRiseMarqueeImg11 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 11.jpg";
+import HighRiseMarqueeImg12 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 12.jpg";
+import HighRiseMarqueeImg13 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 13.jpg";
+
+import HRSSImg from "../assets/HighRise/what are high rise ne structures.jpg";
+
+import BracedFrame from "../assets/HighRise/Types of High rise frames/braced frame ne structures-min.jpg";
+import RidgedFrame from "../assets/HighRise/Types of High rise frames/rigged frame ne structures-min.jpg";
+import ConcreteDual from "../assets/HighRise/Types of High rise frames/concrete dual ne structures-min.jpg";
+import ShearWall from "../assets/HighRise/Types of High rise frames/Shear wall Frame NE Structures-min.jpg";
+import OutRigger from "../assets/HighRise/Types of High rise frames/outriggers Frame NE Structures.webp";
+import Tube from "../assets/HighRise/Types of High rise frames/Tube frame NE Structures-min.jpg";
+import FlatSlab from "../assets/HighRise/Types of High rise frames/flat plate and flat slab frame NE Structures.webp";
+import CoupledWall from "../assets/HighRise/Types of High rise frames/couple frame NE Structures-min.jpeg";
+import Hybrid from "../assets/HighRise/Types of High rise frames/hybrid  frame NE Structures-min.jpg";
+
+import BudgetFriendly from "../assets/HighRise/High Rise Promise/budget friendly-min.jpg";
+import LoadBearing from "../assets/HighRise/High Rise Promise/load bearing (2)-min.jpg";
+import StrengthStability from "../assets/HighRise/High Rise Promise/strength and stability ne structures.webp";
+import Tailored from "../assets/HighRise/High Rise Promise/tailored architecture-min.jpg";
+
+import PreEngineeredBuildingsImg from "../assets/HighRise/PEB interlinking section for High raise page NE Strcuctres.jpg";
 import ProductGalleryHRSS from "./ProductGalleryHRSS";
 import Gallery from "./Gallery";
 
@@ -47,7 +70,7 @@ function HighRiseSteelStructures() {
           to ensure stability and safety.
         </>
       ),
-      image: IMG1,
+      image: BracedFrame,
       altText: "NE Structures Braced Frame",
     },
     {
@@ -71,7 +94,7 @@ function HighRiseSteelStructures() {
           are required.
         </>
       ),
-      image: IMG2,
+      image: RidgedFrame,
       altText: "NE Structures Ridged Frame",
     },
     {
@@ -97,7 +120,7 @@ function HighRiseSteelStructures() {
           for increased strength and safety.
         </>
       ),
-      image: IMG5,
+      image: ConcreteDual,
       altText: "NE Structures Concrete Dual",
     },
     {
@@ -120,7 +143,7 @@ function HighRiseSteelStructures() {
           to ensure rigidity and prevent structural deformation.
         </>
       ),
-      image: IMG6,
+      image: ShearWall,
       altText: "NE Structures Shear Wall",
     },
     {
@@ -144,7 +167,7 @@ function HighRiseSteelStructures() {
           to minimize sway and increase overall rigidity.
         </>
       ),
-      image: IMG5,
+      image: OutRigger,
       altText: "NE Structures Out Rigger",
     },
     {
@@ -169,7 +192,7 @@ function HighRiseSteelStructures() {
           spaces.
         </>
       ),
-      image: IMG6,
+      image: Tube,
       altText: "NE Structures Tube",
     },
     {
@@ -195,7 +218,7 @@ function HighRiseSteelStructures() {
           where unobstructed ceilings and flexibility in layout are essential.
         </>
       ),
-      image: IMG7,
+      image: FlatSlab,
       altText: "NE Structures Flat Plate and Flat Slab",
     },
     {
@@ -221,7 +244,7 @@ function HighRiseSteelStructures() {
           to provide increased stiffness and load-bearing capacity.
         </>
       ),
-      image: IMG5,
+      image: CoupledWall,
       altText: "NE Structures Coupled Wall",
     },
     {
@@ -246,7 +269,7 @@ function HighRiseSteelStructures() {
           where versatility and superior load-bearing capacity are required.
         </>
       ),
-      image: IMG9,
+      image: Hybrid,
       altText: "NE Structures Hybrid",
     },
   ];
@@ -275,20 +298,110 @@ function HighRiseSteelStructures() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img
+              src={HighRiseMarqueeImg1}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg2}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg3}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg4}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg5}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg6}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg7}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg8}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg9}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg10}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg11}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg12}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg13}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg1}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg2}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg3}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg4}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg5}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg6}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg7}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg8}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg9}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg10}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg11}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg12}
+              alt="NE Structures High Rise Marquee Img"
+            />
+            <img
+              src={HighRiseMarqueeImg13}
+              alt="NE Structures High Rise Marquee Img"
+            />
           </div>
         </div>
       </div>
@@ -391,7 +504,7 @@ function HighRiseSteelStructures() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG7} alt="NE Structures HRSS"></img>
+            <img src={HRSSImg} alt="NE Structures HRSS"></img>
           </div>
         </div>
       </div>
@@ -446,7 +559,7 @@ function HighRiseSteelStructures() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG1}
+                  src={BudgetFriendly}
                   alt="NE Structures Budget-Friendly Engineering"
                 ></img>
               </div>
@@ -464,7 +577,7 @@ function HighRiseSteelStructures() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG5}
+                  src={Tailored}
                   alt="NE Structures Tailored Architectural Designs"
                 ></img>
               </div>
@@ -482,7 +595,7 @@ function HighRiseSteelStructures() {
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG6}
+                  src={LoadBearing}
                   alt="NE Structures Exceptional Load-Bearing"
                 ></img>
               </div>
@@ -500,7 +613,7 @@ function HighRiseSteelStructures() {
             <div className="homeInfoSet mobile">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG9}
+                  src={StrengthStability}
                   alt="NE Structures Strength and Stability"
                 ></img>
               </div>
@@ -519,15 +632,19 @@ function HighRiseSteelStructures() {
           <div className="homeInfoSetContainer notMobile">
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
-                <img src={IMG6} alt="NE Structures Sustainable Projects"></img>
+                <img
+                  src={StrengthStability}
+                  alt="NE Structures Sustainable Projects"
+                ></img>
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
                   <sub>Sustainable Projects</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    Build with sustainability in mind using our
+                    environmentally-conscious steel solutions. Explore how we
+                    combine innovation and green practices for long-lasting,
+                    sustainable high-rise projects.
                   </p>
                 </div>
               </div>
@@ -535,7 +652,7 @@ function HighRiseSteelStructures() {
             <div className="homeInfoSet">
               <div className="homeInfoSetImg">
                 <img
-                  src={IMG9}
+                  src={LoadBearing}
                   alt="NE Structures Collaborative Partnerships"
                 ></img>
               </div>
@@ -543,9 +660,9 @@ function HighRiseSteelStructures() {
                 <div className="heading">
                   <sub>Collaborative Partnerships</sub>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
-                    etiam porta sed. At volutpat scelerisque pulvinar tincidunt
-                    id interdum viverra odio tpat lacinia etiam porta sed.
+                    Strengthen your projects with seamless collaboration through
+                    our expert-driven approach. Experience the power of teamwork
+                    and precision in delivering top-notch structural solutions.
                   </p>
                 </div>
               </div>
@@ -562,7 +679,7 @@ function HighRiseSteelStructures() {
               Explore Our <br /> Pre Engineered Building <br /> Products
             </sub>
             <img
-              src={IMG1}
+              src={PreEngineeredBuildingsImg}
               alt="NE Structures Explore Img"
               className="mobile"
             ></img>
@@ -636,7 +753,7 @@ function HighRiseSteelStructures() {
           </div>
         </div>
         <img
-          src={IMG1}
+          src={PreEngineeredBuildingsImg}
           alt="NE Structures Explore Img"
           className="notMobile"
         ></img>
