@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -282,13 +283,22 @@ function HighRiseSteelStructures() {
 
   return (
     <div className="product HRSS">
+      <Helmet>
+        <title>
+          Durable & Custom High-Rise Steel Structures | NE Structures
+        </title>
+        <meta
+          name="description"
+          content="NE Structures delivers high-rise steel structures with custom designs, ensuring safety, stability, and efficiency for office towers, and large-scale projects."
+        />
+      </Helmet>
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>HIGH RISE STEEL STRUCTURES</sub>
           <div className="heading">
-            <p>
+            <h1>
               <span>Elevated Steel Solutions </span> <br /> Built to Last
-            </p>
+            </h1>
             <sub>
               NE Structures provides High-Rise Steel Structures with unmatched
               strength and flexibility for skyscrapers and large-scale projects,
@@ -490,7 +500,7 @@ function HighRiseSteelStructures() {
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>What are High-Rise structures?</sub>
+            <h2>What are High-Rise structures?</h2>
             <p>
               High-Rise Steel Structures are engineered to support tall
               buildings using steel frameworks that offer strength and
@@ -510,11 +520,11 @@ function HighRiseSteelStructures() {
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
-          <p>
+          <h2>
             <span>Different Types of</span> <br />
             Structural Systems in <br />
             High-Rise buildings
-          </p>
+          </h2>
           <span>
             Discover the different structural systems for high-rise buildings we
             offer. NE Structures can design and build each type to suit your
@@ -565,7 +575,7 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Budget-Friendly Engineering</sub>
+                  <h2>Budget-Friendly Engineering</h2>
                   <p>
                     Achieve high-quality results within budget through our
                     cost-efficient steel solutions. Discover how we balance cost
@@ -583,7 +593,7 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Tailored Architectural Designs</sub>
+                  <h2>Tailored Architectural Designs</h2>
                   <p>
                     We offer flexible design options to meet your specific
                     needs, ensuring that every high-rise building is tailored to
@@ -601,7 +611,7 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Exceptional Load-Bearing</sub>
+                  <h2>Exceptional Load-Bearing</h2>
                   <p>
                     Our high-rise steel structures provide superior load-bearing
                     capacity, ensuring safety and stability. Visualize strength
@@ -619,7 +629,7 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Strength and Stability</sub>
+                  <h2>Strength and Stability</h2>
                   <p>
                     NE Structures uses high-quality steel to ensure exceptional
                     strength and stability in your high-rise projects, making
@@ -639,7 +649,7 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Sustainable Projects</sub>
+                  <h2>Sustainable Projects</h2>
                   <p>
                     Build with sustainability in mind using our
                     environmentally-conscious steel solutions. Explore how we
@@ -658,7 +668,7 @@ function HighRiseSteelStructures() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Collaborative Partnerships</sub>
+                  <h2>Collaborative Partnerships</h2>
                   <p>
                     Strengthen your projects with seamless collaboration through
                     our expert-driven approach. Experience the power of teamwork

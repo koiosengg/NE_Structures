@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -16,23 +17,32 @@ import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).web
 import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
 import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
 import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
-import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
 import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 
+
+import SESimg from "../assets/Service/service2.webp";
+import BIMimg from "../assets/Service/service1.webp";
+
 function StructuralEngineeringServices() {
   return (
     <div className="product">
+      <Helmet>
+        <title>Expert Structural Engineering Services | NE Structures</title>
+        <meta
+          name="description"
+          content="NE Structures provides precision structural engineering services, including detailing, PEB, and connection design, ensuring safety and innovative buildings."
+        />
+      </Helmet>
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>STRUCTURAL ENGINEERING SERVICES</sub>
           <div className="heading">
-            <p>
+            <h1>
               <span>Engineering Excellence </span> <br></br>In Every Steel
               Structure
-            </p>
+            </h1>
             <sub>
               Our SES combine precision, innovation, and expertise to create
               robust, reliable solutions for your structural detailing, PEB, PEB
@@ -68,7 +78,7 @@ function StructuralEngineeringServices() {
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>What are Structural Engineering Services?</sub>
+            <h2>What are Structural Engineering Services?</h2>
             <p>
               Structural Engineering services involve designing and analyzing
               the structural framework of buildings and infrastructure to ensure
@@ -83,7 +93,7 @@ function StructuralEngineeringServices() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG6}></img>
+            <img src={SESimg}></img>
           </div>
         </div>
       </div>
@@ -96,7 +106,7 @@ function StructuralEngineeringServices() {
           <div className="ourServicesSet">
             <div className="ourServicesInfo">
               <div className="heading">
-                <sub>Structural Detailing</sub>
+                <h2>Structural Detailing</h2>
                 <div className="ourServicesImg mobile">
                   <img src={IMG7}></img>
                 </div>
@@ -532,7 +542,7 @@ function StructuralEngineeringServices() {
           <div className="ourServicesSet">
             <div className="ourServicesInfo">
               <div className="heading">
-                <sub>PEB Services</sub>
+                <h2>PEB Services</h2>
                 <div className="ourServicesImg mobile">
                   <img src={IMG9}></img>
                 </div>
@@ -731,7 +741,7 @@ function StructuralEngineeringServices() {
           <div className="ourServicesSet">
             <div className="ourServicesInfo">
               <div className="heading">
-                <sub>PEB Design</sub>
+                <h2>PEB Design</h2>
                 <div className="ourServicesImg mobile">
                   <img src={IMG7}></img>
                 </div>
@@ -755,7 +765,7 @@ function StructuralEngineeringServices() {
           <div className="ourServicesSet">
             <div className="ourServicesInfo">
               <div className="heading">
-                <sub>Connection Design</sub>
+                <h2>Connection Design</h2>
                 <div className="ourServicesImg mobile">
                   <img src={IMG9}></img>
                 </div>
@@ -785,6 +795,7 @@ function StructuralEngineeringServices() {
               <br />
               Building information <br /> Modelling Services
             </sub>
+            <img src={BIMimg} className="mobile"></img>
             <p>
               Streamline your projects with NE Structures’ Building Information
               Modeling services. From intricate structural designs to MEP
@@ -855,7 +866,7 @@ function StructuralEngineeringServices() {
             </div>
           </div>
         </div>
-        <img src={IMG1}></img>
+        <img src={BIMimg} className="notMobile"></img>
       </div>
       <div className="homeBrochure">
         <div className="product brochure">

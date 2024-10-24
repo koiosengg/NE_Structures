@@ -115,6 +115,15 @@
   line-height: normal;
   letter-spacing: -1.2px;
 }
+.p-connect-label h2{
+    color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
 
 .p-contact-subtext-container {
   display: flex;
@@ -599,6 +608,16 @@ input:is(:focus, :valid) + .placeholder {
     font-weight: 600;
     line-height: normal;
   }
+
+   .p-connect-label h2{
+       color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
 
   .p-call-details h1 {
     color: var(--Black-Text-Primary, #111);

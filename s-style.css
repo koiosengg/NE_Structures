@@ -263,7 +263,7 @@
   gap: 16px;
 }
 
-.homeBannerContent .heading p {
+.homeBannerContent .heading h1 {
   color: var(--Black-Text-Primary, #111);
   text-align: center;
   font-variant-numeric: lining-nums proportional-nums;
@@ -274,7 +274,7 @@
   line-height: normal;
 }
 
-.homeBannerContent .heading p span {
+.homeBannerContent .heading h1 span {
   color: var(--Black-Text-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
@@ -567,6 +567,24 @@
   line-height: normal;
 }
 
+.homeInfoContainer .heading h2 {
+  color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.homeInfoContainer .heading h2 span {
+  color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .homeInfoContainer .heading span {
   width: 574px;
   flex-shrink: 0;
@@ -649,6 +667,15 @@
 }
 
 .homeInfoDetails .s-left sub {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.homeInfoDetails .s-left h2 {
   color: var(--Black-Text-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
@@ -951,6 +978,16 @@
   line-height: normal;
 }
 
+.homeInfoDetailSet h2 {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .homeInfoDetailSet p {
   color: var(--Black-Text-black-text-300, #606060);
   font-variant-numeric: lining-nums proportional-nums;
@@ -1025,6 +1062,16 @@
 }
 
 .homeInfoSetDetails .heading sub {
+  color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.homeInfoSetDetails .heading h2 {
   color: var(--Black-Text-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
@@ -1682,6 +1729,16 @@
   line-height: normal;
 }
 
+.ourServicesInfo .heading h2 {
+  color: var(--Blue-Primary, #0d85de);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .ourServicesInfo .heading p {
   color: var(--Black-Text-black-text-300, #606060);
   font-variant-numeric: lining-nums proportional-nums;
@@ -1896,7 +1953,7 @@
   align-self: stretch;
 }
 
-.newProductSet .setInfo h4 {
+.newProductSet .setInfo h2 {
   color: var(--Black-Text-Primary, #111);
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Raleway;
@@ -2215,6 +2272,18 @@
   line-height: normal;
 }
 
+.aboutNewSectionSet .heading h2{
+   color: var(--Black-Text-Primary, #111);
+  font-variant-numeric: lining-nums proportional-nums;
+
+  /* XXL/Semibold */
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .aboutNewSectionSet .heading p {
   color: var(--Grey-Text-Primary, #757575);
   font-variant-numeric: lining-nums proportional-nums;
@@ -2466,7 +2535,7 @@
     padding: 20px;
   }
 
-  .homeBannerContent .heading p {
+  .homeBannerContent .heading h1 {
     color: var(--Black-Text-Primary, #111);
     text-align: center;
     font-family: Raleway;
@@ -2477,7 +2546,7 @@
     letter-spacing: -1.2px;
   }
 
-  .homeBannerContent .heading p span {
+  .homeBannerContent .heading h1 span {
     color: var(--Black-Text-Primary, #111);
     font-family: Raleway;
     font-size: 40px;
@@ -2530,6 +2599,19 @@
   .homeInfoContainer .heading p span {
     font-size: 24px;
   }
+  .homeInfoContainer .heading h2 {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .homeInfoContainer .heading h2 span {
+    font-size: 24px;
+  }
 
   .homeInfoContainer .heading span {
     width: auto;
@@ -2551,6 +2633,16 @@
   }
 
   .homeInfoDetails .s-left sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .homeInfoDetails .s-left h2 {
     color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
@@ -2635,6 +2727,18 @@
   }
 
   .homeInfoSetDetails .heading sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .homeInfoSetDetails .heading h2 {
     color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
 
@@ -3394,7 +3498,7 @@
     align-self: stretch;
   }
 
-  .newProductSet .setInfo h4 {
+  .newProductSet .setInfo h2 {
     color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
 
@@ -3456,6 +3560,16 @@
     line-height: 20px; /* 125% */
   }
 
+  .ourServicesInfo .heading h2 {
+    color: var(--Blue-Primary, #0d85de);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
   .ourServicesInfo .heading p {
     color: var(--Black-Text-black-text-300, #606060);
     font-variant-numeric: lining-nums proportional-nums;
@@ -3506,6 +3620,16 @@
   }
 
   .bim .homeInfoDetailSet sub {
+    color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .homeInfoDetailSet h2 {
     color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
@@ -3617,6 +3741,18 @@
 
   .aboutNewSectionSet .heading h3 {
     color: var(--Black-Text-Primary, #111);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    /* M/Semibold */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+
+  .aboutNewSectionSet .heading h2{
+        color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
 
     /* M/Semibold */

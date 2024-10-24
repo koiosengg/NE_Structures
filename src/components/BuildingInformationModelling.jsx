@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -22,18 +23,28 @@ import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).w
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 
+import SESimg from "../assets/Service/service2.webp";
+import BIMimg from "../assets/Service/service1.webp";
+
 function BuildingInformationModelling() {
   return (
     <div className="product BIM">
+      <Helmet>
+        <title>BIM Services for Enhanced Coordination | NE Structures</title>
+        <meta
+          name="description"
+          content="NE Structures offers advanced BIM solutions like CAD to BIM, clash detection, and Revit family creation. Improve project coordination and efficiency."
+        />
+      </Helmet>
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>BUILDING INFORMATION MODELLING</sub>
           <div className="heading">
-            <p>
+            <h1>
               Transforming Design with
               <br />
               <span> Advanced BIM Solutions </span>
-            </p>
+            </h1>
             <sub>
               NE Structures deliver precise Building Information Modeling (BIM)
               services, optimizing design, coordination, and project management
@@ -69,7 +80,7 @@ function BuildingInformationModelling() {
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>What is BIM?</sub>
+            <h2>What is BIM?</h2>
             <p>
               Building Information Modeling (BIM) is a digital process that
               generates detailed 3D models integrating architectural,
@@ -84,7 +95,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="s-right">
-            <img src={IMG9}></img>
+            <img src={BIMimg}></img>
           </div>
         </div>
       </div>
@@ -94,7 +105,7 @@ function BuildingInformationModelling() {
         </div>
         <div className="homeInfoDetails bim">
           <div className="homeInfoDetailSet">
-            <sub>CAD to BIM Services</sub>
+            <h2>CAD to BIM Services</h2>
             <p>
               Converting CAD to BIM involves transforming 2D drawings into
               detailed 3D models, integrating comprehensive data for enhanced
@@ -103,7 +114,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>BIM Co-ordination Services</sub>
+            <h2>BIM Co-ordination Services</h2>
             <p>
               BIM Coordination Services streamline project workflows by
               synchronizing 3D models and data across all disciplines, ensuring
@@ -112,7 +123,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>Clash Detection Services</sub>
+            <h2>Clash Detection Services</h2>
             <p>
               Clash Detection Services identify and resolve conflicts between
               building systems in 3D models, ensuring seamless integration,
@@ -120,7 +131,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>Revit Family Creation</sub>
+            <h2>Revit Family Creation</h2>
             <p>
               Revit Family Creation involves designing and customizing 3D models
               for building components, ensuring accurate representation and
@@ -129,7 +140,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>Scan to BIM Services</sub>
+            <h2>Scan to BIM Services</h2>
             <p>
               Revit Family Creation involves designing and customizing 3D models
               for building components, ensuring accurate representation,
@@ -137,7 +148,7 @@ function BuildingInformationModelling() {
             </p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>As Built Documentaion</sub>
+            <h2>As Built Documentaion</h2>
             <p>
               As-Built Documentation involves creating detailed records of a
               building's completed state, capturing all changes and deviations
@@ -194,7 +205,7 @@ function BuildingInformationModelling() {
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
-          <p>BIM Services for India </p>
+          <h2>BIM Services for India </h2>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left" style={{ gap: "32px" }}>
@@ -249,7 +260,7 @@ function BuildingInformationModelling() {
               <br /> Structural Engineering
               <br /> Services
             </sub>
-            <img src={IMG1} className="mobile"></img>
+            <img src={SESimg} className="mobile"></img>
             <p>
               Enhance your projects with NE Structures’ Structural Engineering
               services. We conduct detailed load analysis, precise material
@@ -320,7 +331,7 @@ function BuildingInformationModelling() {
             </div>
           </div>
         </div>
-        <img src={IMG1} className="notMobile"></img>
+        <img src={SESimg} className="notMobile"></img>
       </div>
       <div className="homeBrochure">
         <div className="product brochure">

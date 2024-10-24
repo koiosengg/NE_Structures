@@ -1,6 +1,7 @@
 import React from "react";
 import Brochure from "./Brochure";
 import SubmitButton from "./SubmitButton";
+import { Helmet } from "react-helmet-async";
 
 function Contact() {
   const openPhoneDialer = () => {
@@ -15,6 +16,13 @@ function Contact() {
   };
   return (
     <>
+      <Helmet>
+        <title>Contact NE Structures for Steel Construction Solutions</title>
+        <meta
+          name="description"
+          content="Reach out to NE Structures for custom pre-engineered steel buildings or expert structural services. Let us help you build durable and efficient structures."
+        />
+      </Helmet>
       <div className="p-contact-background">
         <div className="p-contact-main">
           <div className="p-contact-container">
@@ -39,7 +47,7 @@ function Contact() {
             <div className="p-contact-form-main">
               <div className="p-connect-with-us">
                 <div className="p-connect-label">
-                  <p>Connect With Us</p>
+                  <h2>Connect With Us</h2>
                 </div>
 
                 <div className="p-contact-subtext-container">

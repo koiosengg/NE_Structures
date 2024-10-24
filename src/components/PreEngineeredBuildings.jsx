@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -8,17 +9,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.jpg";
 import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
-import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
-import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
-import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
-import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
-import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
-import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
-import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
 import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
 import ProductImg2 from "../assets/PEB/cold storage facility ne structures.jpg";
 import ProductImg3 from "../assets/PEB/prefabricated-warehouse.webp";
@@ -56,14 +46,21 @@ import PEB16 from "../assets/PEB_Banner/peb16.jpg";
 function PreEngineeredBuildings() {
   return (
     <div className="product PEB">
+      <Helmet>
+        <title>Efficient & Custom PEB Solutions | NE Structures</title>
+        <meta
+          name="description"
+          content="Discover NE Structures’ Pre-Engineered Buildings for quick assembly and cost-effective solutions. Ideal for warehouses and industrial projects."
+        />
+      </Helmet>
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>PRE ENGINEERED BUILDINGS</sub>
           <div className="heading">
-            <p>
+            <h1>
               <span> Expertly Crafted Structures</span> <br /> Tailored to Your
               Needs
-            </p>
+            </h1>
             <sub>
               NE Structures offers Pre-Engineered Buildings (PEB) with
               customizable, cost-effective solutions for warehouses, factories,
@@ -74,22 +71,22 @@ function PreEngineeredBuildings() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-          <img src={PEB1} alt="NE Structures Marquee Img" />
-      <img src={PEB2} alt="NE Structures Marquee Img" />
-      <img src={PEB3} alt="NE Structures Marquee Img" />
-      <img src={PEB4} alt="NE Structures Marquee Img" />
-      <img src={PEB5} alt="NE Structures Marquee Img" />
-      <img src={PEB6} alt="NE Structures Marquee Img" />
-      <img src={PEB7} alt="NE Structures Marquee Img" />
-      <img src={PEB8} alt="NE Structures Marquee Img" />
-      <img src={PEB9} alt="NE Structures Marquee Img" />
-      <img src={PEB10} alt="NE Structures Marquee Img" />
-      <img src={PEB11} alt="NE Structures Marquee Img" />
-      <img src={PEB12} alt="NE Structures Marquee Img" />
-      <img src={PEB13} alt="NE Structures Marquee Img" />
-      <img src={PEB14} alt="NE Structures Marquee Img" />
-      <img src={PEB15} alt="NE Structures Marquee Img" />
-      <img src={PEB16} alt="NE Structures Marquee Img" />
+            <img src={PEB1} alt="NE Structures Marquee Img" />
+            <img src={PEB2} alt="NE Structures Marquee Img" />
+            <img src={PEB3} alt="NE Structures Marquee Img" />
+            <img src={PEB4} alt="NE Structures Marquee Img" />
+            <img src={PEB5} alt="NE Structures Marquee Img" />
+            <img src={PEB6} alt="NE Structures Marquee Img" />
+            <img src={PEB7} alt="NE Structures Marquee Img" />
+            <img src={PEB8} alt="NE Structures Marquee Img" />
+            <img src={PEB9} alt="NE Structures Marquee Img" />
+            <img src={PEB10} alt="NE Structures Marquee Img" />
+            <img src={PEB11} alt="NE Structures Marquee Img" />
+            <img src={PEB12} alt="NE Structures Marquee Img" />
+            <img src={PEB13} alt="NE Structures Marquee Img" />
+            <img src={PEB14} alt="NE Structures Marquee Img" />
+            <img src={PEB15} alt="NE Structures Marquee Img" />
+            <img src={PEB16} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -171,14 +168,14 @@ function PreEngineeredBuildings() {
       </div>
       <div className="homeInfoContainer">
         <div className="heading">
-          <p>
+          <h2>
             Efficient PEB Solutions – <br />
             <span>Reliable, Custom-Built </span> for Your Success.
-          </p>
+          </h2>
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>What are PEBs?</sub>
+            <h2>What are PEBs?</h2>
             <p>
               Pre-Engineered Buildings (PEBs) are custom-designed structures
               created using factory-fabricated components, tailored for
@@ -210,13 +207,13 @@ function PreEngineeredBuildings() {
       </div>
       <div className="homeInfoContainer" style={{ alignItems: "center" }}>
         <div className="heading">
-          <p>
+          <h2>
             Advantages Of
             <br /> <span> Pre Engineered Building</span> <br />
             <span style={{ color: "#0C79CA", fontWeight: "600" }}>
               by NE Structures
             </span>{" "}
-          </p>
+          </h2>
           <span>
             Trusted by 20+ . Now you can also partner with NE Structures for
             unparalleled customization, efficiency, and quality in
@@ -323,7 +320,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Prefabricated Multi Storey Building</sub>
+                  <h2>Prefabricated Multi Storey Building</h2>
                   <p>
                     We manufacture prefabricated multi-storey buildings for
                     fast, efficient assembly. For instance, our modules are used
@@ -339,7 +336,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Cold Storage</sub>
+                  <h2>Cold Storage</h2>
                   <p>
                     We create prefabricated cold storage facilities for quick,
                     efficient installation. Ideal for warehouses and food
@@ -355,7 +352,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Warehouse</sub>
+                  <h2>Warehouse</h2>
                   <p>
                     We build prefabricated warehouses for quick, efficient setup
                     and seamless expansion. Perfect for logistics and storage,
@@ -374,7 +371,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Industrial Shed</sub>
+                  <h2>Industrial Shed</h2>
                   <p>
                     We construct prefabricated industrial sheds for quick,
                     efficient assembly. Ideal for manufacturing and storage, our
@@ -393,7 +390,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Factory Building</sub>
+                  <h2>Factory Building</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
                     etiam porta sed. At volutpat scelerisque pulvinar tincidunt
@@ -411,7 +408,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Industrial Enclosures</sub>
+                  <h2>Industrial Enclosures</h2>
                   <p>
                     We design prefabricated factory buildings for rapid,
                     efficient construction. Ideal for manufacturing and
@@ -429,7 +426,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Warehouse</sub>
+                  <h2>Warehouse</h2>
                   <p>
                     We build prefabricated warehouses for quick, efficient setup
                     and seamless expansion. Perfect for logistics and storage,
@@ -448,7 +445,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Industrial Shed</sub>
+                  <h2>Industrial Shed</h2>
                   <p>
                     We construct prefabricated industrial sheds for quick,
                     efficient assembly. Ideal for manufacturing and storage, our
@@ -469,7 +466,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Factory Building</sub>
+                  <h2>Factory Building</h2>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Nam volutpat lacinia
                     etiam porta sed. At volutpat scelerisque pulvinar tincidunt
@@ -487,7 +484,7 @@ function PreEngineeredBuildings() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Industrial Enclosures</sub>
+                  <h2>Industrial Enclosures</h2>
                   <p>
                     We design prefabricated factory buildings for rapid,
                     efficient construction. Ideal for manufacturing and

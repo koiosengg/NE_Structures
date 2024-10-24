@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -7,7 +8,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.jpg";
 import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
 import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
 import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
 import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
@@ -22,19 +22,6 @@ import TalankeyMarqueeImg11 from "../assets/Marquee/Talankey Marquee Img  (11).j
 import TalankeyMarqueeImg12 from "../assets/Marquee/Talankey Marquee Img  (12).png";
 import TalankeyMarqueeImg13 from "../assets/Marquee/Talankey Marquee Img  (13).webp";
 import TalankeyMarqueeImg14 from "../assets/Marquee/Talankey Marquee Img  (14).jpeg";
-import AutomaticHWeldingMachine1 from "../assets/Infrastructure/NE Structures Automatic H-Welding Machine 1.png";
-import AutomaticHWeldingMachine2 from "../assets/Infrastructure/NE Structures Automatic H-Welding Machine 2.jfif";
-import CNCPlasmaCuttingMachine from "../assets/Infrastructure/NE Structures CNC Plasma Cutting Machine.png";
-import RoofingMachine from "../assets/Infrastructure/NE Structures Roofing Machine.jfif";
-import CNCShearingMachine from "../assets/Infrastructure/NE Structures CNC Shearing Machine.jfif";
-import PressBrake from "../assets/Infrastructure/NE Structures Press Brake.jfif";
-import CrimpingMachine from "../assets/Infrastructure/NE Structures Crimping Machine.jfif";
-import RadialCNCDrillingMachine from "../assets/Infrastructure/NE Structures Radial CNC Drilling Machine.png";
-import RollFormingMachine from "../assets/Infrastructure/NE Structures Roll Forming Machine.png";
-import MagneticDrillingMachine from "../assets/Infrastructure/NE Structures Magnetic Drilling Machine.jfif";
-import ProductImg1 from "../assets/AboutIMG/NE Structures CNC Plasma Cutting Machine.jfif";
-import ProductImg2 from "../assets/AboutIMG/NE Structures Roofing Machine.jfif";
-import ProductImg3 from "../assets/AboutIMG/NE Structures Anchor Bolt Threading.jfif";
 import ProductImg4 from "../assets/AboutIMG/NE Structures CNC Purlin Line.jfif";
 import Img1 from "../assets/AboutIMG/plasma.jpg";
 import Img2 from "../assets/AboutIMG/Roof Sheet machine-min.jpg";
@@ -53,14 +40,23 @@ import HorizontalSlider from "./HorizontalSlider";
 function Infrastructure() {
   return (
     <div className="Infrastructure">
+      <Helmet>
+        <title>
+          Advanced Steel Construction Infrastructure | NE Structures
+        </title>
+        <meta
+          name="description"
+          content="NE Structures features state-of-the-art CNC and PTW machinery for superior steel fabrication. Precision, quality, and innovation come together in every project."
+        />
+      </Helmet>
       <div className="homeBanner">
         <div className="homeBannerContent">
           <sub>INFRASTRUCTURE</sub>
           <div className="heading">
-            <p>
+            <h1>
               Building Structures with <br></br>{" "}
               <span> Unmatched Precision</span> and <span>Strength</span>
-            </p>
+            </h1>
             <sub>
               NE Structures has become a trusted leader in steel construction.
               Our unwavering commitment to quality, innovation, and client
@@ -142,88 +138,108 @@ function Infrastructure() {
           <div className="aboutNewSectionSet">
             <img src={Img1}></img>
             <div className="heading">
-              <h3> CNC Plasma Cutting Machine</h3>
+              <h2> CNC Plasma Cutting Machine</h2>
               <p>
-              NE Structures uses advanced CNC Plasma Cutting Machines for precise, high-speed cutting of steel plates and sheets. This ensures accurate dimensions and smooth edges, enhancing the quality and efficiency of our fabrication process.
+                NE Structures uses advanced CNC Plasma Cutting Machines for
+                precise, high-speed cutting of steel plates and sheets. This
+                ensures accurate dimensions and smooth edges, enhancing the
+                quality and efficiency of our fabrication process.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img2}></img>
             <div className="heading">
-              <h3>Roofing Sheet Machine  </h3>
+              <h2>Roofing Sheet Machine </h2>
               <p>
-              Our Roofing Sheet Machines are engineered to produce a variety of profiles with consistent thickness and shape, delivering top-quality roofing solutions for various construction needs.
+                Our Roofing Sheet Machines are engineered to produce a variety
+                of profiles with consistent thickness and shape, delivering
+                top-quality roofing solutions for various construction needs.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img3}></img>
             <div className="heading">
-              <h3>Anchor Bolt Threading Machine</h3>
+              <h2>Anchor Bolt Threading Machine</h2>
               <p>
-              We employ specialized Anchor Bolt Threading Machines to manufacture custom-length bolts with accurate threading, ensuring secure and reliable anchorage in steel structures.
+                We employ specialized Anchor Bolt Threading Machines to
+                manufacture custom-length bolts with accurate threading,
+                ensuring secure and reliable anchorage in steel structures.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img4}></img>
             <div className="heading">
-              <h3>CZ Purlin Machine</h3>
+              <h2>CZ Purlin Machine</h2>
               <p>
-              The CZ Purlin Machine at NE Structures manufactures C and Z profiles with high precision, supporting the construction of lightweight and durable purlin systems for roofing and cladding applications.
+                The CZ Purlin Machine at NE Structures manufactures C and Z
+                profiles with high precision, supporting the construction of
+                lightweight and durable purlin systems for roofing and cladding
+                applications.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img5}></img>
             <div className="heading">
-              <h3>Iron Worker Machine</h3>
+              <h2>Iron Worker Machine</h2>
               <p>
-              Our Iron Worker Machine is a versatile tool used for shearing, punching, and bending operations, reducing production time and ensuring uniformity in steel components.
+                Our Iron Worker Machine is a versatile tool used for shearing,
+                punching, and bending operations, reducing production time and
+                ensuring uniformity in steel components.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img6}></img>
             <div className="heading">
-              <h3>Shot Blasting Machine </h3>
+              <h2>Shot Blasting Machine </h2>
               <p>
-              We utilize Shot Blasting Machines to clean and polish steel surfaces, removing rust and contaminants, which improves paint adhesion and overall structural longevity.
+                We utilize Shot Blasting Machines to clean and polish steel
+                surfaces, removing rust and contaminants, which improves paint
+                adhesion and overall structural longevity.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img7}></img>
             <div className="heading">
-              <h3>Shearing Machine</h3>
+              <h2>Shearing Machine</h2>
               <p>
-              NE Structures’ Shearing Machine enables clean and precise cuts on metal sheets, allowing for faster fabrication while minimizing material wastage.
+                NE Structures’ Shearing Machine enables clean and precise cuts
+                on metal sheets, allowing for faster fabrication while
+                minimizing material wastage.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img8}></img>
             <div className="heading">
-              <h3> Press Brake Machine </h3>
+              <h2> Press Brake Machine </h2>
               <p>
-              Our Press Brake Machine is capable of bending metal sheets into various shapes, meeting complex structural requirements with ease and precision.
+                Our Press Brake Machine is capable of bending metal sheets into
+                various shapes, meeting complex structural requirements with
+                ease and precision.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img9}></img>
             <div className="heading">
-              <h3>PTW Welding Machine</h3>
+              <h2>PTW Welding Machine</h2>
               <p>
-              We use PTW Welding Machines for consistent and high-quality welds on all steel joints, ensuring the strength and durability of our prefabricated steel structures.
+                We use PTW Welding Machines for consistent and high-quality
+                welds on all steel joints, ensuring the strength and durability
+                of our prefabricated steel structures.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={ProductImg4}></img>
             <div className="heading">
-              <h3>Iron Worker Machine</h3>
+              <h2>Iron Worker Machine</h2>
               <p>
                 NE Structures CZ Purlins are engineered and manufactured to meet
                 precise customer specifications. Our high-quality purlins

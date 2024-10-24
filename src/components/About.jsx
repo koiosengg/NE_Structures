@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.png";
 import IMG2 from "../assets/HomeBanner/IMG2.jpg";
 import IMG3 from "../assets/HomeBanner/IMG3.png";
@@ -42,14 +43,21 @@ import Img4 from "../assets/AboutIMG/CZ purlin machine NE structures.jpg";
 function About() {
   return (
     <div className="product about">
+      <Helmet>
+        <title>About NE Structures | Leading Steel Construction</title>
+        <meta
+          name="description"
+          content="Discover NE Structures: leading the steel construction industry for 30+ years with sustainable, innovative pre-engineered building solutions."
+        />
+      </Helmet>
       <div className="homeBanner ">
         <div className="homeBannerContent">
           <sub>ABOUT US</sub>
           <div className="heading">
-            <p>
+            <h1>
               Leading the Future of <br className="notMobile"></br>{" "}
               <span>Engineering</span> and <span>Innovation</span>
-            </p>
+            </h1>
             <sub>
               NE Structures has become a trusted leader in steel construction.
               Our unwavering commitment to quality, innovation, and client
@@ -138,7 +146,7 @@ function About() {
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>Shaping the Future of Steel Construction</sub>
+            <h2>Shaping the Future of Steel Construction</h2>
             <p>
               NE Structures aims to revolutionize steel construction with
               cutting-edge, sustainable solutions. We envision setting industry
@@ -171,21 +179,26 @@ function About() {
           </span>
         </div>
         <div className="aboutNewSection">
-        <div className="aboutNewSectionSet">
+          <div className="aboutNewSectionSet">
             <img src={Img1}></img>
             <div className="heading">
               <h3> CNC Plasma Cutting Machine</h3>
               <p>
-              NE Structures uses advanced CNC Plasma Cutting Machines for precise, high-speed cutting of steel plates and sheets. This ensures accurate dimensions and smooth edges, enhancing the quality and efficiency of our fabrication process.
+                NE Structures uses advanced CNC Plasma Cutting Machines for
+                precise, high-speed cutting of steel plates and sheets. This
+                ensures accurate dimensions and smooth edges, enhancing the
+                quality and efficiency of our fabrication process.
               </p>
             </div>
           </div>
           <div className="aboutNewSectionSet">
             <img src={Img2}></img>
             <div className="heading">
-              <h3>Roofing Sheet Machine  </h3>
+              <h3>Roofing Sheet Machine </h3>
               <p>
-              Our Roofing Sheet Machines are engineered to produce a variety of profiles with consistent thickness and shape, delivering top-quality roofing solutions for various construction needs.
+                Our Roofing Sheet Machines are engineered to produce a variety
+                of profiles with consistent thickness and shape, delivering
+                top-quality roofing solutions for various construction needs.
               </p>
             </div>
           </div>
@@ -194,7 +207,9 @@ function About() {
             <div className="heading">
               <h3>Anchor Bolt Threading Machine</h3>
               <p>
-              We employ specialized Anchor Bolt Threading Machines to manufacture custom-length bolts with accurate threading, ensuring secure and reliable anchorage in steel structures.
+                We employ specialized Anchor Bolt Threading Machines to
+                manufacture custom-length bolts with accurate threading,
+                ensuring secure and reliable anchorage in steel structures.
               </p>
             </div>
           </div>
@@ -203,41 +218,44 @@ function About() {
             <div className="heading">
               <h3>CZ Purlin Machine</h3>
               <p>
-              The CZ Purlin Machine at NE Structures manufactures C and Z profiles with high precision, supporting the construction of lightweight and durable purlin systems for roofing and cladding applications.
+                The CZ Purlin Machine at NE Structures manufactures C and Z
+                profiles with high precision, supporting the construction of
+                lightweight and durable purlin systems for roofing and cladding
+                applications.
               </p>
             </div>
           </div>
         </div>
         <div className="viewButton">
-              <Link to="/Infrastructure">
-                <sup>View More</sup>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                >
-                  <mask
-                    id="mask0_1114_1803"
-                    style={{ maskType: "alpha" }}
-                    maskUnits="userSpaceOnUse"
-                    x="0"
-                    y="0"
-                    width="20"
-                    height="20"
-                  >
-                    <rect width="20" height="20" fill="#D9D9D9" />
-                  </mask>
-                  <g mask="url(#mask0_1114_1803)">
-                    <path
-                      d="M7.01732 16.6668L5.83398 15.4835L11.3173 10.0002L5.83398 4.51683L7.01732 3.3335L13.684 10.0002L7.01732 16.6668Z"
-                      fill="white"
-                    />
-                  </g>
-                </svg>
-              </Link>
-            </div>
+          <Link to="/Infrastructure">
+            <sup>View More</sup>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <mask
+                id="mask0_1114_1803"
+                style={{ maskType: "alpha" }}
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+              >
+                <rect width="20" height="20" fill="#D9D9D9" />
+              </mask>
+              <g mask="url(#mask0_1114_1803)">
+                <path
+                  d="M7.01732 16.6668L5.83398 15.4835L11.3173 10.0002L5.83398 4.51683L7.01732 3.3335L13.684 10.0002L7.01732 16.6668Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </Link>
+        </div>
       </div>
       <div className="homeInfoContainer">
         <div className="heading">

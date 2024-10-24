@@ -1,14 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import { Helmet } from "react-helmet-async";
+import GetToKnowImg from "../assets/NE Structures homepage.webp"
 import Rectangle1 from "../assets/Download/download1.jpg";
 import Rectangle2 from "../assets/Download/download2.jpg";
 import Rectangle3 from "../assets/Download/download3.jpg";
@@ -35,8 +28,6 @@ import HomeImg11 from "../assets/Marquee-New/home11.webp";
 import HomeImg12 from "../assets/Marquee-New/home12.webp";
 import HomeImg13 from "../assets/Marquee-New/home13.webp";
 import HomeImg14 from "../assets/Marquee-New/home14.webp";
-import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import NewImg1 from "../assets/NewImgs/newImg1.jpeg";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import Staad from "../assets/AboutIMG/Staad.png";
@@ -51,18 +42,17 @@ import TripleBayImage from "../assets/HomeBanner/TripleBayImage.png";
 import FourBaysImage from "../assets/HomeBanner/FourBaysImage.png";
 import MultiGableImage from "../assets/HomeBanner/MultiGableImage.png";
 import SingleSlopeImage from "../assets/HomeBanner/SingleSlopeImage.png";
-import ProductImg1 from "../assets/PEB/prefabricated-multi-storey-steel-building ne structures.webp";
 import HomeGallery from "./HomeGallery";
 import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 import FAQ from "./FAQ";
-import Product1 from "../assets/Product_Cover/product1.jpeg"
-import Product2 from "../assets/Product_Cover/product2.webp"
-import Product3 from "../assets/Product_Cover/product3.jpg"
-import Product4 from "../assets/Product_Cover/product4.jpg"
-import Service1 from "../assets/Service/service1.webp"
-import Service2 from "../assets/Service/service2.webp"
+import Product1 from "../assets/Product_Cover/product1.jpeg";
+import Product2 from "../assets/Product_Cover/product2.webp";
+import Product3 from "../assets/Product_Cover/product3.jpg";
+import Product4 from "../assets/Product_Cover/product4.jpg";
+import Service1 from "../assets/Service/service1.webp";
+import Service2 from "../assets/Service/service2.webp";
 
 function Home() {
   const [activeOption, setActiveOption] = useState("Clear Span");
@@ -214,13 +204,20 @@ function Home() {
 
   return (
     <div>
+      <Helmet>
+        <title>Innovative Steel Building Solutions | NE Structures</title>
+        <meta
+          name="description"
+          content="NE Structures provides custom pre-engineered steel buildings for warehouses, factories, etc, ensuring durability, cost-efficiency, and cutting-edge technology."
+        />
+      </Helmet>
       <div className="homeBanner">
         <div className="homeBannerContent">
           <div className="heading">
-            <p>
+            <h1>
               Tailored Engineering for <br />
               <span>Superior Structures </span>
-            </p>
+            </h1>
             <sub>
               At NE Structures, we specialize in Pre-Engineered Buildings (PEB),
               Building Information Modeling (BIM), Steel Engineering Structures
@@ -305,7 +302,7 @@ function Home() {
         </div>
         <div className="homeInfoDetails">
           <div className="s-left">
-            <sub>NE Structures</sub>
+            <h2>NE Structures</h2>
             <p>
               NE Structures is a premier provider of pre-engineered steel
               building solutions, offering comprehensive services that span
@@ -375,16 +372,16 @@ function Home() {
             </div>
           </div>
           <div className="s-right">
-            <img src={IMG5} alt="NE Structures Get to Know Img"></img>
+            <img src={GetToKnowImg} alt="NE Structures Get to Know Img"></img>
           </div>
         </div>
       </div>
       <div className="homeInfoContainer" style={{ alignItems: "center" }}>
         <div className="heading">
-          <p>
+          <h2>
             Advantages Of
             <br /> NE Structures as Your Partner
-          </p>
+          </h2>
           <span>
             When you partner with the best, you get tailored steel solutions,
             designed for efficiency, durability, and cost-effectiveness. NE
@@ -512,7 +509,7 @@ function Home() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Pre Engineered Building</sub>
+                  <h2>Pre Engineered Building</h2>
                   <p>
                     NE Structures Pre-Engineered Buildings are designed,
                     fabricated & commissioned matching exact customer’s
@@ -587,7 +584,7 @@ function Home() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>High Rise Steel Structures </sub>
+                  <h2>High Rise Steel Structures </h2>
                   <p>
                     NE Structures High-Rise Steel Structures offer unmatched
                     strength and flexibility, designed to support the most
@@ -663,9 +660,13 @@ function Home() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Roofing Sheets</sub>
+                  <h2>Roofing Sheets</h2>
                   <p>
-                  Build your projects stronger with NE Structures’ Roofing Sheets, designed for optimal durability and weather protection. Perfect for industrial, commercial, and residential buildings, our premium sheets offer long-lasting performance and structural integrity in any environment.
+                    Build your projects stronger with NE Structures’ Roofing
+                    Sheets, designed for optimal durability and weather
+                    protection. Perfect for industrial, commercial, and
+                    residential buildings, our premium sheets offer long-lasting
+                    performance and structural integrity in any environment.
                   </p>
                 </div>
                 <div className="navbarContact">
@@ -735,9 +736,13 @@ function Home() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>CZ Purlins </sub>
+                  <h2>CZ Purlins </h2>
                   <p>
-                  Strengthen your structures with NE Structures’ CZ Purlins, engineered for optimal support and durability. From commercial buildings to industrial facilities, our precision-manufactured purlins provide unmatched stability and adaptability for diverse construction needs.
+                    Strengthen your structures with NE Structures’ CZ Purlins,
+                    engineered for optimal support and durability. From
+                    commercial buildings to industrial facilities, our
+                    precision-manufactured purlins provide unmatched stability
+                    and adaptability for diverse construction needs.
                   </p>
                 </div>
                 <div className="navbarContact">
@@ -810,7 +815,7 @@ function Home() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Structural Engineering Services</sub>
+                  <h2>Structural Engineering Services</h2>
                   <p>
                     NE Structures’ Structural Engineering services provide
                     robust, innovative solutions tailored to ensure safety,
@@ -885,7 +890,7 @@ function Home() {
               </div>
               <div className="homeInfoSetDetails">
                 <div className="heading">
-                  <sub>Building Information Modelling</sub>
+                  <h2>Building Information Modelling</h2>
                   <p>
                     NE Structures' Building Information Modeling services
                     streamline your project with accurate 3D models, enhancing
@@ -1085,82 +1090,82 @@ function Home() {
             <div className="homeInfoDetails mobile">
               <div className="s-banner-wrapper">
                 <div className="s-banner-marquee">
-                <div className="s-banner-marquee-set">
-    <img src={Rectangle1} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle2} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle3} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle4} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle5} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle6} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle7} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle8} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle9} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle10} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle11} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle12} />
-  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle9} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle10} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle11} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle12} />
+                  </div>
                 </div>
               </div>
               <div className="s-banner-wrapper reverse-marquee">
                 <div className="s-banner-marquee">
-                <div className="s-banner-marquee-set">
-    <img src={Rectangle1} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle2} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle3} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle4} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle5} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle6} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle7} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle8} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle9} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle10} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle11} />
-  </div>
-  <div className="s-banner-marquee-set">
-    <img src={Rectangle12} />
-  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle1} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle2} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle3} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle4} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle5} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle6} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle7} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle8} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle9} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle10} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle11} />
+                  </div>
+                  <div className="s-banner-marquee-set">
+                    <img src={Rectangle12} />
+                  </div>
                 </div>
               </div>
             </div>
