@@ -252,15 +252,18 @@ input {
   line-height: 20px;
 }
 
-input:is(:focus, :valid) {
+input:is(:focus, :valid),
+textarea:is(:focus, :valid) {
   border: 1px solid var(--Active-text-field, #086ecc);
 }
 
-input:is(:focus, :valid) + .placeholder {
-  transform: translatey(calc(-1 * var(--padding) - 12px));
+input:is(:focus, :valid) + .placeholder,
+textarea:is(:focus, :valid) + .placeholder {
+  transform: translateY(calc(-1 * var(--padding) - 12px));
   font-size: 14px;
   color: var(--focus-color);
 }
+
 
 .textarea-input {
   align-self: stretch;
@@ -272,6 +275,7 @@ input:is(:focus, :valid) + .placeholder {
   padding: 12px 16px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: 10px;
   width: 100%;
   resize: none;

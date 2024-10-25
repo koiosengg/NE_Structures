@@ -133,7 +133,7 @@ function Contact() {
                 </div>
               </div>
               <div className="p-contactUs-form">
-                <form action="" method="POST">
+                <form action="https://formspree.io/f/mbljlbgl" method="POST">
                   <div className="p-first-last-name">
                     <div className="input-wrapper">
                       <input
@@ -159,25 +159,30 @@ function Contact() {
                     </div>
                   </div>
                   <div className="input-wrapper">
-                    <input type="text" id="input" required name="email"></input>
+                    <input type="text" id="input" required name="Email"></input>
                     <label htmlFor="input" className="placeholder">
                       Email address
                     </label>
                   </div>
                   <div className="input-wrapper">
-                    <input type="text" id="input" required></input>
+                    <input
+                      type="tel"
+                      id="input"
+                      required
+                      pattern="[0-9]{10}"
+                      maxLength="10"
+                      name="Phone Number"
+                    />
                     <label htmlFor="input" className="placeholder">
                       Mobile number
                     </label>
                   </div>
                   <div className="input-wrapper">
-                    <input
-                      type="text"
+                    <textarea
                       id="input"
-                      required
-                      name="textarea"
+                      name="Message"
                       className="textarea-input"
-                    ></input>
+                    ></textarea>
                     <label htmlFor="input" className="placeholder textarea">
                       Message
                     </label>
