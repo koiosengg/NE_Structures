@@ -10,14 +10,23 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
-import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
-import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
-import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
-import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
-import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
+
+import MarqueeImg1 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures  sketch-min.png";
+import MarqueeImg2 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0 3d.webp";
+import MarqueeImg3 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0 client site.webp";
+import MarqueeImg4 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0.webp";
+import MarqueeImg5 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 01-min.jpeg";
+import MarqueeImg6 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 02-min.jpg";
+import MarqueeImg7 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 03-min.jpg";
+import MarqueeImg8 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 06-min.jpg";
+import MarqueeImg9 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 07-min.png";
+import MarqueeImg10 from "../assets/SES/SES Banner/structural-engineering-services-NE Structures.webp";
+
+import Detailing from "../assets/SES/SES services/Structural Detailing ne structures-min.jpg"
+import Services from "../assets/SES/SES services/structural detailing services features SES-min.jpg"
+import Design from "../assets/SES/SES services/peb-design-and-detailing-service-NE Structures.webp"
+import Connection from "../assets/SES/SES services/Connection-Design-Image-Structural engineering services-min.jpg"
+
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 
@@ -52,20 +61,26 @@ function StructuralEngineeringServices() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg10} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -108,7 +123,10 @@ function StructuralEngineeringServices() {
               <div className="heading">
                 <h2>Structural Detailing</h2>
                 <div className="ourServicesImg mobile">
-                  <img src={IMG7}></img>
+                  <img
+                    src={Detailing}
+                    alt="NE Structures Structural Detailing"
+                  ></img>
                 </div>
                 <p>
                   NE Structures provides a fast, accurate range of detailing
@@ -536,7 +554,11 @@ function StructuralEngineeringServices() {
               </div>
             </div>
             <div className="ourServicesImg notMobile">
-              <img src={IMG7} style={{ height: "632px" }}></img>
+              <img
+                src={Detailing}
+                alt="NE Structures Structural Detailing"
+                style={{ height: "632px" }}
+              ></img>
             </div>
           </div>
           <div className="ourServicesSet">
@@ -544,7 +566,7 @@ function StructuralEngineeringServices() {
               <div className="heading">
                 <h2>PEB Services</h2>
                 <div className="ourServicesImg mobile">
-                  <img src={IMG9}></img>
+                  <img src={Services} alt="NE Structures PEB Services"></img>
                 </div>
                 <p>
                   NE Structures specializes in the Design and Detailing of
@@ -735,7 +757,11 @@ function StructuralEngineeringServices() {
               </div>
             </div>
             <div className="ourServicesImg notMobile">
-              <img src={IMG9} style={{ height: "493px" }}></img>
+              <img
+                src={Services}
+                alt="NE Structures PEB Services"
+                style={{ height: "493px" }}
+              ></img>
             </div>
           </div>
           <div className="ourServicesSet">
@@ -743,7 +769,7 @@ function StructuralEngineeringServices() {
               <div className="heading">
                 <h2>PEB Design</h2>
                 <div className="ourServicesImg mobile">
-                  <img src={IMG7}></img>
+                  <img src={Design} alt="NE Structures PEB Design"></img>
                 </div>
                 <p>
                   NE Structures offers expert design services for Pre-Engineered
@@ -759,7 +785,7 @@ function StructuralEngineeringServices() {
               </div>
             </div>
             <div className="ourServicesImg notMobile">
-              <img src={IMG7}></img>
+              <img src={Design} alt="NE Structures PEB Design"></img>
             </div>
           </div>
           <div className="ourServicesSet">
@@ -767,7 +793,10 @@ function StructuralEngineeringServices() {
               <div className="heading">
                 <h2>Connection Design</h2>
                 <div className="ourServicesImg mobile">
-                  <img src={IMG9}></img>
+                  <img
+                    src={Connection}
+                    alt="NE Structures Connection Design"
+                  ></img>
                 </div>
                 <p>
                   NE Structures provides comprehensive structural steel
@@ -782,7 +811,7 @@ function StructuralEngineeringServices() {
               </div>
             </div>
             <div className="ourServicesImg notMobile">
-              <img src={IMG9}></img>
+              <img src={Connection} alt="NE Structures Connection Design"></img>
             </div>
           </div>
         </div>

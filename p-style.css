@@ -252,17 +252,18 @@ input {
   line-height: 20px;
 }
 
-input:is(:focus, :valid),
-textarea:is(:focus, :valid) {
+input:focus,
+textarea:focus {
   border: 1px solid var(--Active-text-field, #086ecc);
 }
 
-input:is(:focus, :valid) + .placeholder,
-textarea:is(:focus, :valid) + .placeholder {
+input:focus + .placeholder,
+textarea:focus + .placeholder {
   transform: translateY(calc(-1 * var(--padding) - 12px));
   font-size: 14px;
   color: var(--focus-color);
 }
+
 
 
 .textarea-input {

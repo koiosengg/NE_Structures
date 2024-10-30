@@ -10,16 +10,22 @@ import IMG6 from "../assets/HomeBanner/IMG6.jpg";
 import IMG7 from "../assets/HomeBanner/IMG7.jpg";
 import IMG8 from "../assets/HomeBanner/IMG8.jpg";
 import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
-import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
-import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
-import TalankeyMarqueeImg4 from "../assets/Marquee/Talankey Marquee Img  (4).webp";
-import TalankeyMarqueeImg5 from "../assets/Marquee/Talankey Marquee Img  (5).webp";
-import TalankeyMarqueeImg6 from "../assets/Marquee/Talankey Marquee Img  (6).webp";
-import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).webp";
-import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
-import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
-import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
+
+import MarqueeImg1 from "../assets/BIM/banner BIM/3-Focus-Points-BIM-Modeling-Services-Use-For-Creating-Accurate-Models-min.jpg";
+import MarqueeImg2 from "../assets/BIM/banner BIM/6d-bim-services-img.webp";
+import MarqueeImg3 from "../assets/BIM/banner BIM/bim banner ne structures-min.jpg";
+import MarqueeImg4 from "../assets/BIM/banner BIM/BIM banner ne-min.jpeg";
+import MarqueeImg5 from "../assets/BIM/banner BIM/BIM banner-min.jpeg";
+import MarqueeImg6 from "../assets/BIM/banner BIM/BIM banner.webp";
+import MarqueeImg7 from "../assets/BIM/banner BIM/BIM PEB banner.webp";
+import MarqueeImg8 from "../assets/BIM/banner BIM/BIM-E-Guide-Feature-Photo banner-min.jpg";
+import MarqueeImg9 from "../assets/BIM/banner BIM/BIM-min.jpeg";
+import MarqueeImg10 from "../assets/BIM/banner BIM/bim-proektirovanie-molniezashhityi-i-zazemleniya-zandz-min.jpg";
+import MarqueeImg11 from "../assets/BIM/banner BIM/National-BIM-Structural-BIM-Services-min.jpg";
+
+import KeyChallenges from "../assets/BIM/bim-clash-detection-Challeneges BIM NE Strutures.jpg"
+import BIMforIndia from "../assets/BIM/Architectural-BIM-Modeling-Services-for-Healthcare-Project-in-Boston.jpg"
+
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 
@@ -54,20 +60,28 @@ function BuildingInformationModelling() {
         </div>
         <div className="s-banner-wrapper">
           <div className="s-banner-marquee">
-            <img src={IMG1} alt="NE Structures Marquee Img" />
-            <img src={IMG2} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg1} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg2} alt="NE Structures Marquee Img" />
-            <img src={IMG5} alt="NE Structures Marquee Img" />
-            <img src={IMG6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg3} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg4} alt="NE Structures Marquee Img" />
-            <img src={IMG7} alt="NE Structures Marquee Img" />
-            <img src={IMG9} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg5} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg6} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg7} alt="NE Structures Marquee Img" />
-            <img src={TalankeyMarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg11} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg1} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg2} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg3} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg4} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg5} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg6} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg7} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg8} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg9} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg10} alt="NE Structures Marquee Img" />
+            <img src={MarqueeImg11} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
@@ -199,7 +213,7 @@ function BuildingInformationModelling() {
             </div>
           </div>
           <div className="s-right helpQuestionsIMG">
-            <img src={IMG7}></img>
+            <img src={KeyChallenges} alt="NE Structures Key Challenges"></img>
           </div>
         </div>
       </div>
@@ -248,7 +262,10 @@ function BuildingInformationModelling() {
             </div>
           </div>
           <div className="s-right helpQuestionsIMG">
-            <img src={IMG9}></img>
+            <img
+              src={BIMforIndia}
+              alt="NE Structures BIM Services for India"
+            ></img>
           </div>
         </div>
       </div>
