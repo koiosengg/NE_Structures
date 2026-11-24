@@ -13,7 +13,7 @@ import IMG9 from "../assets/HomeBanner/IMG9.webp";
 import MarqueeImg1 from "../assets/CZpurlins/CZ purlins Banner images/c-purlins-z-purlins ne structures banner-min.webp";
 import MarqueeImg2 from "../assets/CZpurlins/CZ purlins Banner images/cz prlins ne strucyures banner image.webp";
 import MarqueeImg3 from "../assets/CZpurlins/CZ purlins Banner images/cz purlin banner ne structures.webp";
-import MarqueeImg4 from "../assets/CZpurlins/CZ purlins Banner images/cz purlin ne structures banner-min.webp";
+import MarqueeImg4 from "../assets/CZpurlins/CZ purlins Banner images/CZPURLINS NE STRUCTURES-min.webp";
 import MarqueeImg5 from "../assets/CZpurlins/CZ purlins Banner images/CZ Purlin Ne structures Banner-min.webp";
 import MarqueeImg6 from "../assets/CZpurlins/CZ purlins Banner images/CZ purlins ne structures 1-min.webp";
 import MarqueeImg7 from "../assets/CZpurlins/CZ purlins Banner images/CZpurlins ne structures banner products-min.webp";
