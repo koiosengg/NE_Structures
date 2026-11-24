@@ -1,6 +1,31 @@
 {
-  "$schema": "https://agenticresourcediscovery.org/spec/schema/v0.json",
-  "name": "NE Structures",
-  "description": "Pre-Engineered Steel Buildings and Structural Engineering Solutions",
-  "url": "https://www.nestructures.in"
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:nestructures:site:main",
+      "displayName": "NE Structures",
+      "type": "application/json",
+      "url": "https://www.nestructures.in/llms.txt",
+      "description": "Pre-Engineered Buildings, High-Rise Steel Structures & Structural Engineering Solutions",
+      "tags": [
+        "pre-engineered-buildings",
+        "steel-structures",
+        "construction",
+        "roofing-sheets",
+        "cz-purlins"
+      ],
+      "capabilities": [
+        "peb-manufacturing",
+        "structural-engineering",
+        "bim-modeling"
+      ],
+      "representativeQueries": [
+        "pre engineered steel building manufacturers in Bangalore",
+        "high rise structural steel buildings",
+        "industrial shed and warehouse construction"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-11-24T00:00:00Z"
+    }
+  ]
 }
