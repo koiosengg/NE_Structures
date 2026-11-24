@@ -10,7 +10,7 @@
 }
 
 .p-contact-background {
-  background-image: url("./src/assets/Dotted\ structure.png");
+  background-image: url("/src/assets/Dotted structure.webp");
 }
 
 .p-contact-container {
@@ -115,8 +115,8 @@
   line-height: normal;
   letter-spacing: -1.2px;
 }
-.p-connect-label h2{
-    color: var(--Black-Text-Primary, #111);
+.p-connect-label h2 {
+  color: var(--Black-Text-Primary, #111);
   font-family: Raleway;
   font-size: 40px;
   font-style: normal;
@@ -263,8 +263,6 @@ textarea:focus + .placeholder {
   font-size: 14px;
   color: var(--focus-color);
 }
-
-
 
 .textarea-input {
   align-self: stretch;
@@ -614,15 +612,15 @@ textarea:focus + .placeholder {
     line-height: normal;
   }
 
-   .p-connect-label h2{
-       color: var(--Black-Text-Primary, #111);
+  .p-connect-label h2 {
+    color: var(--Black-Text-Primary, #111);
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-   }
+  }
 
   .p-call-details h1 {
     color: var(--Black-Text-Primary, #111);
