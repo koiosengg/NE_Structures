@@ -209,7 +209,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>Pre-Engineered Buildings & Steel Structures | NE Structures</title>
+        <title>NE Structures</title>
         <meta
           name="description"
           content="NE Structures provides custom pre-engineered steel buildings for warehouses, factories, etc, ensuring durability, cost-efficiency, and cutting-edge technology."
@@ -1147,13 +1147,22 @@ function Home() {
                     <img src={Rectangle9} alt="NE Structures Steel Project 9" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle10} alt="NE Structures Steel Project 10" />
+                    <img
+                      src={Rectangle10}
+                      alt="NE Structures Steel Project 10"
+                    />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle11} alt="NE Structures Steel Project 11" />
+                    <img
+                      src={Rectangle11}
+                      alt="NE Structures Steel Project 11"
+                    />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle12} alt="NE Structures Steel Project 12" />
+                    <img
+                      src={Rectangle12}
+                      alt="NE Structures Steel Project 12"
+                    />
                   </div>
                 </div>
               </div>
@@ -1187,13 +1196,22 @@ function Home() {
                     <img src={Rectangle9} alt="NE Structures Steel Project 9" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle10} alt="NE Structures Steel Project 10" />
+                    <img
+                      src={Rectangle10}
+                      alt="NE Structures Steel Project 10"
+                    />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle11} alt="NE Structures Steel Project 11" />
+                    <img
+                      src={Rectangle11}
+                      alt="NE Structures Steel Project 11"
+                    />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle12} alt="NE Structures Steel Project 12" />
+                    <img
+                      src={Rectangle12}
+                      alt="NE Structures Steel Project 12"
+                    />
                   </div>
                 </div>
               </div>
