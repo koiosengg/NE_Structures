@@ -330,7 +330,7 @@ function Home() {
             </p>
             <div className="navbarContact">
               <Link to="/about" aria-label="Read more about NE Structures">
-                <p>Read More</p>
+                <p>Read More About Us</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -1120,80 +1120,80 @@ function Home() {
               <div className="s-banner-wrapper">
                 <div className="s-banner-marquee">
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle1} />
+                    <img src={Rectangle1} alt="NE Structures Steel Project 1" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle2} />
+                    <img src={Rectangle2} alt="NE Structures Steel Project 2" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle3} />
+                    <img src={Rectangle3} alt="NE Structures Steel Project 3" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle4} />
+                    <img src={Rectangle4} alt="NE Structures Steel Project 4" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle5} />
+                    <img src={Rectangle5} alt="NE Structures Steel Project 5" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle6} />
+                    <img src={Rectangle6} alt="NE Structures Steel Project 6" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle7} />
+                    <img src={Rectangle7} alt="NE Structures Steel Project 7" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle8} />
+                    <img src={Rectangle8} alt="NE Structures Steel Project 8" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle9} />
+                    <img src={Rectangle9} alt="NE Structures Steel Project 9" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle10} />
+                    <img src={Rectangle10} alt="NE Structures Steel Project 10" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle11} />
+                    <img src={Rectangle11} alt="NE Structures Steel Project 11" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle12} />
+                    <img src={Rectangle12} alt="NE Structures Steel Project 12" />
                   </div>
                 </div>
               </div>
               <div className="s-banner-wrapper reverse-marquee">
                 <div className="s-banner-marquee">
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle1} />
+                    <img src={Rectangle1} alt="NE Structures Steel Project 1" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle2} />
+                    <img src={Rectangle2} alt="NE Structures Steel Project 2" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle3} />
+                    <img src={Rectangle3} alt="NE Structures Steel Project 3" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle4} />
+                    <img src={Rectangle4} alt="NE Structures Steel Project 4" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle5} />
+                    <img src={Rectangle5} alt="NE Structures Steel Project 5" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle6} />
+                    <img src={Rectangle6} alt="NE Structures Steel Project 6" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle7} />
+                    <img src={Rectangle7} alt="NE Structures Steel Project 7" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle8} />
+                    <img src={Rectangle8} alt="NE Structures Steel Project 8" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle9} />
+                    <img src={Rectangle9} alt="NE Structures Steel Project 9" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle10} />
+                    <img src={Rectangle10} alt="NE Structures Steel Project 10" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle11} />
+                    <img src={Rectangle11} alt="NE Structures Steel Project 11" />
                   </div>
                   <div className="s-banner-marquee-set">
-                    <img src={Rectangle12} />
+                    <img src={Rectangle12} alt="NE Structures Steel Project 12" />
                   </div>
                 </div>
               </div>
