@@ -1,31 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import IMG1 from "../assets/HomeBanner/IMG1.webp";
+import IMG2 from "../assets/HomeBanner/IMG2.webp";
+import IMG3 from "../assets/HomeBanner/IMG3.webp";
+import IMG4 from "../assets/HomeBanner/IMG4.webp";
+import IMG5 from "../assets/HomeBanner/IMG5.webp";
+import IMG6 from "../assets/HomeBanner/IMG6.webp";
+import IMG7 from "../assets/HomeBanner/IMG7.webp";
+import IMG8 from "../assets/HomeBanner/IMG8.webp";
+import IMG9 from "../assets/HomeBanner/IMG9.webp";
 
-import MarqueeImg1 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures  sketch-min.png";
+import MarqueeImg1 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures  sketch-min.webp";
 import MarqueeImg2 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0 3d.webp";
 import MarqueeImg3 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0 client site.webp";
 import MarqueeImg4 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0.webp";
-import MarqueeImg5 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 01-min.jpeg";
-import MarqueeImg6 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 02-min.jpg";
-import MarqueeImg7 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 03-min.jpg";
-import MarqueeImg8 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 06-min.jpg";
-import MarqueeImg9 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 07-min.png";
+import MarqueeImg5 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 01-min.webp";
+import MarqueeImg6 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 02-min.webp";
+import MarqueeImg7 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 03-min.webp";
+import MarqueeImg8 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 06-min.webp";
+import MarqueeImg9 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 07-min.webp";
 import MarqueeImg10 from "../assets/SES/SES Banner/structural-engineering-services-NE Structures.webp";
 
-import Detailing from "../assets/SES/SES services/Structural Detailing ne structures-min.jpg"
-import Services from "../assets/SES/SES services/structural detailing services features SES-min.jpg"
+import Detailing from "../assets/SES/SES services/Structural Detailing ne structures-min.webp"
+import Services from "../assets/SES/SES services/structural detailing services features SES-min.webp"
 import Design from "../assets/SES/SES services/peb-design-and-detailing-service-NE Structures.webp"
-import Connection from "../assets/SES/SES services/Connection-Design-Image-Structural engineering services-min.jpg"
+import Connection from "../assets/SES/SES services/Connection-Design-Image-Structural engineering services-min.webp"
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";

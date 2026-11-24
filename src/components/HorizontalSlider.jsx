@@ -1,10 +1,10 @@
 import React from "react";
-import Rectangle from "../assets/Gallery/Image 1.png";
-import Rectangle2 from "../assets/Gallery/Image 2.png";
-import Rectangle3 from "../assets/Gallery/Image 3.png";
-import Rectangle4 from "../assets/Gallery/Image 4.png";
-import Rectangle5 from "../assets/Gallery/Image 5.jpeg";
-import Rectangle7 from "../assets/Gallery/Image 7.png";
+import Rectangle from "../assets/Gallery/Image 1.webp";
+import Rectangle2 from "../assets/Gallery/Image 2.webp";
+import Rectangle3 from "../assets/Gallery/Image 3.webp";
+import Rectangle4 from "../assets/Gallery/Image 4.webp";
+import Rectangle5 from "../assets/Gallery/Image 5.webp";
+import Rectangle7 from "../assets/Gallery/Image 7.webp";
 
 // Component for horizontal image slider
 const HorizontalSlider = ({ imageUrls, reverse }) => {

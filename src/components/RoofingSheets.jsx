@@ -1,41 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
+import IMG1 from "../assets/HomeBanner/IMG1.webp";
+import IMG2 from "../assets/HomeBanner/IMG2.webp";
+import IMG3 from "../assets/HomeBanner/IMG3.webp";
+import IMG4 from "../assets/HomeBanner/IMG4.webp";
+import IMG5 from "../assets/HomeBanner/IMG5.webp";
+import IMG6 from "../assets/HomeBanner/IMG6.webp";
+import IMG7 from "../assets/HomeBanner/IMG7.webp";
+import IMG8 from "../assets/HomeBanner/IMG8.webp";
 
-import MarqueeImg1 from "../assets/Roofing Sheets/roofing sheets banner images/roof-roofing-flat-roof-red-min.jpg";
+import MarqueeImg1 from "../assets/Roofing Sheets/roofing sheets banner images/roof-roofing-flat-roof-red-min.webp";
 import MarqueeImg2 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets banner ne structures.webp";
-import MarqueeImg3 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 1-min.jpg";
-import MarqueeImg4 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 2-min.jpg";
-import MarqueeImg5 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 3-min.jpg";
-import MarqueeImg6 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 4-min.jpg";
-import MarqueeImg7 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 5-min.jpg";
-import MarqueeImg8 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 6-min.jpg";
-import MarqueeImg9 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 7-min.jpg";
-import MarqueeImg10 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets ne structures banner-min.jpg";
-import MarqueeImg11 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets ne structures metal-min.jpg";
-import MarqueeImg12 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets products ne structures 1-min.jpg";
+import MarqueeImg3 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 1-min.webp";
+import MarqueeImg4 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 2-min.webp";
+import MarqueeImg5 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 3-min.webp";
+import MarqueeImg6 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 4-min.webp";
+import MarqueeImg7 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 5-min.webp";
+import MarqueeImg8 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 6-min.webp";
+import MarqueeImg9 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets NE Structures 7-min.webp";
+import MarqueeImg10 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets ne structures banner-min.webp";
+import MarqueeImg11 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets ne structures metal-min.webp";
+import MarqueeImg12 from "../assets/Roofing Sheets/roofing sheets banner images/roofing sheets products ne structures 1-min.webp";
 
-import RoofingSheetImg from "../assets/Roofing Sheets/grid-roofing-ibr-roof-sheeting whata re roofing sheets ne structures-min.jpg";
+import RoofingSheetImg from "../assets/Roofing Sheets/grid-roofing-ibr-roof-sheeting whata re roofing sheets ne structures-min.webp";
 
-import WallCladding from "../assets/Roofing Sheets/types of roofing sheets/Roof and Wall Cladding ne structures.png";
-import WallCladdingStructure from "../assets/Roofing Sheets/types of roofing sheets/Roof, Wall Cladding and Structural Solutions ne structures-min.jpg";
-import AlloyImg from "../assets/Roofing Sheets/types of roofing sheets/55percent AI-Zn Alloy Coated Steel Coils ne structures-min.jpg";
-import ColourCoated from "../assets/Roofing Sheets/types of roofing sheets/Color Coated Steel Coils ne structures-min.jpg";
-import SmartBuilding from "../assets/Roofing Sheets/types of roofing sheets/Smart Building Solutions ne structures-min.jpg";
-import PEBRoofing from "../assets/Roofing Sheets/types of roofing sheets/Pre Engineered Buildings roofing sheets ne structures-min.jpg";
-import Solar from "../assets/Roofing Sheets/types of roofing sheets/Solar Module Mounting Solutions ne structures-min.jpg";
+import WallCladding from "../assets/Roofing Sheets/types of roofing sheets/Roof and Wall Cladding ne structures.webp";
+import WallCladdingStructure from "../assets/Roofing Sheets/types of roofing sheets/Roof, Wall Cladding and Structural Solutions ne structures-min.webp";
+import AlloyImg from "../assets/Roofing Sheets/types of roofing sheets/55percent AI-Zn Alloy Coated Steel Coils ne structures-min.webp";
+import ColourCoated from "../assets/Roofing Sheets/types of roofing sheets/Color Coated Steel Coils ne structures-min.webp";
+import SmartBuilding from "../assets/Roofing Sheets/types of roofing sheets/Smart Building Solutions ne structures-min.webp";
+import PEBRoofing from "../assets/Roofing Sheets/types of roofing sheets/Pre Engineered Buildings roofing sheets ne structures-min.webp";
+import Solar from "../assets/Roofing Sheets/types of roofing sheets/Solar Module Mounting Solutions ne structures-min.webp";
 
 import Gallery from "./Gallery";
 
-import CZPurlineLinkImg from "../assets/Roofing Sheets/z-c-purlins-inerlinking banner.jpg";
+import CZPurlineLinkImg from "../assets/Roofing Sheets/z-c-purlins-inerlinking banner.webp";
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";

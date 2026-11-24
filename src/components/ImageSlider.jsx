@@ -1,16 +1,16 @@
 import React from "react";
-import Rectangle1 from "../assets/Download/download1.jpg";
-import Rectangle2 from "../assets/Download/download2.jpg";
-import Rectangle3 from "../assets/Download/download3.jpg";
-import Rectangle4 from "../assets/Download/download4.jpg";
-import Rectangle5 from "../assets/Download/download5.jpg";
-import Rectangle6 from "../assets/Download/download6.jpg";
-import Rectangle7 from "../assets/Download/download7.jpg";
-import Rectangle8 from "../assets/Download/download8.jpg";
-import Rectangle9 from "../assets/Download/download9.jpg";
-import Rectangle10 from "../assets/Download/download10.jpg";
-import Rectangle11 from "../assets/Download/download11.jpg";
-import Rectangle12 from "../assets/Download/download12.jpg";
+import Rectangle1 from "../assets/Download/download1.webp";
+import Rectangle2 from "../assets/Download/download2.webp";
+import Rectangle3 from "../assets/Download/download3.webp";
+import Rectangle4 from "../assets/Download/download4.webp";
+import Rectangle5 from "../assets/Download/download5.webp";
+import Rectangle6 from "../assets/Download/download6.webp";
+import Rectangle7 from "../assets/Download/download7.webp";
+import Rectangle8 from "../assets/Download/download8.webp";
+import Rectangle9 from "../assets/Download/download9.webp";
+import Rectangle10 from "../assets/Download/download10.webp";
+import Rectangle11 from "../assets/Download/download11.webp";
+import Rectangle12 from "../assets/Download/download12.webp";
 
 const ImageSlider = ({ imageUrls, reverse }) => {
   return (

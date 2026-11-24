@@ -1,12 +1,12 @@
 import React, { useState, useEffect, forwardRef } from "react";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
+import IMG1 from "../assets/HomeBanner/IMG1.webp";
+import IMG2 from "../assets/HomeBanner/IMG2.webp";
+import IMG3 from "../assets/HomeBanner/IMG3.webp";
+import IMG4 from "../assets/HomeBanner/IMG4.webp";
+import IMG5 from "../assets/HomeBanner/IMG5.webp";
+import IMG6 from "../assets/HomeBanner/IMG6.webp";
+import IMG7 from "../assets/HomeBanner/IMG7.webp";
+import IMG8 from "../assets/HomeBanner/IMG8.webp";
 
 const setHeight = 714;
 const gap = 20;

@@ -1,30 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import IMG1 from "../assets/HomeBanner/IMG1.webp";
+import IMG2 from "../assets/HomeBanner/IMG2.webp";
+import IMG3 from "../assets/HomeBanner/IMG3.webp";
+import IMG4 from "../assets/HomeBanner/IMG4.webp";
+import IMG5 from "../assets/HomeBanner/IMG5.webp";
+import IMG6 from "../assets/HomeBanner/IMG6.webp";
+import IMG7 from "../assets/HomeBanner/IMG7.webp";
+import IMG8 from "../assets/HomeBanner/IMG8.webp";
+import IMG9 from "../assets/HomeBanner/IMG9.webp";
 
-import MarqueeImg1 from "../assets/BIM/banner BIM/3-Focus-Points-BIM-Modeling-Services-Use-For-Creating-Accurate-Models-min.jpg";
+import MarqueeImg1 from "../assets/BIM/banner BIM/3-Focus-Points-BIM-Modeling-Services-Use-For-Creating-Accurate-Models-min.webp";
 import MarqueeImg2 from "../assets/BIM/banner BIM/6d-bim-services-img.webp";
-import MarqueeImg3 from "../assets/BIM/banner BIM/bim banner ne structures-min.jpg";
-import MarqueeImg4 from "../assets/BIM/banner BIM/BIM banner ne-min.jpeg";
-import MarqueeImg5 from "../assets/BIM/banner BIM/BIM banner-min.jpeg";
+import MarqueeImg3 from "../assets/BIM/banner BIM/bim banner ne structures-min.webp";
+import MarqueeImg4 from "../assets/BIM/banner BIM/BIM banner ne-min.webp";
+import MarqueeImg5 from "../assets/BIM/banner BIM/BIM banner-min.webp";
 import MarqueeImg6 from "../assets/BIM/banner BIM/BIM banner.webp";
 import MarqueeImg7 from "../assets/BIM/banner BIM/BIM PEB banner.webp";
-import MarqueeImg8 from "../assets/BIM/banner BIM/BIM-E-Guide-Feature-Photo banner-min.jpg";
-import MarqueeImg9 from "../assets/BIM/banner BIM/BIM-min.jpeg";
-import MarqueeImg10 from "../assets/BIM/banner BIM/bim-proektirovanie-molniezashhityi-i-zazemleniya-zandz-min.jpg";
-import MarqueeImg11 from "../assets/BIM/banner BIM/National-BIM-Structural-BIM-Services-min.jpg";
+import MarqueeImg8 from "../assets/BIM/banner BIM/BIM-E-Guide-Feature-Photo banner-min.webp";
+import MarqueeImg9 from "../assets/BIM/banner BIM/BIM-min.webp";
+import MarqueeImg10 from "../assets/BIM/banner BIM/bim-proektirovanie-molniezashhityi-i-zazemleniya-zandz-min.webp";
+import MarqueeImg11 from "../assets/BIM/banner BIM/National-BIM-Structural-BIM-Services-min.webp";
 
-import KeyChallenges from "../assets/BIM/bim-clash-detection-Challeneges BIM NE Strutures.jpg"
-import BIMforIndia from "../assets/BIM/Architectural-BIM-Modeling-Services-for-Healthcare-Project-in-Boston.jpg"
+import KeyChallenges from "../assets/BIM/bim-clash-detection-Challeneges BIM NE Strutures.webp"
+import BIMforIndia from "../assets/BIM/Architectural-BIM-Modeling-Services-for-Healthcare-Project-in-Boston.webp"
 
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";

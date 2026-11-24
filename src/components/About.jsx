@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
+import IMG1 from "../assets/HomeBanner/IMG1.webp";
+import IMG2 from "../assets/HomeBanner/IMG2.webp";
+import IMG3 from "../assets/HomeBanner/IMG3.webp";
+import IMG4 from "../assets/HomeBanner/IMG4.webp";
+import IMG5 from "../assets/HomeBanner/IMG5.webp";
+import IMG6 from "../assets/HomeBanner/IMG6.webp";
+import IMG7 from "../assets/HomeBanner/IMG7.webp";
+import IMG8 from "../assets/HomeBanner/IMG8.webp";
+import IMG9 from "../assets/HomeBanner/IMG9.webp";
 import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
 import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
 import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
@@ -20,25 +20,25 @@ import TalankeyMarqueeImg7 from "../assets/Marquee/Talankey Marquee Img  (7).web
 import TalankeyMarqueeImg8 from "../assets/Marquee/Talankey Marquee Img  (8).webp";
 import TalankeyMarqueeImg9 from "../assets/Marquee/Talankey Marquee Img  (9).webp";
 import TalankeyMarqueeImg10 from "../assets/Marquee/Talankey Marquee Img  (10).webp";
-import TalankeyMarqueeImg11 from "../assets/Marquee/Talankey Marquee Img  (11).jpg";
-import TalankeyMarqueeImg12 from "../assets/Marquee/Talankey Marquee Img  (12).png";
+import TalankeyMarqueeImg11 from "../assets/Marquee/Talankey Marquee Img  (11).webp";
+import TalankeyMarqueeImg12 from "../assets/Marquee/Talankey Marquee Img  (12).webp";
 import TalankeyMarqueeImg13 from "../assets/Marquee/Talankey Marquee Img  (13).webp";
-import TalankeyMarqueeImg14 from "../assets/Marquee/Talankey Marquee Img  (14).jpeg";
-import LogoVector from "../assets/AboutIMG/LogoVector.png";
-import Staad from "../assets/AboutIMG/Staad.png";
-import Tekla from "../assets/AboutIMG/Tekla.png";
-import ProNest from "../assets/AboutIMG/ProNest.png";
-import Autodesk from "../assets/AboutIMG/Autodesk.png";
-import VissionIMG from "../assets/AboutIMG/VissionIMG.jpg";
+import TalankeyMarqueeImg14 from "../assets/Marquee/Talankey Marquee Img  (14).webp";
+import LogoVector from "../assets/AboutIMG/LogoVector.webp";
+import Staad from "../assets/AboutIMG/Staad.webp";
+import Tekla from "../assets/AboutIMG/Tekla.webp";
+import ProNest from "../assets/AboutIMG/ProNest.webp";
+import Autodesk from "../assets/AboutIMG/Autodesk.webp";
+import VissionIMG from "../assets/AboutIMG/VissionIMG.webp";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 import Gallery from "./Gallery";
 import FAQ from "./FAQ";
 
-import Img1 from "../assets/AboutIMG/plasma.jpg";
-import Img2 from "../assets/AboutIMG/Roof Sheet machine-min.jpg";
+import Img1 from "../assets/AboutIMG/plasma.webp";
+import Img2 from "../assets/AboutIMG/Roof Sheet machine-min.webp";
 import Img3 from "../assets/AboutIMG/anchr bolt threading machine.webp";
-import Img4 from "../assets/AboutIMG/CZ purlin machine NE structures.jpg";
+import Img4 from "../assets/AboutIMG/CZ purlin machine NE structures.webp";
 
 function About() {
   return (

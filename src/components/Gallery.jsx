@@ -1,18 +1,18 @@
 import React, { useState, useRef, useEffect, forwardRef } from "react";
 
-import IMG10 from "../assets/Gail/gail1.jpg";
-import IMG16 from "../assets/Gail/gail2.jpg";
-import IMG12 from "../assets/Kia-Sahen/kia2.jpg";
-import IMG11 from "../assets/Kia-Sahen/kia1.jpg";
-import IMG13 from "../assets/Airport/airport1.jpg";
-import IMG14 from "../assets/Airport/airport2.jpg";
-import IMG15 from "../assets/Airport/airport3.jpg";
+import IMG10 from "../assets/Gail/gail1.webp";
+import IMG16 from "../assets/Gail/gail2.webp";
+import IMG12 from "../assets/Kia-Sahen/kia2.webp";
+import IMG11 from "../assets/Kia-Sahen/kia1.webp";
+import IMG13 from "../assets/Airport/airport1.webp";
+import IMG14 from "../assets/Airport/airport2.webp";
+import IMG15 from "../assets/Airport/airport3.webp";
 
-import HomeImg15 from "../assets/Marquee-New/home15.jpeg";
-import HomeImg16 from "../assets/Marquee-New/home16.jpeg";
-import HomeImg17 from "../assets/Marquee-New/home17.jpeg";
-import HomeImg18 from "../assets/Marquee-New/home18.jpeg";
-import HomeImg19 from "../assets/Marquee-New/home19.jpeg";
+import HomeImg15 from "../assets/Marquee-New/home15.webp";
+import HomeImg16 from "../assets/Marquee-New/home16.webp";
+import HomeImg17 from "../assets/Marquee-New/home17.webp";
+import HomeImg18 from "../assets/Marquee-New/home18.webp";
+import HomeImg19 from "../assets/Marquee-New/home19.webp";
 
 const Gallery = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
