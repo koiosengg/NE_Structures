@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import GetToKnowImg from "../assets/NE Structures homepage.webp";
@@ -47,7 +47,6 @@ import TripleBayImage from "../assets/HomeBanner/TripleBayImage.png";
 import FourBaysImage from "../assets/HomeBanner/FourBaysImage.png";
 import MultiGableImage from "../assets/HomeBanner/MultiGableImage.png";
 import SingleSlopeImage from "../assets/HomeBanner/SingleSlopeImage.png";
-import HomeGallery from "./HomeGallery";
 import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
@@ -210,7 +209,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>Innovative Steel Building Solutions | NE Structures</title>
+        <title>Pre-Engineered Buildings & Steel Structures | NE Structures</title>
         <meta
           name="description"
           content="NE Structures provides custom pre-engineered steel buildings for warehouses, factories, etc, ensuring durability, cost-efficiency, and cutting-edge technology."
@@ -330,7 +329,7 @@ function Home() {
               halls....
             </p>
             <div className="navbarContact">
-              <Link to="/about">
+              <Link to="/about" aria-label="Read more about NE Structures">
                 <p>Read More</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -533,7 +532,10 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/PreEngineeredBuildings">
+                  <Link
+                    to="/PreEngineeredBuildings"
+                    aria-label="View more about Pre-Engineered Buildings"
+                  >
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -609,7 +611,10 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/HighRiseSteelStructures">
+                  <Link
+                    to="/HighRiseSteelStructures"
+                    aria-label="View more about High Rise Steel Structures"
+                  >
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -685,7 +690,10 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/RoofingSheets">
+                  <Link
+                    to="/RoofingSheets"
+                    aria-label="View more about Roofing Sheets"
+                  >
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -761,7 +769,7 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/CZPurlins">
+                  <Link to="/CZPurlins" aria-label="View more about CZ Purlins">
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -839,7 +847,10 @@ function Home() {
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/StructuralEngineeringServices">
+                  <Link
+                    to="/StructuralEngineeringServices"
+                    aria-label="View more about Structural Engineering Services"
+                  >
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -907,14 +918,17 @@ function Home() {
                 <div className="heading">
                   <h2>Building Information Modelling</h2>
                   <p>
-                    NE Structures' Building Information Modeling services
+                    NE Structures’ Building Information Modeling services
                     streamline your project with accurate 3D models, enhancing
                     design coordination and reducing errors. Experience smarter,
                     more efficient construction from start to finish.
                   </p>
                 </div>
                 <div className="navbarContact">
-                  <Link to="/BuildingInformationModelling">
+                  <Link
+                    to="/BuildingInformationModelling"
+                    aria-label="View more about Building Information Modelling"
+                  >
                     <p>View More</p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

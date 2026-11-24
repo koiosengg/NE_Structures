@@ -227,7 +227,10 @@ function About() {
           </div>
         </div>
         <div className="viewButton">
-          <Link to="/Infrastructure">
+          <Link
+            to="/Infrastructure"
+            aria-label="View more about NE Structures Infrastructure"
+          >
             <sup>View More</sup>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -299,11 +302,11 @@ function About() {
           </div>
           <div className="homeInfoDetailSet">
             <sub>IS 816</sub>
-            <p> Indian Code for Welding Standards.</p>
+            <p>Indian Code for Welding Standards.</p>
           </div>
           <div className="homeInfoDetailSet">
             <sub>IS 800-2007</sub>
-            <p> Indian Code of Practice for General Steel Construction.</p>
+            <p>Indian Code of Practice for General Steel Construction.</p>
           </div>
         </div>
       </div>

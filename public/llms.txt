@@ -1,0 +1,20 @@
+# NE Structures
+
+> Leading Manufacturer of Pre-Engineered Buildings & High-Rise Steel Structures in India.
+
+NE Structures provides turnkey engineering, fabrication, and erection solutions for industrial, commercial, and infrastructure steel structures. State-of-the-art manufacturing facility based in Bangalore.
+
+## Products
+- [Pre-Engineered Buildings](https://www.nestructures.in/PreEngineeredBuildings): Custom industrial sheds, warehouses, and factory buildings.
+- [High-Rise Steel Structures](https://www.nestructures.in/HighRiseSteelStructures): Heavy structural steel frames for multi-storey and commercial high-rises.
+- [Roofing Sheets](https://www.nestructures.in/RoofingSheets): Premium color-coated galvalume and corrugated roofing sheets.
+- [CZ Purlins](https://www.nestructures.in/CZPurlins): High-tensile cold-rolled C and Z purlins.
+
+## Services
+- [Structural Engineering Services](https://www.nestructures.in/StructuralEngineeringServices): Complete design, load analysis, and engineering.
+- [Building Information Modelling](https://www.nestructures.in/BuildingInformationModelling): Advanced 3D BIM modelling and detailing.
+
+## Pages
+- [Infrastructure](https://www.nestructures.in/Infrastructure): Overview of machinery, fabrication capacity, and testing facilities.
+- [About Us](https://www.nestructures.in/about): Company background, mission, and leadership.
+- [Contact Us](https://www.nestructures.in/contact): Inquiries, office locations, and quotes.

@@ -12,10 +12,10 @@ function Navbar() {
   };
 
   return (
-    <div className="Navbar">
+    <nav className="Navbar" aria-label="Main Navigation">
       <div className="navbarLogo">
-        <Link to="/">
-          <img src={NELogo} />
+        <Link to="/" aria-label="NE Structures Home">
+          <img src={NELogo} alt="NE Structures Logo" />
         </Link>
       </div>
       <div className="navbarTab">
@@ -207,8 +207,8 @@ function Navbar() {
         }`}
       >
         <div className="mobileNavbarHeading">
-          <Link to="/" onClick={toggleMobileNav}>
-            <img src={NELogo} />
+          <Link to="/" onClick={toggleMobileNav} aria-label="NE Structures Home">
+            <img src={NELogo} alt="NE Structures Logo" />
           </Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -283,7 +283,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

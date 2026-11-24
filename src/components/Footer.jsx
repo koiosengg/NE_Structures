@@ -4,14 +4,22 @@ import NELogoWhite from "../assets/NELogoWhite.svg";
 
 function Footer() {
   return (
-    <div className="Footer">
+    <footer className="Footer">
       <div className="footerContainer">
         <div className="footerLogoContainer">
-          <Link to="/">
-            <img className="NELogoWhite" src={NELogoWhite}></img>
+          <Link to="/" aria-label="NE Structures Home">
+            <img
+              className="NELogoWhite"
+              src={NELogoWhite}
+              alt="NE Structures White Logo"
+            />
           </Link>
           <div className="footerIcons">
-            <Link className="facebook">
+            <Link
+              className="facebook"
+              to="/"
+              aria-label="NE Structures Facebook"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -25,7 +33,7 @@ function Footer() {
                 />
               </svg>
             </Link>
-            <Link className="twitter">
+            <Link className="twitter" to="/" aria-label="NE Structures Twitter">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -46,7 +54,11 @@ function Footer() {
                 </defs>
               </svg>
             </Link>
-            <Link className="linkedIn">
+            <Link
+              className="linkedIn"
+              to="/"
+              aria-label="NE Structures LinkedIn"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -96,20 +108,29 @@ function Footer() {
         <p>Transforming Every Project with Sustainable Excellence</p>
       </div>
       <div className="footerCopyrights">
-        <p>2024 All rights reserved</p>
+        <p>2026 All rights reserved</p>
         <p>
           Crafted by{" "}
-          <a href="https://www.koiostudio.com/" target="_blank">
-            The Koios Studio
+          <a
+            href="https://www.koiostudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Koiostudio"
+          >
+            Koiostudio
           </a>
         </p>
       </div>
       <div className="mobileFooterHeading">
         <div className="heading">
-          <Link to="/">
-            <img src={NELogoWhite} className="mobileNELogoWhite"></img>
+          <Link to="/" aria-label="NE Structures Home">
+            <img
+              src={NELogoWhite}
+              className="mobileNELogoWhite"
+              alt="NE Structures White Logo"
+            />
           </Link>
-          <sub>2024 All rights reserved</sub>
+          <sub>2026 All rights reserved</sub>
         </div>
         <div className="content">
           <p>Our Materials Makes Difference</p>
@@ -126,7 +147,6 @@ function Footer() {
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/contact">Location</Link>
-            <Link to=""></Link>
           </div>
           <div className="mobileFooterLinkSet">
             <sub>Product</sub>
@@ -157,7 +177,7 @@ function Footer() {
       </div>
       <div className="mobileFooterCopyrigths">
         <div className="mobileFooterLogos">
-          <a>
+          <a href="/" aria-label="NE Structures Facebook">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -171,7 +191,7 @@ function Footer() {
               />
             </svg>
           </a>
-          <a>
+          <a href="/" aria-label="NE Structures Twitter">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -197,7 +217,7 @@ function Footer() {
               </defs>
             </svg>
           </a>
-          <a>
+          <a href="/" aria-label="NE Structures LinkedIn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -214,12 +234,17 @@ function Footer() {
         </div>
         <p>
           Crafted by{" "}
-          <a href="https://www.koiostudio.com/" target="_blank">
-            The Koios Studio
+          <a
+            href="https://www.koiostudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Koiostudio"
+          >
+            Koiostudio
           </a>
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
 

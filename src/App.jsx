@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async"; // Import HelmetProvider
+import { HelmetProvider } from "react-helmet-async";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import PreEngineeredBuildings from "./components/PreEngineeredBuildings";
@@ -14,42 +14,43 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
     <HelmetProvider>
-      {" "}
-      {/* Ensure your app is wrapped here */}
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
-        <Routes>
-          <Route path="/">
-            <Route index element={<Home />} />
-            <Route
-              path="PreEngineeredBuildings"
-              element={<PreEngineeredBuildings />}
-            />
-            <Route
-              path="HighRiseSteelStructures"
-              element={<HighRiseSteelStructures />}
-            />
-            <Route path="RoofingSheets" element={<RoofingSheets />} />
-            <Route path="CZPurlins" element={<CZPurlins />} />
-            <Route
-              path="StructuralEngineeringServices"
-              element={<StructuralEngineeringServices />}
-            />
-            <Route
-              path="BuildingInformationModelling"
-              element={<BuildingInformationModelling />}
-            />
-            <Route path="Infrastructure" element={<Infrastructure />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<Home />} />
-          </Route>
-        </Routes>
+        <main id="main-content">
+          <Routes>
+            <Route path="/">
+              <Route index element={<Home />} />
+              <Route
+                path="PreEngineeredBuildings"
+                element={<PreEngineeredBuildings />}
+              />
+              <Route
+                path="HighRiseSteelStructures"
+                element={<HighRiseSteelStructures />}
+              />
+              <Route path="RoofingSheets" element={<RoofingSheets />} />
+              <Route path="CZPurlins" element={<CZPurlins />} />
+              <Route
+                path="StructuralEngineeringServices"
+                element={<StructuralEngineeringServices />}
+              />
+              <Route
+                path="BuildingInformationModelling"
+                element={<BuildingInformationModelling />}
+              />
+              <Route path="Infrastructure" element={<Infrastructure />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+        </main>
         <Footer />
       </BrowserRouter>
     </HelmetProvider>
