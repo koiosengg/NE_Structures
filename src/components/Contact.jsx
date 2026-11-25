@@ -1,4 +1,3 @@
-import React from "react";
 import Brochure from "./Brochure";
 import SubmitButton from "./SubmitButton";
 import { Helmet } from "react-helmet-async";
@@ -105,7 +104,7 @@ function Contact() {
                       style={{ border: "0" }}
                       allowfullscreen=""
                       loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
+                      referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                     <div className="p-svg-text-div" onClick={openMapLocation}>
                       <svg

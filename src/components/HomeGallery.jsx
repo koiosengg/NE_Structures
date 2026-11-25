@@ -1,4 +1,4 @@
-import React, { useState, useEffect, forwardRef, useRef } from "react";
+import { useState, useEffect, forwardRef, useRef } from "react";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
 import IMG2 from "../assets/HomeBanner/IMG2.webp";
 import IMG3 from "../assets/HomeBanner/IMG3.webp";
@@ -10,7 +10,6 @@ import IMG8 from "../assets/HomeBanner/IMG8.webp";
 
 const setHeight = 714;
 const gap = 20;
-const padding = 20;
 
 const gallerySets = [
   {
@@ -39,7 +38,7 @@ const gallerySets = [
   },
 ];
 
-const HomeGallery = forwardRef((props, ref) => {
+const HomeGallery = forwardRef(function HomeGallery(props, ref) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentImageIndexes, setCurrentImageIndexes] = useState(
     gallerySets.map(() => 0)

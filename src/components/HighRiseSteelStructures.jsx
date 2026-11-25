@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
@@ -9,7 +9,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.webp";
 import IMG6 from "../assets/HomeBanner/IMG6.webp";
 import IMG7 from "../assets/HomeBanner/IMG7.webp";
 import IMG8 from "../assets/HomeBanner/IMG8.webp";
-import IMG9 from "../assets/HomeBanner/IMG9.webp";
 
 import HighRiseMarqueeImg1 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 1.webp";
 import HighRiseMarqueeImg2 from "../assets/HighRise/High Rise Banner Gallery/NE Structures High Rise Marquee Img 2.webp";
@@ -43,7 +42,6 @@ import StrengthStability from "../assets/HighRise/High Rise Promise/strength and
 import Tailored from "../assets/HighRise/High Rise Promise/tailored architecture-min.webp";
 
 import PreEngineeredBuildingsImg from "../assets/HighRise/PEB interlinking section for High raise page NE Strcuctres.webp";
-import ProductGalleryHRSS from "./ProductGalleryHRSS";
 import Gallery from "./Gallery";
 
 import ImageSlider from "./ImageSlider";
@@ -180,7 +178,7 @@ function HighRiseSteelStructures() {
           <br />
           <br />
           <span>How It’s Made: </span> <br /> It’s constructed by closely
-          spacing steel or reinforced concrete columns along the building's
+          spacing steel or reinforced concrete columns along the building’s
           perimeter, creating a stiff, load-bearing shell that reduces the need
           for internal supports.
           <br /> <br />
@@ -233,7 +231,7 @@ function HighRiseSteelStructures() {
           <br />
           <span>How It’s Made: </span> <br /> It’s constructed by integrating
           reinforced concrete shear walls with horizontal coupling beams or
-          slabs, which work together to enhance the building's stability and
+          slabs, which work together to enhance the building’s stability and
           distribute lateral loads effectively.
           <br /> <br />
           <span>Examples: </span> <br />

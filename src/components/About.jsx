@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
@@ -9,7 +8,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.webp";
 import IMG6 from "../assets/HomeBanner/IMG6.webp";
 import IMG7 from "../assets/HomeBanner/IMG7.webp";
 import IMG8 from "../assets/HomeBanner/IMG8.webp";
-import IMG9 from "../assets/HomeBanner/IMG9.webp";
 import TalankeyMarqueeImg1 from "../assets/Marquee/Talankey Marquee Img  (1).webp";
 import TalankeyMarqueeImg2 from "../assets/Marquee/Talankey Marquee Img  (2).webp";
 import TalankeyMarqueeImg3 from "../assets/Marquee/Talankey Marquee Img  (3).webp";
@@ -279,7 +277,7 @@ function About() {
             <p>American Welding Society for Welding standards and Process.</p>
           </div>
           <div className="homeInfoDetailSet">
-            <sub>AISI </sub>
+            <sub>AISI</sub>
             <p>American Iron and Steel Institute.</p>
           </div>
           <div className="homeInfoDetailSet">

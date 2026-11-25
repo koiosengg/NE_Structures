@@ -1,4 +1,3 @@
-import React from "react";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, forwardRef } from "react";
+import { useState, useRef, useEffect, forwardRef } from "react";
 
 import IMG10 from "../assets/Gail/gail1.webp";
 import IMG16 from "../assets/Gail/gail2.webp";
@@ -14,7 +14,7 @@ import HomeImg17 from "../assets/Marquee-New/home17.webp";
 import HomeImg18 from "../assets/Marquee-New/home18.webp";
 import HomeImg19 from "../assets/Marquee-New/home19.webp";
 
-const Gallery = forwardRef((props, ref) => {
+const Gallery = forwardRef(function Gallery(props, ref) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const newGalleryRef = useRef(null);
   const [galleryWidth, setGalleryWidth] = useState(0);
@@ -85,17 +85,17 @@ const Gallery = forwardRef((props, ref) => {
         </p>
         <span>
           At NE Structures, we prioritize clear communication and tailored
-          solutions to meet every client's specific needs.
+          solutions to meet every client’s specific needs.
         </span>
       </div>
       <div className="homeInfoDetails">
         <div className="s-left">
           <p>
             NE Structures consistently delivers high-quality, on-time projects
-            tailored to our clients' unique requirements. Our expertise in
+            tailored to our clients’ unique requirements. Our expertise in
             design, engineering, and execution ensures every structure meets the
             highest standards of durability and precision. Discover the trusted
-            partnerships we've built through successful project delivery.
+            partnerships we’ve built through successful project delivery.
           </p>
           <div className="galleryNumberDiv">
             <div className="subHeading">

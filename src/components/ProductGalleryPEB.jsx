@@ -1,4 +1,4 @@
-import React, { useState, useEffect, forwardRef } from "react";
+import { useState, useEffect, forwardRef } from "react";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
 import IMG2 from "../assets/HomeBanner/IMG2.webp";
 import IMG3 from "../assets/HomeBanner/IMG3.webp";
@@ -39,7 +39,7 @@ const gallerySets = [
   },
 ];
 
-const ProductGalleryPEB = forwardRef((props, ref) => {
+const ProductGalleryPEB = forwardRef(function ProductGalleryPEB(props, ref) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
 

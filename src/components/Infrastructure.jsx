@@ -1,4 +1,3 @@
-import React from "react";
 import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
 import IMG2 from "../assets/HomeBanner/IMG2.webp";
@@ -32,7 +31,6 @@ import Img8 from "../assets/AboutIMG/Press Brake Machine-min.webp";
 import Img7 from "../assets/AboutIMG/Shearing machine.webp";
 import Img6 from "../assets/AboutIMG/Shot Blasting Machine.webp";
 import Img4 from "../assets/AboutIMG/CZ purlin machine NE structures.webp";
-import HomeGallery from "./HomeGallery";
 import Gallery from "./Gallery";
 import ImageSlider from "./ImageSlider";
 import HorizontalSlider from "./HorizontalSlider";

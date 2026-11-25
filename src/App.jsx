@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Navbar from "./components/Navbar";
@@ -12,6 +11,8 @@ import BuildingInformationModelling from "./components/BuildingInformationModell
 import Infrastructure from "./components/Infrastructure";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsOfService from "./components/TermsOfService";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./components/NotFound";
@@ -47,6 +48,8 @@ function App() {
               <Route path="Infrastructure" element={<Infrastructure />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
+              <Route path="TermsOfService" element={<TermsOfService />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

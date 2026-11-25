@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-function FAQ() {
+export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState(0); // Default to the first FAQ
 
   const handleFAQClick = (index) => {
@@ -113,5 +113,3 @@ function FAQ() {
     </div>
   );
 }
-
-export default FAQ;

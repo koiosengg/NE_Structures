@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import NELogoWhite from "../assets/NELogoWhite.svg";
 
@@ -96,10 +95,8 @@ function Footer() {
           </div>
           <div className="footerColumnSet">
             <p className="heading">Legal</p>
-            <Link to="/">Privacy Policy</Link>
-            <Link to="/">Terms of Service</Link>
-            <Link to="/">Cookies</Link>
-            <Link to="/">Copyright Policy</Link>
+            <Link to="/PrivacyPolicy">Privacy Policy</Link>
+            <Link to="/TermsOfService">Terms of Service</Link>
           </div>
         </div>
       </div>
@@ -167,11 +164,9 @@ function Footer() {
             </Link>
           </div>
           <div className="mobileFooterLinkSet">
-            <sub>Product</sub>
-            <Link to="/">Privacy Policy</Link>
-            <Link to="/">Terms of Service</Link>
-            <Link to="/">Cookies</Link>
-            <Link to="/">Copyright Policy</Link>
+            <sub>Legal</sub>
+            <Link to="/PrivacyPolicy">Privacy Policy</Link>
+            <Link to="/TermsOfService">Terms of Service</Link>
           </div>
         </div>
       </div>

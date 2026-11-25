@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
@@ -9,7 +8,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.webp";
 import IMG6 from "../assets/HomeBanner/IMG6.webp";
 import IMG7 from "../assets/HomeBanner/IMG7.webp";
 import IMG8 from "../assets/HomeBanner/IMG8.webp";
-import IMG9 from "../assets/HomeBanner/IMG9.webp";
 
 import MarqueeImg1 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures  sketch-min.webp";
 import MarqueeImg2 from "../assets/SES/SES Banner/Structurak Engineering Services - Ne Structures 0 3d.webp";

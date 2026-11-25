@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
@@ -21,7 +20,6 @@ import Advantages from "../assets/HomeBanner/Advantages.webp";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.webp";
 import HighRise from "../assets/PEB/high rise interlinking banner ne structures.webp";
 import PEBImg from "../assets/PEB/PRE-ENGINEERED-BUILDINGS-min.webp";
-import ProductGalleryPEB from "./ProductGalleryPEB";
 import Gallery from "./Gallery"
 
 import ImageSlider from "./ImageSlider";

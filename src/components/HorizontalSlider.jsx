@@ -1,4 +1,3 @@
-import React from "react";
 import Rectangle from "../assets/Gallery/Image 1.webp";
 import Rectangle2 from "../assets/Gallery/Image 2.webp";
 import Rectangle3 from "../assets/Gallery/Image 3.webp";

@@ -4009,3 +4009,129 @@
 }
 
 /* new styles end */
+
+/* Legal pages (Privacy Policy / Terms of Service) */
+
+.legalPage .homeBanner {
+  height: 70svh;
+  min-height: 480px;
+}
+
+.legalContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 160px 120px;
+}
+
+.legalContentInner {
+  width: 100%;
+  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.legalContentInner section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.legalContentInner .lastUpdated {
+  color: var(--Grey-Text-Primary, #757575);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.legalContentInner h2 {
+  color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legalContentInner h3 {
+  color: var(--Black-Text-Primary, #111);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legalContentInner p,
+.legalContentInner li {
+  color: var(--Grey-Text-Primary, #757575);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.legalContentInner ul {
+  padding-left: 24px;
+  list-style: disc;
+}
+
+.legalContentInner ul li {
+  margin-bottom: 8px;
+}
+
+.legalContentInner ul li::marker {
+  color: var(--Blue-Primary, #0d85de);
+}
+
+.legalContentInner a {
+  color: var(--Blue-Primary, #0d85de);
+  text-decoration: none;
+}
+
+.legalContentInner a:hover {
+  text-decoration: underline;
+}
+
+.legalContentInner strong {
+  color: var(--Black-Text-Primary, #111);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .legalPage .homeBanner {
+    height: 60svh;
+    min-height: 380px;
+  }
+
+  .legalContent {
+    padding: 48px 20px 80px;
+  }
+
+  .legalContentInner {
+    gap: 32px;
+  }
+
+  .legalContentInner section {
+    gap: 12px;
+  }
+
+  .legalContentInner h2 {
+    font-size: 24px;
+  }
+
+  .legalContentInner h3 {
+    font-size: 17px;
+  }
+
+  .legalContentInner p,
+  .legalContentInner li {
+    font-size: 15px;
+  }
+}

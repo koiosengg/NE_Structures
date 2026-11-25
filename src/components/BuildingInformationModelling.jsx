@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import IMG1 from "../assets/HomeBanner/IMG1.webp";
@@ -9,7 +8,6 @@ import IMG5 from "../assets/HomeBanner/IMG5.webp";
 import IMG6 from "../assets/HomeBanner/IMG6.webp";
 import IMG7 from "../assets/HomeBanner/IMG7.webp";
 import IMG8 from "../assets/HomeBanner/IMG8.webp";
-import IMG9 from "../assets/HomeBanner/IMG9.webp";
 
 import MarqueeImg1 from "../assets/BIM/banner BIM/3-Focus-Points-BIM-Modeling-Services-Use-For-Creating-Accurate-Models-min.webp";
 import MarqueeImg2 from "../assets/BIM/banner BIM/6d-bim-services-img.webp";
@@ -165,7 +163,7 @@ function BuildingInformationModelling() {
             <h2>As Built Documentaion</h2>
             <p>
               As-Built Documentation involves creating detailed records of a
-              building's completed state, capturing all changes and deviations
+              building’s completed state, capturing all changes and deviations
               from the original plans, ensuring accurate project reference and
               future maintenance.
             </p>
