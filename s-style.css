@@ -2013,10 +2013,9 @@
   object-fit: cover;
 }
 
+/* Client has no social media accounts - hide icons */
 .footerIcons {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
+  display: none;
 }
 
 .footerIcons a {
@@ -3195,11 +3194,9 @@
     border-top: 1px solid #c0c0c0;
   }
 
+  /* Client has no social media accounts - hide icons */
   .mobileFooterLogos {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    flex-shrink: 0;
+    display: none;
   }
 
   .mobileFooterLogos a {
@@ -3218,6 +3215,7 @@
   }
 
   .mobileFooterCopyrigths p {
+    margin-left: auto;
     color: var(--Grey-Text-grey-text-200, #c0c0c0);
     font-variant-numeric: lining-nums proportional-nums;
     font-family: Raleway;
